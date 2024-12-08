@@ -1,0 +1,164 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=62;
+	taxlabels
+	'AAC02066.Virga'
+	'AAV54032.Virga'
+	'AND80849.1_non-structural_polyprotein__Chikungunya_virus_'
+	'ANY58847.1_nonstructural_polyprotein__Mayaro_virus_'
+	'AYI50369.1_UNVERIFIED'
+	'AZT88615.1_polyprotein__Gyromitra_esculenta_endornavirus_1_'
+	'BAP18643.Virga'
+	'BDT53067.1_replicase__wheat_closterovirus_1_'
+	'BDT53077.1_replicase__wheat_closterovirus_1_'
+	'MP17.k141_83525_orf_only_rdrp'
+	'NP_835282.Virga'
+	'Pool2.k141_20426_orf1_rdrp'
+	'Pool2.k141_29635_orf1'
+	'Pool25.k141_8984_orf_only_rdrp'
+	'Pool42.k141_16782'
+	'Pool42.k141_21193_orf2_rdrp'
+	'QSQ86321.1_polyprotein__Fig_closterovirus_1_'
+	'QUE49098.1_MAG'
+	'UNI73828.1_MAG'
+	'UQR78697.1_ORF1ab_fusion_polyprotein__Thesium_chinense_closterovirus_1_'
+	'UTQ50482.1_MAG'
+	'UVK78302.1_MAG'
+	'WBU87143.Bromo'
+	'WCC65005.1_non-structural_polyprotein'
+	'WCL16053.Kita'
+	'WET54877.Bromo'
+	'WGU43381.1_polyprotein__Rhizoctonia_solani_endornavirus_'
+	'WHW95142.Kita'
+	'WIL96182.1_P1a-P1b__Carrot_closterovirus_2_'
+	'WIL96192.1_P1a-P1b__Carrot_closterovirus_3_'
+	'WIL96214.1_polyprotein'
+	'WMP13089.Mayo'
+	'WMQ58794.Kita'
+	'WVR16796.Bromo'
+	'WWV46575.Bromo'
+	'WZH58848.Bromo'
+	'XDI97974.Bromo'
+	'YP_002455929.Bromo'
+	'YP_004901701.Kita'
+	'YP_004928118.Kita'
+	'YP_009022070.1_polyprotein__Sclerotinia_sclerotiorum_betaendornavirus_1_'
+	'YP_009225663.1_polyprotein__Erysiphe_cichoracearum_alphaendornavirus_'
+	'YP_009507940.Bromo'
+	'YP_009551530.Kita'
+	'YP_009553641.1_polyprotein_1a_1b__Blackcurrant-associated_closterovirus_1_'
+	'YP_010088081.Kita'
+	'YP_010775804.1_non-structural_polyprotein__Ross_River_virus_'
+	'YP_010840882.Kita'
+	'YP_010840895.Kita'
+	'k141_1409_flag0_multi7.7067_len1624_SRR16896898_orf_only_rdrp'
+	'k141_30567_flag0_multi5.9660_len1316_SRR16896898_orf_only_rdrp'
+	'k141_32257_flag1_multi7.0000_len1441_SRR7503166_orf_only_rdrp'
+	'k141_43666_flag1_multi15.0000_len3481_DRR177519_orf1_rdrp'
+	'k141_48060_flag1_multi3.0000_len1486_SRR7503163_orf_only_rdrp'
+	'k141_68135_flag1_multi9.0000_len5332_SRR18265391_orf2_rdrp'
+	'k99_16945_flag1_multi5.0000_len1704_SRR9945536'
+	'k99_17762_flag1_multi25.0000_len15465_SRR9945535'
+	'k99_3111_flag1_multi6.0000_len2473_SRR9945536'
+	'k99_312_flag1_multi76.0000_len1098_SRR1324855_orf_only_rdrp'
+	'k99_429_flag1_multi106.0000_len7354_SRR1324853_orf_only_rdrp'
+	'k99_5512_flag1_multi19.0000_len14252_SRR9945535'
+	'k99_70_flag1_multi518.0000_len7571_SRR1324855_orf_only_rdrp'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('WMP13089.Mayo':0.937491,((((('AAC02066.Virga':0.615271,(('AAV54032.Virga':0.429588,'BAP18643.Virga':0.474743)[&label="84.9/84"]:0.147468,'NP_835282.Virga':0.311054)[&label="99.9/100"]:0.363471)[&label="100/100"]:0.405955,('Pool42.k141_21193_orf2_rdrp':0.474271,'k141_68135_flag1_multi9.0000_len5332_SRR18265391_orf2_rdrp':0.365933)[&label="100/100"]:0.993341)[&label="98/100"]:0.265738,((((((('k99_429_flag1_multi106.0000_len7354_SRR1324853_orf_only_rdrp'[&!color=#ff0080]:2.0E-6,'k99_70_flag1_multi518.0000_len7571_SRR1324855_orf_only_rdrp'[&!color=#ff0080]:2.0E-6)[&label="0/100",!color=#ff0080]:3.0E-6,'k141_32257_flag1_multi7.0000_len1441_SRR7503166_orf_only_rdrp'[&!color=#ff0080]:2.0E-6)[&label="68.8/73",!color=#ff0080]:0.00405,'k141_30567_flag0_multi5.9660_len1316_SRR16896898_orf_only_rdrp'[&!color=#ff0080]:0.05961)[&label="0/45",!color=#ff0080]:1.0E-6,'k141_1409_flag0_multi7.7067_len1624_SRR16896898_orf_only_rdrp'[&!color=#ff0080]:0.002402)[&label="71.7/94",!color=#ff0080]:0.026584,'k141_48060_flag1_multi3.0000_len1486_SRR7503163_orf_only_rdrp'[&!color=#ff0080]:3.0E-6)[&label="98.5/100",!color=#ff0080]:0.437183,'k99_312_flag1_multi76.0000_len1098_SRR1324855_orf_only_rdrp'[&!color=#ff0080]:0.628821)[&label="99.7/100",!color=#ff0080]:0.798824,'Pool25.k141_8984_orf_only_rdrp':5.057369)[&label="88.5/42"]:0.298309)[&label="58.6/30"]:0.14962,((((('YP_009551530.Kita':0.656587,'YP_004901701.Kita':0.84951)[&label="71.9/74"]:0.148611,'WCL16053.Kita':0.669606)[&label="100/100"]:0.596045,((('YP_010840895.Kita':0.238064,'YP_010088081.Kita':0.273301)[&label="100/100"]:0.182881,('YP_010840882.Kita':0.141027,'WHW95142.Kita':0.201164)[&label="99.9/100"]:0.16708)[&label="99.8/100"]:0.254194,('YP_004928118.Kita':0.004029,'WMQ58794.Kita':6.63E-4)[&label="100/100"]:0.573768)[&label="100/100"]:0.668113)[&label="59.9/68"]:0.155955,('Pool2.k141_20426_orf1_rdrp':1.295685,(('k141_43666_flag1_multi15.0000_len3481_DRR177519_orf1_rdrp':1.16569,((('AND80849.1_non-structural_polyprotein__Chikungunya_virus_':0.182445,'ANY58847.1_nonstructural_polyprotein__Mayaro_virus_':0.147127)[&label="60.7/69"]:0.057029,'YP_010775804.1_non-structural_polyprotein__Ross_River_virus_':0.108144)[&label="80.1/92"]:0.04846,('WCC65005.1_non-structural_polyprotein':0.235111,'AYI50369.1_UNVERIFIED':0.214399)[&label="77.5/83"]:0.046639)[&label="97.4/98"]:0.717535)[&label="100/100"]:1.622215,(((((('k99_5512_flag1_multi19.0000_len14252_SRR9945535':2.0E-6,'k99_16945_flag1_multi5.0000_len1704_SRR9945536':2.0E-6)[&label="100/100"]:1.386661,'AZT88615.1_polyprotein__Gyromitra_esculenta_endornavirus_1_':1.18741)[&label="11.9/32"]:0.17322,(('Pool42.k141_16782':0.801718,'YP_009225663.1_polyprotein__Erysiphe_cichoracearum_alphaendornavirus_':0.918159)[&label="100/100"]:0.713491,'WGU43381.1_polyprotein__Rhizoctonia_solani_endornavirus_':0.957924)[&label="55.6/45"]:0.086515)[&label="39.7/43"]:0.10221,('UNI73828.1_MAG':1.238327,'WIL96214.1_polyprotein':0.950209)[&label="85.9/70"]:0.158279)[&label="95.2/87"]:0.294865,('k99_17762_flag1_multi25.0000_len15465_SRR9945535':2.0E-6,'k99_3111_flag1_multi6.0000_len2473_SRR9945536':2.0E-6)[&label="100/100"]:1.217967)[&label="95.4/95"]:0.385154,('QUE49098.1_MAG':0.43265,'YP_009022070.1_polyprotein__Sclerotinia_sclerotiorum_betaendornavirus_1_':0.197475)[&label="100/100"]:1.567697)[&label="100/100"]:1.374987)[&label="94.2/62"]:0.38223)[&label="84.8/35"]:0.158781)[&label="30.5/20"]:0.077085,('Pool2.k141_29635_orf1':0.984923,'MP17.k141_83525_orf_only_rdrp':1.1329)[&label="90.2/76"]:0.200461)[&label="65.4/28"]:0.130956)[&label="96.2/92"]:0.224321,('UVK78302.1_MAG':1.259264,('QSQ86321.1_polyprotein__Fig_closterovirus_1_':0.331977,((('UQR78697.1_ORF1ab_fusion_polyprotein__Thesium_chinense_closterovirus_1_':0.283775,('WIL96192.1_P1a-P1b__Carrot_closterovirus_3_':0.104199,'WIL96182.1_P1a-P1b__Carrot_closterovirus_2_':0.098026)[&label="100/100"]:0.188243)[&label="92.3/89"]:0.087859,'YP_009553641.1_polyprotein_1a_1b__Blackcurrant-associated_closterovirus_1_':0.519971)[&label="82.5/62"]:0.070781,(('BDT53077.1_replicase__wheat_closterovirus_1_':0.038976,'BDT53067.1_replicase__wheat_closterovirus_1_':0.064165)[&label="100/100"]:0.259183,'UTQ50482.1_MAG':0.271541)[&label="72.4/72"]:0.058836)[&label="79.9/66"]:0.146573)[&label="99.9/100"]:0.589548)[&label="100/100"]:0.481761)[&label="98.5/100"]:0.283962,((('YP_009507940.Bromo':0.367056,'YP_002455929.Bromo':0.319375)[&label="100/100"]:0.299654,('XDI97974.Bromo':0.154084,('WWV46575.Bromo':0.025005,'WET54877.Bromo':0.001504)[&label="99.5/100"]:0.138125)[&label="100/100"]:0.392974)[&label="95.1/99"]:0.185254,('WZH58848.Bromo':0.60975,('WVR16796.Bromo':0.197157,'WBU87143.Bromo':0.215487)[&label="100/100"]:0.496771)[&label="96.7/100"]:0.21876)[&label="100/100"]:1.087606);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=1000;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,293 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=191;
+	taxlabels
+	'AFH89032.1__RNA-dependent_RNA_polymerase__Erve_virus_'
+	AJG39266_Wupediviridae
+	APG79247_Mypoviridae
+	BEK62765
+	'MP11.k141_37199'[&!color=#ff0080]
+	'MP11.k141_82978'[&!color=#ff0080]
+	'MP12.k141_57729'[&!color=#ff0080]
+	'MP13.k141_81906'[&!color=#ff0080]
+	'MP13.k141_82565'[&!color=#ff0080]
+	'MP13.k141_87682'[&!color=#ff0080]
+	'MP14.k141_88494'[&!color=#ff0080]
+	'MP16.Bunya_frankenstein'[&!color=#ff0080]
+	'MP16.k141_37826'[&!color=#ff0080]
+	'MP16.k141_95248'[&!color=#ff0080]
+	'MP17.k141_59495'[&!color=#ff0080]
+	'MP18.k141_81705'[&!color=#ff0080]
+	'MP19.k141_152338'[&!color=#ff0080]
+	'MP19.k141_73071'[&!color=#ff0080]
+	'NP_899217.1__L_protein__Mammarenavirus_juninense_'
+	'NP_899221.1__L_protein__Mammarenavirus_guanaritoense_'
+	'Pool20.k141_94743'[&!color=#ff0080]
+	'Pool27.k141_17070'[&!color=#ff0080]
+	'Pool27.k141_76805'[&!color=#ff0080]
+	'Pool27.k141_84254'[&!color=#ff0080]
+	'Pool27.k141_8487'[&!color=#ff0080]
+	'QBG80291.1__RNA-dependent_RNA_polymerase'
+	'QIM74068.1__polymerase'
+	'QIM74075.1__polymerase'
+	'QIM74081.1__polymerase'
+	'QIM74086.1__polymerase'
+	'QIM74089.1__polymerase'
+	'QKN84393.1__RNA_dependent_RNA_polymerase__Rice_Peribunya-like_virus_1_'
+	'QMP82115.1__RNA-dependent_RNA_polymerase'
+	'QMP82119.1__RNA-dependent_RNA_polymerase'
+	'QMP82130.1__RNA-dependent_RNA_polymerase__Dipteran_phenui-related_virus_OKIAV281_'
+	'QMP82145.1__RNA-dependent_RNA_polymerase'
+	'QMP82153.1__RNA-dependent_RNA_polymerase__Collembolan_phasma-related_virus_OKIAV223_'
+	'QMP82158.1__RNA-dependent_RNA_polymerase__Dipteran_phenui-related_virus_OKIAV274_'
+	'QMP82169.1__RNA-dependent_RNA_polymerase'
+	'QMP82170.1__RNA-dependent_RNA_polymerase'
+	'QMP82187.1__RNA-dependent_RNA_polymerase__Lepidopteran_phenui-related_virus_OKIAV271_'
+	'QMP82210.1__RNA-dependent_RNA_polymerase'
+	'QMP82212.1__RNA-dependent_RNA_polymerase__Hemipteran_phenui-related_virus_OKIAV285_'
+	'QMP82215.1__RNA-dependent_RNA_polymerase__Plecopteran_hanta-related_virus_OKIAV215_'
+	'QMP82227.1__RNA-dependent_RNA_polymerase__Coleopteran_phasma-related_virus_OKIAV243_'
+	'QMP82249.1__RNA-dependent_RNA_polymerase'
+	'QMP82269.1__RNA-dependent_RNA_polymerase'
+	'QMP82281.1__RNA-dependent_RNA_polymerase'
+	'QMP82286.1__RNA-dependent_RNA_polymerase__Coleopteran_hanta-related_virus_OKIAV221_'
+	'QMP82296.1__RNA-dependent_RNA_polymerase__Lepidopteran_phenui-related_virus_OKIAV270_'
+	'QMP82310.1__RNA-dependent_RNA_polymerase__Plecopteran_phenui-related_virus_OKIAV280_'
+	'QMP82311.1__RNA-dependent_RNA_polymerase__Blattodean_phenui-related_virus_OKIAV261_'
+	'QMP82340.1__RNA-dependent_RNA_polymerase__Blattodean_phenui-related_virus_OKIAV266_'
+	'QMP82347.1__RNA-dependent_RNA_polymerase'
+	'QMP82348.1__RNA-dependent_RNA_polymerase'
+	'QMP82365.1__RNA-dependent_RNA_polymerase'
+	'QMP82366.1__RNA-dependent_RNA_polymerase'
+	'QNS31053.1__putative_RNA_dependent_RNA_polymerase__Frankliniella_occidentalis_associated_peribunyavirus-like_virus_2_'
+	'QPL15301.1__RNA-dependent_RNA_polymerase'
+	'QPL15304.1__RNA-dependent_RNA_polymerase'
+	'QPL15326.1__RNA-dependent_RNA_polymerase'
+	'QPL15327.1__RNA-dependent_RNA_polymerase'
+	'QPL15331.1__RNA-dependent_RNA_polymerase'
+	'QPL15332.1__RNA-dependent_RNA_polymerase__Hymenopteran_phenui-related_virus_OKIAV255_'
+	'QPL15334.1__RNA-dependent_RNA_polymerase'
+	'QPL15338.1__RNA-dependent_RNA_polymerase__Neuropteran_phenui-related_virus_OKIAV309_'
+	'QPL15380.1__RNA-dependent_RNA_polymerase'
+	'QPL15392.1__RNA-dependent_RNA_polymerase'
+	'QQK88033.1__RNA-dependent_RNA_polymerase__Hymenopteran_phenui-related_virus_OKIAV298_'
+	'QUF61514.1__RNA-dependent_RNA_polymerase'
+	'QYF49526.1__MAG'
+	'QYF49529.1__MAG'
+	'QYF49533.1__MAG'
+	'QYF49536.1__MAG'
+	'QYF49539.1__MAG'
+	'QYF49540.1__MAG'
+	'QYF49543.1__MAG'
+	'QYF49547.1__MAG'
+	'QYF49548.1__MAG'
+	'QYF49549.1__MAG'
+	'QYF49552.1__MAG'
+	'QYF49556.1__MAG'
+	'QYF49558.1__MAG'
+	'QZR93721.1__RNA_polymerase'
+	'QZR93724.1__RNA_polymerase'
+	'UBB42244.1__RNA-dependent_RNA_polymerase__Wenzhou_Pipistrellus_abramus_hantavirus_1_'
+	'UHK03016.1__MAG'
+	UHK03059
+	'UHK03093.1__MAG'
+	'UHK03094.1__MAG'
+	'UHK03103.1__MAG'
+	'UHK03150.1__MAG'
+	'UHK03194.1__MAG'
+	'UHK03195.1__MAG'
+	'UHK03292.1__MAG'
+	'UHK03329.1__MAG'
+	'UHK03331.1__MAG'
+	'UHM27528.1__MAG'
+	'UHM27566.1__MAG'
+	'UHM27599.1__MAG'
+	'UHM27659.1__MAG'
+	'UHR49864.1__MAG'
+	'UHR49886.1__MAG'
+	'ULE62091.1__RNA-dependent_RNA_polymerase'
+	'ULE62092.1__RNA-dependent_RNA_polymerase'
+	'ULE62093.1__RNA-dependent_RNA_polymerase'
+	'ULE62095.1__RNA-dependent_RNA_polymerase'
+	'ULE62096.1__RNA-dependent_RNA_polymerase'
+	'ULE62099.1__RNA-dependent_RNA_polymerase'
+	'UOX72967.1__RNA-dependent_RNA_polymerase__Longquan_Rhinolophus_affinis_hantavirus_1_'
+	UPT53676
+	'UQB76325.1__RNA-dependent_RNA_polymerase'
+	'USL90372.1__MAG'
+	'UUW20952.1__MAG'
+	'UUW20955.1__MAG'
+	'UVF58776.1__MAG'
+	'UYE93874.1__MAG'
+	'UYE93877.1__MAG'
+	'UYE93878.1__MAG'
+	'UYE93879.1__MAG'
+	'UYE93880.1__MAG'
+	'UYE93912.1__MAG'
+	'UYE93914.1__MAG'
+	'UYE93925.1__MAG'
+	'UYE93926.1__MAG'
+	'WAK75611.1__MAG'
+	'WAK75613.1__MAG'
+	'WAK75614.1__MAG'
+	'WAK75616.1__MAG'
+	'WAK75642.1__MAG'
+	'WAK75648.1__MAG'
+	'WAK75656.1__MAG'
+	'WAK75662.1__MAG'
+	'WAK75706.1__MAG'
+	'WGM50073.1__MAG'
+	'WGM50074.1__MAG'
+	'WLJ60734.1__MAG'
+	WMB96338
+	WNE31541
+	WNS49810
+	WNS50434
+	WOH23134
+	'WOV67060.1__RNA-dependent_RNA_polymerase'
+	'WOX62574.1__RNA-dependent_RNA_polymerase__Orthohantavirus_hantanense_'
+	'WPA70728.1__MAG'
+	'WPA70729.1__MAG'
+	'WPS68786.1__RNA-dependent_RNA_polymerase__Orthohantavirus_chocloense_'
+	'WPS90781.1__polymerase'
+	'WWS34636.1__RNA_polymerase'
+	'WWT48498.1__RNA-dependent_RNA_polymerase__Peribunyaviridae_sp._'
+	'WWV86537.1__MAG'
+	'WWV86606.1__MAG'
+	'WWV86608.1__MAG'
+	'WWV86609.1__MAG'
+	'WWV86610.1__MAG'
+	'WXA45065.1__RNA-dependent_RNA_polymerase__Peribunyaviridae_sp._'
+	WZD83759
+	YP_009329879
+	'YP_009361832.1__RNA-dependent_RNA_polymerase__Nairobi_sheep_disease_virus_'
+	'YP_009361849.1__RNA-dependent_RNA_polymerase__Orthohantavirus_montanoense_'
+	'YP_009362095.1__RNA_polymerase__Orthohantavirus_sangassouense_'
+	'YP_009362097.1__RNA-dependent_RNA_polymerase__Orthohantavirus_khabarovskense_'
+	'YP_009507331.1__RNA-dependent_RNA_polymerase__Eothenomys_miletus_hantavirus_LX309_'
+	'YP_009507850.1__L_protein__Hazara_virus_'
+	'YP_009508266.1__RNA-dependent_RNA_polymerase__Orthohantavirus_prospectense_'
+	'YP_010085031.1__L_protein__Hainan_oriental_leaf-toed_gecko_hantavirus_'
+	'YP_010085032.1__L_protein'
+	'YP_010085033.1__L_protein__Wenling_yellow_goosefish_hantavirus_'
+	'YP_010085034.1__L_protein__Wenling_red_spikefish_hantavirus_'
+	'YP_010088054.1__RNA-dependent_RNA_polymerase__Orthohantavirus_robinaense_'
+	'YP_010839901.1__RNA-dependent_RNA_polymerase__Crimean-Congo_hemorrhagic_fever_virus_2_'
+	YP_010839952
+	YP_010839960
+	'YP_010839962.1_L__Sapphire_II_virus_'
+	'YP_010840003.1__RNA-dependent_RNA_polymerase'
+	'YP_010840008.1__RNA-dependent_RNA_polymerase'
+	'YP_010840610.1__MAG'
+	'YP_010840692.1_L__Juan_Diaz_virus_'
+	'YP_010840702.1_L__Gumbo_Limbo_virus_'
+	'YP_010840704.1_L__Guaratuba_virus_'
+	'YP_010840707.1_L__Bushbush_virus_'
+	'YP_010840716.1_L__Benfica_virus_'
+	'YP_010840725.1_L__Bakau_virus_'
+	'YP_010840733.1_L__Anopheles_B_virus_'
+	'YP_025093.1__L_protein__Mammarenavirus_piritalense_'
+	'YP_516233.1__L_protein__Mammarenavirus_ippyense_'
+	'k141_12166_flag1_multi34.0000_len1366_SRR14518624'[&!color=#ff0080]
+	'k141_38062_flag1_multi16.0000_len8396_DRR177518'[&!color=#ff0080]
+	'k141_59615_flag1_multi19.0000_len8429_DRR177519'[&!color=#ff0080]
+	'k99_1828_flag1_multi45.0000_len8564_SRR9945535'[&!color=#ff0080]
+	'k99_3520_flag1_multi16.0000_len8572_SRR9945536'[&!color=#ff0080]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('YP_010839962.1_L__Sapphire_II_virus_':0.140954,(((('YP_009361832.1__RNA-dependent_RNA_polymerase__Nairobi_sheep_disease_virus_':3.0E-6,(AJG39266_Wupediviridae:1.120722,((((((((((((('YP_010840733.1_L__Anopheles_B_virus_':0.283362,'YP_010840725.1_L__Bakau_virus_':0.185375)[&label="55.8/63"]:0.047561,((('YP_010840716.1_L__Benfica_virus_':0.056245,'YP_010840704.1_L__Guaratuba_virus_':0.010345)[&label="75.3/66"]:0.018138,('YP_010840707.1_L__Bushbush_virus_':0.010537,'YP_010840692.1_L__Juan_Diaz_virus_':0.015539)[&label="92.1/98"]:0.026638)[&label="59.4/72"]:0.026632,'YP_010840702.1_L__Gumbo_Limbo_virus_':0.057837)[&label="94/98"]:0.07791)[&label="99.5/100"]:0.300584,(('ULE62091.1__RNA-dependent_RNA_polymerase':0.020559,'ULE62092.1__RNA-dependent_RNA_polymerase':3.0E-6)[&label="100/100"]:0.297763,'ULE62093.1__RNA-dependent_RNA_polymerase':0.084726)[&label="100/100"]:0.468951)[&label="75.4/70"]:0.098384,(('UHR49886.1__MAG':0.140149,'WOV67060.1__RNA-dependent_RNA_polymerase':0.537924)[&label="74.8/71"]:0.082874,('QPL15326.1__RNA-dependent_RNA_polymerase':0.315173,'QPL15327.1__RNA-dependent_RNA_polymerase':0.301019)[&label="97.6/98"]:0.23887)[&label="89/83"]:0.144199)[&label="100/100"]:0.418691,((((WOH23134:0.057962,WNS49810:0.009813)[&label="88.4/97"]:0.109229,(WZD83759:0.041019,WNS50434:0.01181)[&label="89.9/100"]:0.109929)[&label="100/100"]:0.786113,UHK03059:0.911996)[&label="90.7/93"]:0.315222,('USL90372.1__MAG':0.873151,((YP_010839952:0.011806,YP_009329879:0.003659)[&label="41.4/84"]:0.029071,YP_010839960:0.05904)[&label="99.9/100"]:0.892566)[&label="95.1/90"]:0.373115)[&label="30.8/43"]:0.117851)[&label="96.2/89"]:0.30201,(('QMP82215.1__RNA-dependent_RNA_polymerase__Plecopteran_hanta-related_virus_OKIAV215_':0.643542,'UHM27599.1__MAG':0.533448)[&label="83.4/77"]:0.126805,(((('UUW20952.1__MAG':0.159959,'UHK03331.1__MAG':0.090817)[&label="100/100"]:0.449037,'QNS31053.1__putative_RNA_dependent_RNA_polymerase__Frankliniella_occidentalis_associated_peribunyavirus-like_virus_2_':0.36743)[&label="98.2/99"]:0.278033,'UHK03150.1__MAG':0.479198)[&label="91/94"]:0.152001,('WWT48498.1__RNA-dependent_RNA_polymerase__Peribunyaviridae_sp._':0.184828,('WAK75614.1__MAG':0.011351,'WAK75642.1__MAG':0.028482)[&label="99/100"]:0.18523)[&label="99.8/100"]:0.428225)[&label="91.4/90"]:0.128696)[&label="97.8/100"]:0.392397)[&label="68.5/62"]:0.187901,('QMP82153.1__RNA-dependent_RNA_polymerase__Collembolan_phasma-related_virus_OKIAV223_':2.144306,(('QYF49526.1__MAG':0.741937,(('QMP82170.1__RNA-dependent_RNA_polymerase':0.171209,'QMP82227.1__RNA-dependent_RNA_polymerase__Coleopteran_phasma-related_virus_OKIAV243_':0.182321)[&label="76.3/79"]:0.071507,'UYE93874.1__MAG':0.373553)[&label="69.3/85"]:0.240089)[&label="94.4/97"]:0.478768,(('YP_010840610.1__MAG':0.354333,'UHK03329.1__MAG':0.587112)[&label="43.3/64"]:0.065998,'YP_010840003.1__RNA-dependent_RNA_polymerase':0.259413)[&label="99.8/100"]:0.810603)[&label="92.8/97"]:0.72141)[&label="97.9/100"]:0.906014)[&label="54.8/42"]:0.164805,((((((((((((('QZR93724.1__RNA_polymerase':2.0E-6,'QZR93721.1__RNA_polymerase':2.0E-6)[&label="97.7/100"]:0.044377,'YP_009361849.1__RNA-dependent_RNA_polymerase__Orthohantavirus_montanoense_':0.016825)[&label="89.7/89"]:0.026573,('WPS68786.1__RNA-dependent_RNA_polymerase__Orthohantavirus_chocloense_':0.020471,'WWS34636.1__RNA_polymerase':0.035858)[&label="86.8/83"]:0.037258)[&label="94.5/86"]:0.034552,(('YP_009362095.1__RNA_polymerase__Orthohantavirus_sangassouense_':0.040468,'WOX62574.1__RNA-dependent_RNA_polymerase__Orthohantavirus_hantanense_':0.076441)[&label="97.1/99"]:0.046735,(('YP_010088054.1__RNA-dependent_RNA_polymerase__Orthohantavirus_robinaense_':0.090688,'UBB42244.1__RNA-dependent_RNA_polymerase__Wenzhou_Pipistrellus_abramus_hantavirus_1_':0.070777)[&label="90.8/94"]:0.034899,'UOX72967.1__RNA-dependent_RNA_polymerase__Longquan_Rhinolophus_affinis_hantavirus_1_':0.068408)[&label="94.7/96"]:0.043538)[&label="91.8/84"]:0.025032)[&label="80.1/63"]:0.012515,'YP_009362097.1__RNA-dependent_RNA_polymerase__Orthohantavirus_khabarovskense_':0.026255)[&label="64.2/31"]:0.00492,'YP_010085031.1__L_protein__Hainan_oriental_leaf-toed_gecko_hantavirus_':0.244461)[&label="31/23"]:0.007603,'YP_009507331.1__RNA-dependent_RNA_polymerase__Eothenomys_miletus_hantavirus_LX309_':0.065558)[&label="87.6/69"]:0.014252,'YP_009508266.1__RNA-dependent_RNA_polymerase__Orthohantavirus_prospectense_':0.012422)[&label="75.9/68"]:0.023216,'QBG80291.1__RNA-dependent_RNA_polymerase':0.016218)[&label="99.9/100"]:0.64614,('YP_010085032.1__L_protein':0.251722,'YP_010085033.1__L_protein__Wenling_yellow_goosefish_hantavirus_':0.511367)[&label="99/100"]:0.399694)[&label="16.3/37"]:0.064747,(('YP_010085034.1__L_protein__Wenling_red_spikefish_hantavirus_':0.337076,'WLJ60734.1__MAG':0.352598)[&label="94.6/99"]:0.235765,'UVF58776.1__MAG':0.404575)[&label="97.5/99"]:0.313996)[&label="98.5/100"]:0.590365,'QUF61514.1__RNA-dependent_RNA_polymerase':1.910124)[&label="0/48"]:0.027894,'QMP82286.1__RNA-dependent_RNA_polymerase__Coleopteran_hanta-related_virus_OKIAV221_':1.680237)[&label="70.2/61"]:0.22235)[&label="46.7/33"]:0.101997,('WAK75648.1__MAG':0.188799,('MP18.k141_81705':2.0E-6,('MP19.k141_73071':2.0E-6,'Pool27.k141_17070':2.0E-6)[&label="0/100"]:3.0E-6)[&label="99.7/100"]:0.633046)[&label="100/100"]:1.101033)[&label="62.4/53"]:0.23556,(('k141_38062_flag1_multi16.0000_len8396_DRR177518':2.0E-6,'k141_59615_flag1_multi19.0000_len8429_DRR177519':2.0E-6)[&label="99.7/100"]:0.901858,('k99_1828_flag1_multi45.0000_len8564_SRR9945535':2.0E-6,'k99_3520_flag1_multi16.0000_len8572_SRR9945536':2.0E-6)[&label="98.4/100"]:0.897796)[&label="100/100"]:1.331629)[&label="99.6/100"]:0.816684,(('WPA70729.1__MAG':1.805435,'Pool27.k141_84254':1.15768)[&label="88.3/70"]:0.448982,(((((((((((((((('WWV86537.1__MAG':0.150827,'QMP82210.1__RNA-dependent_RNA_polymerase':0.120685)[&label="88.7/90"]:0.064915,'UHK03094.1__MAG':0.265636)[&label="14.8/47"]:0.048236,(('QPL15334.1__RNA-dependent_RNA_polymerase':0.153485,((('WWV86608.1__MAG':0.149153,'QMP82296.1__RNA-dependent_RNA_polymerase__Lepidopteran_phenui-related_virus_OKIAV270_':0.071996)[&label="96.4/97"]:0.118275,(('WWV86609.1__MAG':0.053334,'WWV86610.1__MAG':0.034378)[&label="76.8/75"]:0.018691,'QMP82187.1__RNA-dependent_RNA_polymerase__Lepidopteran_phenui-related_virus_OKIAV271_':0.020938)[&label="98.6/100"]:0.154019)[&label="99.9/100"]:0.388953,(((('UYE93912.1__MAG':0.056702,'UYE93914.1__MAG':0.267554)[&label="50.4/70"]:0.07504,'UYE93926.1__MAG':0.211083)[&label="75.3/82"]:0.09578,'UYE93925.1__MAG':0.313982)[&label="96.3/99"]:0.238005,'UHK03016.1__MAG':0.813653)[&label="68/76"]:0.125517)[&label="90.8/59"]:0.126352)[&label="27.1/31"]:0.043454,'QMP82310.1__RNA-dependent_RNA_polymerase__Plecopteran_phenui-related_virus_OKIAV280_':0.330464)[&label="90.1/51"]:0.056318)[&label="68/46"]:0.047885,'WPA70728.1__MAG':0.482513)[&label="8.4/23"]:0.045022,('UHK03292.1__MAG':0.184074,'QMP82212.1__RNA-dependent_RNA_polymerase__Hemipteran_phenui-related_virus_OKIAV285_':0.096845)[&label="88.1/82"]:0.093499)[&label="50.1/34"]:0.041316,'QMP82145.1__RNA-dependent_RNA_polymerase':0.359738)[&label="50.6/44"]:0.061877,('QMP82130.1__RNA-dependent_RNA_polymerase__Dipteran_phenui-related_virus_OKIAV281_':0.224075,'QMP82348.1__RNA-dependent_RNA_polymerase':0.130984)[&label="84.9/57"]:0.057867)[&label="81.6/35"]:0.073838,('QPL15304.1__RNA-dependent_RNA_polymerase':0.359133,'QPL15332.1__RNA-dependent_RNA_polymerase__Hymenopteran_phenui-related_virus_OKIAV255_':0.488925)[&label="89.6/84"]:0.107468)[&label="75.3/42"]:0.079774,('QMP82365.1__RNA-dependent_RNA_polymerase':0.357154,'UHK03093.1__MAG':0.369707)[&label="98.8/97"]:0.252771)[&label="39.8/49"]:0.086138,'QMP82158.1__RNA-dependent_RNA_polymerase__Dipteran_phenui-related_virus_OKIAV274_':0.46285)[&label="97.8/99"]:0.253414,('QMP82311.1__RNA-dependent_RNA_polymerase__Blattodean_phenui-related_virus_OKIAV261_':0.797534,(('UHK03103.1__MAG':0.508527,('QMP82281.1__RNA-dependent_RNA_polymerase':0.200478,('QMP82347.1__RNA-dependent_RNA_polymerase':0.216251,'QMP82340.1__RNA-dependent_RNA_polymerase__Blattodean_phenui-related_virus_OKIAV266_':0.329264)[&label="67.3/73"]:0.09302)[&label="97.1/99"]:0.221259)[&label="96/96"]:0.215105,(('WWV86606.1__MAG':0.168524,'QMP82249.1__RNA-dependent_RNA_polymerase':0.173608)[&label="96.2/97"]:0.218723,'QMP82366.1__RNA-dependent_RNA_polymerase':0.457154)[&label="95.9/99"]:0.236198)[&label="92.8/98"]:0.164356)[&label="22.6/66"]:0.075566)[&label="87.6/81"]:0.102377,(((((((('YP_010840008.1__RNA-dependent_RNA_polymerase':0.760608,'QPL15338.1__RNA-dependent_RNA_polymerase__Neuropteran_phenui-related_virus_OKIAV309_':0.546335)[&label="42.3/64"]:0.082906,'UHK03194.1__MAG':0.356986)[&label="97.5/91"]:0.18434,((('QIM74068.1__polymerase':0.04807,'QIM74075.1__polymerase':0.048062)[&label="100/100"]:0.408274,('WAK75656.1__MAG':0.385305,'WAK75706.1__MAG':0.420674)[&label="87.1/78"]:0.099677)[&label="90.3/89"]:0.100738,'QMP82115.1__RNA-dependent_RNA_polymerase':0.637608)[&label="78.6/71"]:0.062195)[&label="82.1/45"]:0.040166,((('WGM50074.1__MAG':0.360256,'WGM50073.1__MAG':0.217869)[&label="74.8/72"]:0.053073,(('QIM74081.1__polymerase':0.077053,'QIM74089.1__polymerase':0.015175)[&label="82.6/93"]:0.030491,'QIM74086.1__polymerase':0.013511)[&label="100/100"]:0.296316)[&label="97.8/97"]:0.180049,(('ULE62095.1__RNA-dependent_RNA_polymerase':0.031618,'ULE62096.1__RNA-dependent_RNA_polymerase':0.119194)[&label="100/100"]:0.69128,('UHM27659.1__MAG':0.496981,'UHK03195.1__MAG':0.534066)[&label="66.7/53"]:0.049275)[&label="98.2/100"]:0.227379)[&label="62.2/43"]:0.046857)[&label="94.5/76"]:0.114881,('ULE62099.1__RNA-dependent_RNA_polymerase':0.305991,'UHM27528.1__MAG':0.288201)[&label="99/100"]:0.240548)[&label="96.5/93"]:0.184704,((('WAK75662.1__MAG':0.136411,('UUW20955.1__MAG':0.319952,'UHM27566.1__MAG':0.268959)[&label="97.5/99"]:0.160459)[&label="98.5/99"]:0.187375,((('QYF49529.1__MAG':0.240399,'QYF49558.1__MAG':0.138022)[&label="99.1/100"]:0.229369,'QYF49548.1__MAG':0.255662)[&label="39.1/58"]:0.068386,'QYF49539.1__MAG':0.183408)[&label="98.3/99"]:0.190847)[&label="0/35"]:0.049659,(('QYF49533.1__MAG':0.189557,((('QYF49536.1__MAG':0.095865,'QYF49552.1__MAG':0.125556)[&label="80.6/74"]:0.048044,('QYF49540.1__MAG':0.159152,('QYF49547.1__MAG':0.06001,'QYF49556.1__MAG':0.074902)[&label="98.4/100"]:0.117857)[&label="97.4/97"]:0.109465)[&label="62.3/67"]:0.044344,'QYF49549.1__MAG':0.237343)[&label="96.3/87"]:0.121936)[&label="22.2/47"]:0.019547,'QYF49543.1__MAG':0.197038)[&label="100/100"]:0.656039)[&label="100/100"]:0.509098)[&label="88/74"]:0.123174,((('UHR49864.1__MAG':0.303404,'QMP82269.1__RNA-dependent_RNA_polymerase':0.112931)[&label="14.2/57"]:0.111294,((('QQK88033.1__RNA-dependent_RNA_polymerase__Hymenopteran_phenui-related_virus_OKIAV298_':0.085773,'QPL15392.1__RNA-dependent_RNA_polymerase':0.070347)[&label="100/100"]:0.245009,'QPL15301.1__RNA-dependent_RNA_polymerase':0.261192)[&label="71.6/57"]:0.03106,(('QPL15380.1__RNA-dependent_RNA_polymerase':0.107984,'QPL15331.1__RNA-dependent_RNA_polymerase':0.298782)[&label="41.9/56"]:0.029217,'QMP82119.1__RNA-dependent_RNA_polymerase':0.383754)[&label="90.5/77"]:0.05698)[&label="89.1/73"]:0.106392)[&label="97.4/100"]:0.3344,'UYE93880.1__MAG':0.931695)[&label="77.4/76"]:0.135786)[&label="91.8/86"]:0.10502,('MP12.k141_57729':0.75589,'QMP82169.1__RNA-dependent_RNA_polymerase':0.797198)[&label="76/66"]:0.076976)[&label="85.2/73"]:0.094698)[&label="98.3/96"]:0.341248,'k141_12166_flag1_multi34.0000_len1366_SRR14518624':1.089676)[&label="20.8/23"]:0.110613,((BEK62765:0.432578,(('MP11.k141_37199':2.0E-6,'MP14.k141_88494':2.0E-6)[&label="93.3/100"]:0.207879,'MP13.k141_82565':0.29078)[&label="98.6/100"]:0.460965)[&label="99/100"]:0.419743,(('MP16.Bunya_frankenstein':0.034918,'UQB76325.1__RNA-dependent_RNA_polymerase':0.752324)[&label="88/73"]:0.620921,((UPT53676:0.184445,WNE31541:0.221691)[&label="94.6/97"]:0.408342,WMB96338:0.984683)[&label="99/100"]:0.580348)[&label="88.8/55"]:0.285507)[&label="89.7/42"]:0.191332)[&label="14.6/32"]:0.029904,(('WAK75611.1__MAG':0.10515,'WAK75613.1__MAG':0.010996)[&label="89.3/99"]:0.184043,'QKN84393.1__RNA_dependent_RNA_polymerase__Rice_Peribunya-like_virus_1_':0.233563)[&label="100/100"]:1.931917)[&label="95.8/94"]:0.253424,(('WAK75616.1__MAG':1.270482,('MP17.k141_59495':0.059132,'Pool20.k141_94743':0.019913)[&label="100/100"]:2.625227)[&label="93.3/87"]:0.637028,(((('UYE93877.1__MAG':0.163697,'UYE93878.1__MAG':0.073963)[&label="99/100"]:0.395915,(('MP13.k141_81906':2.0E-6,(('MP19.k141_152338':2.0E-6,'MP13.k141_87682':0.004292)[&label="0/41"]:0.00103,'MP16.k141_37826':0.040516)[&label="77.9/91"]:0.013344)[&label="73.2/65"]:0.004911,'MP16.k141_95248':3.0E-6)[&label="100/100"]:0.79459)[&label="92.3/87"]:0.298444,('Pool27.k141_8487':0.02684,'Pool27.k141_76805':0.113008)[&label="100/100"]:0.536094)[&label="71.3/80"]:0.227046,'UYE93879.1__MAG':0.435702)[&label="100/99"]:1.146754)[&label="86.3/65"]:0.278175)[&label="64.7/37"]:0.091076)[&label="83.6/60"]:0.203295)[&label="91.2/97"]:0.309912,(APG79247_Mypoviridae:1.552814,(('WPS90781.1__polymerase':0.275689,'YP_516233.1__L_protein__Mammarenavirus_ippyense_':0.077516)[&label="94.3/100"]:0.335715,('YP_025093.1__L_protein__Mammarenavirus_piritalense_':0.283852,('NP_899217.1__L_protein__Mammarenavirus_juninense_':0.10238,'NP_899221.1__L_protein__Mammarenavirus_guanaritoense_':0.121149)[&label="98.8/100"]:0.186686)[&label="0/43"]:0.013847)[&label="99.6/100"]:1.204229)[&label="97.2/100"]:0.742831)[&label="88.5/87"]:0.300457,'MP11.k141_82978':1.424755)[&label="93.7/97"]:0.509884)[&label="99.5/100"]:0.962596)[&label="71.7/39"]:0.033603,'YP_010839901.1__RNA-dependent_RNA_polymerase__Crimean-Congo_hemorrhagic_fever_virus_2_':0.063118)[&label="66.6/27"]:0.016768,'YP_009507850.1__L_protein__Hazara_virus_':0.039255)[&label="87.8/43"]:0.049721,'AFH89032.1__RNA-dependent_RNA_polymerase__Erve_virus_':0.125484)[&label="97.4/69"]:0.139052,'WXA45065.1__RNA-dependent_RNA_polymerase__Peribunyaviridae_sp._':0.211638);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=446;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

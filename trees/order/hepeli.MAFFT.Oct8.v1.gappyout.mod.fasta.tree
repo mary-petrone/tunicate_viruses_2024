@@ -1,0 +1,288 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=186;
+	taxlabels
+	'AAF91435.1__RNAdependent_RNA_polymerase__Beet_soilborne_mosaic_virus_'
+	'AEX65894.1__nonstructural_polyprotein'
+	'AHC54587.1__polyprotein__Hepeviridae_'
+	'AII82235.1__RNAdependent_RNA_polymerase'
+	'AMQ23297.1__RNAdependent_RNA_polymerase__Mangifera_indica_latent_virus_'
+	'ANH58413.1__nonstructural_polyprotein__Hepeviridae_'
+	'AQT40964.1__nonstructural_polyprotein__Chirohepevirus_eptesici_'
+	'ATY47663.1__nonstructural_polyprotein'
+	'ATY47665.1__nonstructural_polyprotein__Hepevirus_sp._'
+	'ATY47667.1__nonstructural_polyprotein__Hepevirus_sp._'
+	'ATY47669.1__nonstructural_polyprotein__Hepevirus_sp._'
+	'AVM87261.1__nonstructural_polyprotein__Dongbei_arctic_lamprey_hepevirus_'
+	'AVM87263.1__nonstructural_polyprotein__Wenling_fish_hepevirus_'
+	'AVM87265.1__nonstructural_polyprotein__Wenling_samurai_squirrelfish_hepevirus_'
+	'AVM87268.1__RNAdependent_RNA_polymerase__Wenling_thamnaconus_striatus_hepevirus_'
+	'AVM87270.1__nonstructural_polyprotein__Guangdong_fish_caecilians_hepevirus_'
+	'AVM87557.1__nonstructural_polyprotein'
+	'AVM87558.1__nonstructural_polyprotein'
+	'AVM87559.1__nonstructural_polyprotein'
+	'AVM87614.1__nonstructural_polyprotein'
+	'AVP32813.1__polyprotein__Rocahepevirus_ratti_'
+	'AVP32824.1__polyprotein__Rocahepevirus_ratti_'
+	'AXB26865.1__nonstructural_polyprotein__Hepeviridae_'
+	'AYP00107.1__nonstructural_polyprotein__Hepeviridae_'
+	'AZF86092.1__polyprotein__Sclerotium_rolfsii_benylike_virus_1_'
+	'AZZ69076.1__nonstructural_polyprotein'
+	'BAO31621.1__nonstructural_polyprotein__Paslahepevirus_balayani_'
+	'BAT70058.1__polyprotein__Ferret_hepatitis_E_virus_'
+	'BBF24304.1__polyprotein'
+	'BCK51613.1__nonstructural_polyprotein__Paslahepevirus_balayani_'
+	'CAI5383875.1__polyprotein__Fern_benyvirus_'
+	'DAD54816.1__TPA_inf'
+	'DAZ90611.1__TPA_asm'
+	'DAZ90614.1__TPA_asm'
+	'MP10.k141_118_41'[&!color=#ff0080]
+	'MP11.k141_52848_45'[&!color=#ff0080]
+	'MP13.k141_82509_25'[&!color=#ff0080]
+	'MP14.k141_9976_98'[&!color=#ff0080]
+	'MP16.k141_63160_48'[&!color=#ff0080]
+	'MP17.k141_24372_121'[&!color=#ff0080]
+	'MP18.k141_18767_97'[&!color=#ff0080]
+	'MP19.k141_69288_7'[&!color=#ff0080]
+	'MP20.k141_11553_63'[&!color=#ff0080]
+	'MP9.k141_94_44'[&!color=#ff0080]
+	'NP_048059.1__RNAdependent_RNA_polymerase__Nudaurelia_capensis_beta_virus_'
+	'NP_049235.1__RNAdependent_RNA_polymerase__Helicoverpa_armigera_stunt_virus_'
+	'NP_062883.2__nonstructural_polyprotein__Rubella_virus_'
+	'QCF29641.1__polyprotein__Swine_hepatitis_E_virus_'
+	'QDW81308.1__polyprotein__Rhizoctonia_solani_benylike_virus_1_'
+	'QED22686.1__nonstructural_polyprotein__Hepeviridae_'
+	'QEV82316.1__nonstructural_polyprotein__Rocahepevirus_ratti_'
+	'QIM73950.1__nonstructural_polyprotein'
+	'QJI53778.1__MAG'
+	'QJI53779.1__MAG'
+	'QJI53785.1__MAG'
+	'QMS47729.1__RNAdependent_RNA_polymerase__Beet_necrotic_yellow_vein_virus_'
+	'QOX06057.1__RNAdependent_RNA_polymerase__Lentinula_edodes_benylike_virus_1_'
+	'QQA03995.1__polyprotein__La_Herreria_hepevirus_'
+	'QQP18671.1__nonstructural_polyprotein__French_Guiana_hepevirus_'
+	'QQR34432.1__RdRp__Swiper_virus_'
+	'QRV11689.1__nonstructural_polyprotein'
+	'QRV59632.1__MAG'
+	'QTE76066.1__nonstructural_protein__Bat_hepevirus_'
+	'QTK16424.1__polyprotein__Hepeviridae_'
+	'QUF61515.1__nonstructural_polyprotein__MurrayDarling_carp_hepevirus_'
+	'QUF61516.1__nonstructural_polyprotein'
+	'QUS47382.1__nonstructural_polyprotein__Longquan_Rhinolophus_sinicus_orthohepevirus_1_'
+	'QWC36501.1__polyprotein__Bemisia_tabaci_benylike_virus_1_'
+	'QWC36502.1__polyprotein__Bemisia_tabaci_benylike_virus_2_'
+	'QWC36503.1__polyprotein__Bemisia_tabaci_benylike_virus_3_'
+	'QWC36504.1__polyprotein__Bemisia_tabaci_benylike_virus_4_'
+	'QWC36505.1__polyprotein__Bemisia_tabaci_benylike_virus_5_'
+	'QWC36506.1__polyprotein__Bemisia_tabaci_benylike_virus_6_'
+	'QXV86615.1__nonstructural_polyprotein__Hepeviridae_sp._'
+	'QYF49505.1__MAG'
+	'QYF50219.1__MAG'
+	'QYW06824.1__MAG'
+	'UCJ03454.1__polyprotein__Cutthroat_trout_virus_'
+	'UGM45790.1__polyprotein__Hepelivirales_sp._'
+	'UHK03084.1__MAG'
+	'UHK03121.1__MAG'
+	'UHS16724.1__MAG'
+	'UKH47160.1__polyprotein'
+	'UQB76017.1__nonstructural_polyprotein__Flumine_hepelike_virus_1_'
+	'UQB76018.1__nonstructural_polyprotein__Flumine_hepelike_virus_2_'
+	'UQB76020.1__nonstructural_polyprotein__Flumine_hepelike_virus_5_'
+	'UQB76218.1__nonstructural_polyprotein'
+	'UQZ09557.1__RNAdependent_RNA_polymerase__Freshwater_macrophyte_associated_hepelike_virus_1_'
+	'USL85452.1__MAG'
+	'USL85453.1__MAG'
+	'USZ80668.1__polyprotein'
+	'UTS51944.1__polyprotein__Scallop_hepelike_virus_'
+	'UTU02172.1__polyprotein'
+	'UTU02178.1__polyprotein__Ferret_hepatitis_E_virus_'
+	'UUV42641.1__MAG'
+	'UWV86607.1__nonstructural_polyprotein__Rocahepevirus_ratti_'
+	'UZA97541.1__RNAdependent_RNA_polymerase__Lentinula_edodes_benylike_virus_1Hunong1_'
+	'WAP91249.1__MAG'
+	'WAP91263.1__MAG'
+	'WAQ80609.1__MAG'
+	'WAY16371.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16373.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16378.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16381.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16383.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16386.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16392.1__nonstructural_polyprotein'
+	'WAY16393.1__nonstructural_polyprotein'
+	'WAY16398.1__nonstructural_polyprotein'
+	'WAY16408.1__nonstructural_polyprotein'
+	'WAY16435.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16437.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16445.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16449.1__nonstructural_polyprotein'
+	'WAY16450.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16456.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16459.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16468.1__nonstructural_polyprotein'
+	'WAY16469.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16482.1__nonstructural_polyprotein'
+	'WAY16486.1__nonstructural_polyprotein'
+	'WAY16487.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16491.1__RNAdependent_RNA_polymerase__Hepelivirales_sp._'
+	'WAY16501.1__nonstructural_polyprotein'
+	'WAY16503.1__nonstructural_polyprotein'
+	'WAY16510.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16518.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16526.1__nonstructural_polyprotein__Hepelivirales_sp._'
+	'WAY16529.1__nonstructural_polyprotein'
+	'WAY16531.1__nonstructural_polyprotein'
+	'WAY16533.1__nonstructural_polyprotein'
+	'WAY16537.1__nonstructural_polyprotein'
+	'WBW02117.1__nonstructural_polyprotein__Avihepevirus_magniiecur_'
+	'WBY66433.1__MAG'
+	'WDW25668.1__MAG'
+	'WEM33058.1__polyprotein__Rocahepevirus_ratti_'
+	'WEU38112.1__nonstructural_protein'
+	'WEU70891.1__MAG'
+	'WLN26226.1__MAG'
+	'WLN26235.1__MAG'
+	'WMP40869.1__nonstructural_polyprotein__Hepatitis_E_virus_type_3_'
+	'WMX25051.1__polyprotein__Rhizoctonia_benylike_virus_1_'
+	'WMY23351.1__nonstructural_polyprotein__Hepeviridae_sp._RJsw2_'
+	'WMY23354.1__nonstructural_polyprotein__Hepeviridae_sp._RJsw3_'
+	'WPA70763.1__MAG'
+	'WPA70765.1__MAG'
+	'WWD77349.1__polyprotein__Rhizoctonia_solani_benylike_virus_3_'
+	'WWQ49644.1__MAG'
+	'WXG28500.1__MAG'
+	'WXG28505.1__MAG'
+	'WXG28512.1__MAG'
+	'WXU52604.1__polyprotein__Orthohepevirus_sp._'
+	'YP_006576507.1__nonstructural_polyprotein__Chirohepevirus_eptesici_'
+	'YP_009553211.1__polyprotein__Sogatella_furcifera_hepelike_virus_'
+	'YP_009553650.1__nonstructural_protein__Rana_hepevirus_'
+	'YP_010775524.1__nonstructural_protein__Paslahepevirus_balayani_'
+	'YP_010798427.1__nonstructural_polyprotein__Rustrela_virus_'
+	'YP_010799168.1__putative_nonstructural_polyprotein__Paslahepevirus_balayani_'
+	'YP_010799174.1__nonstructural_polyprotein__Bat_hepatitis_E_virus_'
+	'YP_010799225.1__nonstructural_polyprotein__Paslahepevirus_balayani_'
+	'YP_010800917.1__nonstructural_protein__Bat_hepatitis_E_virus_'
+	'YP_025094.1__putative_RNAdependent_RNA_polymerase__Dendrolimus_punctatus_virus_'
+	'k141_118036_flag1_multi90.8534_len9965_SRR6179110_53'[&!color=#ff0080]
+	'k141_12509_flag1_multi232.0000_len2073_SRR10352252_7'[&!color=#ff0080]
+	'k141_126876_flag1_multi111.0000_len10859_SRR6179118_173'[&!color=#ff0080]
+	'k141_157659_flag1_multi284.5860_len10721_SRR6179117_171'[&!color=#ff0080]
+	'k141_16917_flag1_multi262.0000_len10847_SRR6179120_50'[&!color=#ff0080]
+	'k141_176688_flag1_multi28.0000_len6579_SRR6179134_109'[&!color=#ff0080]
+	'k141_24366_flag1_multi90.0000_len10754_SRR6179108_174'[&!color=#ff0080]
+	'k141_27260_flag1_multi457.0000_len10847_SRR6179119_51'[&!color=#ff0080]
+	'k141_31081_flag1_multi23.0000_len2060_SRR6179116_27'[&!color=#ff0080]
+	'k141_3163_flag1_multi168.8372_len10700_SRR6179145_50'[&!color=#ff0080]
+	'k141_3827_flag1_multi16.0000_len1166_SRR10352252_12'[&!color=#ff0080]
+	'k141_457_flag1_multi151.0000_len10785_SRR6179157_49'[&!color=#ff0080]
+	'k141_51580_flag1_multi5.0000_len1037_SRR18265391_18'[&!color=#ff0080]
+	'k141_54330_flag1_multi15.0000_len3473_SRR6179160_26'[&!color=#ff0080]
+	'k141_57246_flag1_multi169.8262_len10858_SRR6179140_51'[&!color=#ff0080]
+	'k141_60457_flag1_multi21.0000_len4752_SRR6179142_14'[&!color=#ff0080]
+	'k141_76781_flag1_multi67.5731_len10814_SRR6179141_173'[&!color=#ff0080]
+	'k141_80623_flag0_multi106.0417_len5659_ERR10541696_30'[&!color=#ff0080]
+	'k141_8143_flag1_multi150.9545_len10031_SRR6179115_52'[&!color=#ff0080]
+	'k141_89958_flag1_multi13.0000_len5894_SRR6179109_18'[&!color=#ff0080]
+	'k141_92694_flag1_multi18.0000_len1288_SRR6179116_13'[&!color=#ff0080]
+	'k141_98755_flag1_multi43.0000_len8416_SRR6179136_146'[&!color=#ff0080]
+	'k59_25081_flag1_multi6.0000_len1152_SRR1604836_12'[&!color=#ff0080]
+	'k99_5338_flag1_multi23.0000_len5606_SRR14597456_13'[&!color=#ff0080]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('YP_010775524.1__nonstructural_protein__Paslahepevirus_balayani_':0.043134,((((((('WMY23351.1__nonstructural_polyprotein__Hepeviridae_sp._RJsw2_':0.011562,'BBF24304.1__polyprotein':3.0E-6)[&label="72.4/61"]:0.003709,('QTK16424.1__polyprotein__Hepeviridae_':0.004488,('AHC54587.1__polyprotein__Hepeviridae_':3.0E-6,'UKH47160.1__polyprotein':0.011367)[&label="0/39"]:3.0E-6)[&label="81.4/61"]:0.003876)[&label="72.4/62"]:0.004827,(('WMY23354.1__nonstructural_polyprotein__Hepeviridae_sp._RJsw3_':0.0047,'WMP40869.1__nonstructural_polyprotein__Hepatitis_E_virus_type_3_':2.0E-6)[&label="82.1/87"]:0.007711,'WEU38112.1__nonstructural_protein':0.007503)[&label="81.2/74"]:0.006527)[&label="42.3/61"]:0.008614,'AEX65894.1__nonstructural_polyprotein':0.023632)[&label="90/96"]:0.01653,'QCF29641.1__polyprotein__Swine_hepatitis_E_virus_':0.161911)[&label="76.8/72"]:0.009361,'BAO31621.1__nonstructural_polyprotein__Paslahepevirus_balayani_':0.056128)[&label="67.3/61"]:0.013246,(('YP_010799168.1__putative_nonstructural_polyprotein__Paslahepevirus_balayani_':3.0E-6,'ATY47667.1__nonstructural_polyprotein__Hepevirus_sp._':0.218055)[&label="92.5/89"]:0.237991,(('ANH58413.1__nonstructural_polyprotein__Hepeviridae_':0.309628,(((((('WEM33058.1__polyprotein__Rocahepevirus_ratti_':0.011696,'AZZ69076.1__nonstructural_polyprotein':0.028223)[&label="88.2/98"]:0.01446,(('BCK51613.1__nonstructural_polyprotein__Paslahepevirus_balayani_':0.003851,'QEV82316.1__nonstructural_polyprotein__Rocahepevirus_ratti_':3.0E-6)[&label="76.4/96"]:0.006838,'QIM73950.1__nonstructural_polyprotein':0.013218)[&label="86.5/87"]:0.012554)[&label="99.7/100"]:0.102882,(('UTU02172.1__polyprotein':3.0E-6,'UTU02178.1__polyprotein__Ferret_hepatitis_E_virus_':0.004266)[&label="94.6/100"]:0.025634,'BAT70058.1__polyprotein__Ferret_hepatitis_E_virus_':0.034729)[&label="95.7/99"]:0.047846)[&label="98.5/98"]:0.094442,'AVP32813.1__polyprotein__Rocahepevirus_ratti_':0.086367)[&label="99.1/100"]:0.13214,'UWV86607.1__nonstructural_polyprotein__Rocahepevirus_ratti_':0.36295)[&label="83/81"]:0.069271,(((('WDW25668.1__MAG':0.048722,('QED22686.1__nonstructural_polyprotein__Hepeviridae_':0.042652,'ATY47665.1__nonstructural_polyprotein__Hepevirus_sp._':0.019464)[&label="99/100"]:0.064064)[&label="92.7/97"]:0.051131,('AVP32824.1__polyprotein__Rocahepevirus_ratti_':0.068467,'ATY47669.1__nonstructural_polyprotein__Hepevirus_sp._':0.067757)[&label="3.2/54"]:0.021044)[&label="98.5/94"]:0.089653,'ATY47663.1__nonstructural_polyprotein':0.098259)[&label="97.2/93"]:0.098023,(((('YP_010799174.1__nonstructural_polyprotein__Bat_hepatitis_E_virus_':0.089872,'QUS47382.1__nonstructural_polyprotein__Longquan_Rhinolophus_sinicus_orthohepevirus_1_':0.102072)[&label="87.5/83"]:0.041183,(('YP_010800917.1__nonstructural_protein__Bat_hepatitis_E_virus_':0.07366,'QTE76066.1__nonstructural_protein__Bat_hepevirus_':0.137084)[&label="99.1/99"]:0.10752,((('YP_006576507.1__nonstructural_polyprotein__Chirohepevirus_eptesici_':0.052626,'WXG28505.1__MAG':0.140213)[&label="60/40"]:0.014922,('WXG28500.1__MAG':0.08195,'QRV11689.1__nonstructural_polyprotein':0.044927)[&label="59.5/61"]:0.041289)[&label="20.4/17"]:0.021913,('AQT40964.1__nonstructural_polyprotein__Chirohepevirus_eptesici_':0.114224,'WXG28512.1__MAG':0.162331)[&label="82.1/51"]:0.026356)[&label="97.6/98"]:0.078285)[&label="57.7/73"]:0.036164)[&label="99.9/100"]:0.202781,('YP_010799225.1__nonstructural_polyprotein__Paslahepevirus_balayani_':0.259975,('WBW02117.1__nonstructural_polyprotein__Avihepevirus_magniiecur_':0.140801,'AXB26865.1__nonstructural_polyprotein__Hepeviridae_':0.09708)[&label="100/100"]:0.201826)[&label="44.3/59"]:0.063385)[&label="97.4/100"]:0.208785,('UCJ03454.1__polyprotein__Cutthroat_trout_virus_':0.578129,(('AVM87557.1__nonstructural_polyprotein':0.464123,((((((((('YP_009553211.1__polyprotein__Sogatella_furcifera_hepelike_virus_':0.99938,(((('WAY16386.1__nonstructural_polyprotein__Hepelivirales_sp._':0.117227,'WAY16503.1__nonstructural_polyprotein':0.211638)[&label="85.8/80"]:0.05162,'WAY16393.1__nonstructural_polyprotein':0.137042)[&label="97.6/98"]:0.140532,'QYF49505.1__MAG':0.281015)[&label="100/100"]:0.344806,'QYF50219.1__MAG':0.308091)[&label="99.9/100"]:0.355394)[&label="46.2/54"]:0.106207,(('WAY16501.1__nonstructural_polyprotein':0.344854,('QXV86615.1__nonstructural_polyprotein__Hepeviridae_sp._':0.312442,'WAP91249.1__MAG':0.428047)[&label="98.2/99"]:0.194994)[&label="89.4/86"]:0.157444,'QJI53779.1__MAG':0.609784)[&label="87.1/81"]:0.135059)[&label="99.2/97"]:0.348077,(('YP_025094.1__putative_RNAdependent_RNA_polymerase__Dendrolimus_punctatus_virus_':0.21736,'NP_049235.1__RNAdependent_RNA_polymerase__Helicoverpa_armigera_stunt_virus_':0.160156)[&label="99.3/100"]:0.448414,('NP_048059.1__RNAdependent_RNA_polymerase__Nudaurelia_capensis_beta_virus_':0.898319,'QJI53785.1__MAG':0.412453)[&label="95.4/96"]:0.368234)[&label="100/98"]:0.608559)[&label="88/92"]:0.246164,'AII82235.1__RNAdependent_RNA_polymerase':1.97346)[&label="63.3/51"]:0.110434,(((('UTS51944.1__polyprotein__Scallop_hepelike_virus_':0.476061,('WBY66433.1__MAG':0.617038,'UQZ09557.1__RNAdependent_RNA_polymerase__Freshwater_macrophyte_associated_hepelike_virus_1_':0.582893)[&label="99/100"]:0.35582)[&label="99.3/99"]:0.329656,('WAY16398.1__nonstructural_polyprotein':0.736616,'UHS16724.1__MAG':0.782379)[&label="92.3/90"]:0.192226)[&label="26.3/45"]:0.039621,'k99_5338_flag1_multi23.0000_len5606_SRR14597456_13':1.684397)[&label="2.4/34"]:0.069084,('k141_3827_flag1_multi16.0000_len1166_SRR10352252_12':0.060564,((('k141_12509_flag1_multi232.0000_len2073_SRR10352252_7':2.0E-6,(((('k141_89958_flag1_multi13.0000_len5894_SRR6179109_18':0.0,'k141_176688_flag1_multi28.0000_len6579_SRR6179134_109':0.0):3.0E-6,'k141_118036_flag1_multi90.8534_len9965_SRR6179110_53':3.0E-6)[&label="0/93"]:2.0E-6,'k59_25081_flag1_multi6.0000_len1152_SRR1604836_12':3.0E-6)[&label="0/56"]:2.0E-6,('k141_54330_flag1_multi15.0000_len3473_SRR6179160_26':0.003548,'k141_31081_flag1_multi23.0000_len2060_SRR6179116_27':0.199627)[&label="0/33"]:3.0E-6)[&label="91.4/61"]:0.007102)[&label="0/33"]:2.0E-6,((((((((((('k141_24366_flag1_multi90.0000_len10754_SRR6179108_174':0.0,'k141_126876_flag1_multi111.0000_len10859_SRR6179118_173':0.0):0.0,'k141_57246_flag1_multi169.8262_len10858_SRR6179140_51':0.0):0.0,'k141_60457_flag1_multi21.0000_len4752_SRR6179142_14':0.0):0.0,'k141_457_flag1_multi151.0000_len10785_SRR6179157_49':0.0):0.0,'k141_16917_flag1_multi262.0000_len10847_SRR6179120_50':0.0):0.0,'k141_98755_flag1_multi43.0000_len8416_SRR6179136_146':0.0):0.0,'k141_3163_flag1_multi168.8372_len10700_SRR6179145_50':0.0):0.0,'k141_76781_flag1_multi67.5731_len10814_SRR6179141_173':0.0):0.0,'k141_8143_flag1_multi150.9545_len10031_SRR6179115_52':0.0):0.0,'k141_157659_flag1_multi284.5860_len10721_SRR6179117_171':0.0):3.0E-6,'k141_27260_flag1_multi457.0000_len10847_SRR6179119_51':3.0E-6)[&label="0/99"]:3.0E-6)[&label="0/42"]:2.0E-6,'k141_92694_flag1_multi18.0000_len1288_SRR6179116_13':3.0E-6)[&label="74/70"]:0.01138)[&label="100/100"]:1.197461)[&label="99.8/100"]:0.525011)[&label="74/43"]:0.045365,((('UQB76218.1__nonstructural_polyprotein':1.292517,'USL85452.1__MAG':0.845249)[&label="79.9/49"]:0.118267,'WAP91263.1__MAG':1.147649)[&label="86.9/49"]:0.181744,((('UQB76017.1__nonstructural_polyprotein__Flumine_hepelike_virus_1_':1.750289,('USZ80668.1__polyprotein':0.445686,('UGM45790.1__polyprotein__Hepelivirales_sp._':0.309009,'QYW06824.1__MAG':0.203988)[&label="46.2/46"]:0.122832)[&label="100/100"]:0.815064)[&label="76.3/32"]:0.070283,(((('YP_010798427.1__nonstructural_polyprotein__Rustrela_virus_':0.258199,('DAZ90611.1__TPA_asm':0.184325,'DAZ90614.1__TPA_asm':0.158627)[&label="98.1/99"]:0.124473)[&label="69.9/68"]:0.06565,'DAD54816.1__TPA_inf':0.249014)[&label="45.8/59"]:0.050185,'NP_062883.2__nonstructural_polyprotein__Rubella_virus_':0.132296)[&label="99.9/100"]:1.159824,(('WLN26226.1__MAG':0.275159,'QRV59632.1__MAG':0.276446)[&label="97.4/100"]:0.451673,'AVM87614.1__nonstructural_polyprotein':1.084472)[&label="100/100"]:1.271514)[&label="94/82"]:0.469682)[&label="43.4/31"]:0.134624,(((('CAI5383875.1__polyprotein__Fern_benyvirus_':0.418317,(('QMS47729.1__RNAdependent_RNA_polymerase__Beet_necrotic_yellow_vein_virus_':0.004033,'AAF91435.1__RNAdependent_RNA_polymerase__Beet_soilborne_mosaic_virus_':0.048177)[&label="98.6/100"]:0.14003,'AMQ23297.1__RNAdependent_RNA_polymerase__Mangifera_indica_latent_virus_':0.306879)[&label="81.9/81"]:0.101318)[&label="100/100"]:0.469298,(('UHK03084.1__MAG':0.278369,'UHK03121.1__MAG':0.260589)[&label="99.6/100"]:0.302684,'QWC36506.1__polyprotein__Bemisia_tabaci_benylike_virus_6_':0.268147)[&label="99.6/100"]:0.353947)[&label="92.3/83"]:0.210598,(('UZA97541.1__RNAdependent_RNA_polymerase__Lentinula_edodes_benylike_virus_1Hunong1_':2.0E-6,'QOX06057.1__RNAdependent_RNA_polymerase__Lentinula_edodes_benylike_virus_1_':0.085255)[&label="100/100"]:1.15724,((((('QWC36501.1__polyprotein__Bemisia_tabaci_benylike_virus_1_':0.044335,'QWC36502.1__polyprotein__Bemisia_tabaci_benylike_virus_2_':0.048227)[&label="100/100"]:0.143495,'QWC36503.1__polyprotein__Bemisia_tabaci_benylike_virus_3_':0.109945)[&label="97.1/98"]:0.082359,'QWC36505.1__polyprotein__Bemisia_tabaci_benylike_virus_5_':0.148001)[&label="77.3/82"]:0.108097,'QWC36504.1__polyprotein__Bemisia_tabaci_benylike_virus_4_':0.292926)[&label="98.6/98"]:0.336414,((('WWD77349.1__polyprotein__Rhizoctonia_solani_benylike_virus_3_':0.181459,'QDW81308.1__polyprotein__Rhizoctonia_solani_benylike_virus_1_':0.183999)[&label="91.9/95"]:0.140939,'WMX25051.1__polyprotein__Rhizoctonia_benylike_virus_1_':0.333275)[&label="100/100"]:0.522186,'AZF86092.1__polyprotein__Sclerotium_rolfsii_benylike_virus_1_':0.694686)[&label="51.6/73"]:0.188386)[&label="100/100"]:0.769241)[&label="4.9/39"]:0.11938)[&label="90.8/96"]:0.556692,'QJI53778.1__MAG':4.013037)[&label="37.4/51"]:0.172265)[&label="84.2/42"]:0.106112)[&label="93/67"]:0.138515)[&label="90.9/52"]:0.098097,((((('WPA70763.1__MAG':0.019496,'UUV42641.1__MAG':0.025119)[&label="100/100"]:0.360131,'QQR34432.1__RdRp__Swiper_virus_':0.359719)[&label="94.4/95"]:0.17269,'QQP18671.1__nonstructural_polyprotein__French_Guiana_hepevirus_':0.659902)[&label="61.9/72"]:0.143281,(('WPA70765.1__MAG':0.687848,'QQA03995.1__polyprotein__La_Herreria_hepevirus_':0.386015)[&label="82.4/81"]:0.159907,'USL85453.1__MAG':0.788229)[&label="96/95"]:0.242218)[&label="100/100"]:0.474094,('YP_009553650.1__nonstructural_protein__Rana_hepevirus_':0.923452,('AVM87261.1__nonstructural_polyprotein__Dongbei_arctic_lamprey_hepevirus_':0.394435,(('AVM87558.1__nonstructural_polyprotein':0.047259,'AVM87559.1__nonstructural_polyprotein':0.066298)[&label="100/100"]:0.42766,'AVM87270.1__nonstructural_polyprotein__Guangdong_fish_caecilians_hepevirus_':0.647622)[&label="87/80"]:0.114458)[&label="99.4/100"]:0.415577)[&label="96.1/96"]:0.266191)[&label="90.8/66"]:0.11821)[&label="87.8/57"]:0.078128,(((((((('WAY16371.1__nonstructural_polyprotein__Hepelivirales_sp._':0.495871,'WAY16392.1__nonstructural_polyprotein':0.509154)[&label="98.8/100"]:0.273763,'WAY16381.1__nonstructural_polyprotein__Hepelivirales_sp._':0.581409)[&label="93.6/84"]:0.185651,((('WAY16468.1__nonstructural_polyprotein':0.306987,'UQB76018.1__nonstructural_polyprotein__Flumine_hepelike_virus_2_':0.487342)[&label="69.9/74"]:0.11282,'WAY16378.1__nonstructural_polyprotein__Hepelivirales_sp._':0.62432)[&label="55.5/45"]:0.054517,'WAY16449.1__nonstructural_polyprotein':0.572242)[&label="31.6/35"]:0.061236)[&label="77.8/64"]:0.09588,((('WAY16437.1__nonstructural_polyprotein__Hepelivirales_sp._':0.240284,'WAY16469.1__nonstructural_polyprotein__Hepelivirales_sp._':0.362345)[&label="99.5/100"]:0.285002,'WAY16510.1__nonstructural_polyprotein__Hepelivirales_sp._':0.794184)[&label="58.3/72"]:0.149476,('WAY16435.1__nonstructural_polyprotein__Hepelivirales_sp._':0.054156,'WAY16445.1__nonstructural_polyprotein__Hepelivirales_sp._':0.077904)[&label="100/100"]:0.906706)[&label="89.4/78"]:0.106985)[&label="99.3/92"]:0.299234,(('UQB76020.1__nonstructural_polyprotein__Flumine_hepelike_virus_5_':0.693136,('WAY16526.1__nonstructural_polyprotein__Hepelivirales_sp._':0.791586,'WAY16456.1__nonstructural_polyprotein__Hepelivirales_sp._':0.998173)[&label="97.3/99"]:0.343294)[&label="80.4/70"]:0.128078,('WAY16450.1__nonstructural_polyprotein__Hepelivirales_sp._':0.32538,(('MP9.k141_94_44':3.0E-6,(('MP10.k141_118_41':3.0E-6,((((('MP17.k141_24372_121':3.0E-6,'MP13.k141_82509_25':3.0E-6)[&label="0/74"]:3.0E-6,'MP18.k141_18767_97':3.0E-6)[&label="0/0"]:3.0E-6,('k141_80623_flag0_multi106.0417_len5659_ERR10541696_30':0.0,'MP20.k141_11553_63':0.0):3.0E-6)[&label="0/70"]:3.0E-6,'MP19.k141_69288_7':3.0E-6)[&label="0/7"]:1.0E-6,'MP16.k141_63160_48':3.0E-6)[&label="0/13"]:3.0E-6)[&label="0/14"]:3.36E-4,'MP11.k141_52848_45':0.003903)[&label="0/9"]:0.003103)[&label="0/62"]:2.0E-6,'MP14.k141_9976_98':2.0E-6)[&label="99.9/100"]:0.36602)[&label="99.1/100"]:0.284369)[&label="91.2/74"]:0.093246)[&label="98.6/89"]:0.253378,(((('WAY16518.1__nonstructural_polyprotein__Hepelivirales_sp._':0.820791,'WAY16529.1__nonstructural_polyprotein':0.65161)[&label="40.8/34"]:0.09264,(('WAY16531.1__nonstructural_polyprotein':0.294363,'WAY16533.1__nonstructural_polyprotein':0.484415)[&label="90.7/69"]:0.104198,'k141_51580_flag1_multi5.0000_len1037_SRR18265391_18':0.696214)[&label="1.6/22"]:0.042984)[&label="97.8/85"]:0.183421,'WAY16459.1__nonstructural_polyprotein__Hepelivirales_sp._':0.551352)[&label="100/100"]:0.46687,(('WEU70891.1__MAG':0.948177,('WAY16486.1__nonstructural_polyprotein':4.719862,'WAY16491.1__RNAdependent_RNA_polymerase__Hepelivirales_sp._':0.034759)[&label="68/71"]:0.540286)[&label="91.1/65"]:0.173082,(('WAY16383.1__nonstructural_polyprotein__Hepelivirales_sp._':0.207657,'WAY16482.1__nonstructural_polyprotein':0.227488)[&label="98.5/100"]:0.272863,'WAY16487.1__nonstructural_polyprotein__Hepelivirales_sp._':0.669735)[&label="100/100"]:0.644856)[&label="92.4/76"]:0.21569)[&label="93.3/72"]:0.169973)[&label="94.6/84"]:0.162023,(('WAY16373.1__nonstructural_polyprotein__Hepelivirales_sp._':0.618952,('WAY16408.1__nonstructural_polyprotein':0.372072,'QUF61516.1__nonstructural_polyprotein':0.716368)[&label="96.4/83"]:0.223885)[&label="23/44"]:0.052748,'WAY16537.1__nonstructural_polyprotein':0.649615)[&label="99.7/100"]:0.299923)[&label="88.1/84"]:0.198845,('WLN26235.1__MAG':0.296492,'QUF61515.1__nonstructural_polyprotein__MurrayDarling_carp_hepevirus_':0.238808)[&label="100/100"]:1.357317)[&label="85.6/56"]:0.103112)[&label="93.4/66"]:0.157582,(('WAQ80609.1__MAG':0.833758,'AVM87268.1__RNAdependent_RNA_polymerase__Wenling_thamnaconus_striatus_hepevirus_':0.721215)[&label="99.3/100"]:0.50793,('AVM87263.1__nonstructural_polyprotein__Wenling_fish_hepevirus_':2.0E-6,'AVM87265.1__nonstructural_polyprotein__Wenling_samurai_squirrelfish_hepevirus_':0.162798)[&label="100/100"]:0.873354)[&label="95.3/91"]:0.300783)[&label="41/46"]:0.091621)[&label="28.5/44"]:0.118024,'WWQ49644.1__MAG':1.077485)[&label="98.5/100"]:0.371815)[&label="99.8/100"]:0.359536)[&label="97.4/98"]:0.160201)[&label="93.5/80"]:0.066771)[&label="34.8/42"]:0.028518)[&label="86/72"]:0.071591,'WXU52604.1__polyprotein__Orthohepevirus_sp._':0.201116)[&label="62.9/65"]:0.047828)[&label="99.8/100"]:0.161489)[&label="79.6/79"]:0.018418,'AYP00107.1__nonstructural_polyprotein__Hepeviridae_':0.043489);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=644;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

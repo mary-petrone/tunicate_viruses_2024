@@ -1,0 +1,132 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=30;
+	taxlabels
+	AIY25033_hemagglutinin_protein__Wellfleet_Bay_virus_
+	ASR92126_hemagglutinin_protein__Araguari_virus_
+	AVM87624_hemagglutinin
+	AVM87632_hemagglutinin__Wuhan_asiatic_toad_influenza_virus_
+	BAA06095_hemagglutinin_esterase
+	BCS51529_hemagglutinin-esterase
+	BCS51538_hemagglutinin-esterase
+	BEV21338_hemagglutinin-esterase__Influenza_D_virus_
+	BEV70497_hemagglutinin-esterase-fusion_glycoprotein__Influenza_D_virus_
+	DBA45440_TPA_asm
+	DBA45486_TPA_asm
+	DBA45494_TPA_asm
+	HCDF01005257_Clavelina_lepadiformis_HA
+	QHR77128_hemagglutinin__Quaranjavirus_johnstonense_
+	QOE76799_hemagglutinin-esterase__Ornate_chorus_frog_influenza-like_virus_
+	QOE76806_hemagglutinin__Siamese_algae-eater_influenza-like_virus_
+	QOE76814_hemagglutinin__Salamander_influenza-like_virus_
+	QOE76822_hemagglutinin-esterase
+	QOE76830_hemagglutinin__Chum_salmon_influenza-like_virus_
+	UTQ48798_hemagglutinin__Quaranjavirus_quaranfilense_
+	WAA28079_hemagglutinin__Influenza_B_virus_
+	WAQ14052_hemagglutinin__Influenza_B_virus_
+	WMB58485_hemagglutinin
+	WND01339_hemagglutinin__Influenza_A_virus_
+	WYD72859_hemagglutinin__Influenza_A_virus_
+	WYK38831_hemagglutinin__Influenza_B_virus_
+	WYV82310_hemagglutinin__Influenza_A_virus_
+	WZL56530_hemagglutinin__Influenza_A_virus_
+	'k141_7478_flag1_multi5.0000_len2280_ERR10378036'
+	'k141_9988_flag1_multi23.0000_len2193_SRR7503162_HA'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (WZL56530_hemagglutinin__Influenza_A_virus_:0.253651,((WYV82310_hemagglutinin__Influenza_A_virus_:0.00844,WND01339_hemagglutinin__Influenza_A_virus_:0.066524)[&label="100/100"]:0.50763,((((((((WYK38831_hemagglutinin__Influenza_B_virus_:0.008111,WMB58485_hemagglutinin:0.002166)[&label="97.5/96"]:0.014301,WAA28079_hemagglutinin__Influenza_B_virus_:3.0E-6)[&label="89.3/90"]:0.023268,WAQ14052_hemagglutinin__Influenza_B_virus_:0.031063)[&label="76.9/85"]:0.086572,DBA45486_TPA_asm:1.970074)[&label="92.1/48"]:0.259769,(AVM87624_hemagglutinin:0.492181,QOE76814_hemagglutinin__Salamander_influenza-like_virus_:0.492474)[&label="89.5/84"]:0.093183)[&label="93.9/46"]:0.146677,((((((UTQ48798_hemagglutinin__Quaranjavirus_quaranfilense_:0.150567,QHR77128_hemagglutinin__Quaranjavirus_johnstonense_:0.183843)[&label="100/100"]:0.435828,AIY25033_hemagglutinin_protein__Wellfleet_Bay_virus_:0.435212)[&label="90.1/95"]:0.247056,ASR92126_hemagglutinin_protein__Araguari_virus_:0.24275)[&label="100/100"]:1.881135,(DBA45494_TPA_asm:0.72893,(((BEV70497_hemagglutinin-esterase-fusion_glycoprotein__Influenza_D_virus_:0.020942,BEV21338_hemagglutinin-esterase__Influenza_D_virus_:0.027777)[&label="100/100"]:0.339284,((BCS51538_hemagglutinin-esterase:0.016235,BCS51529_hemagglutinin-esterase:0.004463)[&label="82.9/89"]:0.006871,BAA06095_hemagglutinin_esterase:0.003562)[&label="100/100"]:0.380427)[&label="65.2/64"]:0.075159,(QOE76799_hemagglutinin-esterase__Ornate_chorus_frog_influenza-like_virus_:0.18412,QOE76822_hemagglutinin-esterase:0.232903)[&label="100/100"]:0.409647)[&label="92.4/84"]:0.175157)[&label="90.3/87"]:0.258871)[&label="72.6/61"]:0.182339,DBA45440_TPA_asm:1.782762)[&label="79.9/55"]:0.252802,((HCDF01005257_Clavelina_lepadiformis_HA:0.572211,'k141_9988_flag1_multi23.0000_len2193_SRR7503162_HA':0.627859)[&label="100/100"]:0.874615,'k141_7478_flag1_multi5.0000_len2280_ERR10378036':1.581228)[&label="62.5/71"]:0.254488)[&label="100/95"]:0.786818)[&label="74.2/76"]:0.134378,(QOE76806_hemagglutinin__Siamese_algae-eater_influenza-like_virus_:0.673087,QOE76830_hemagglutinin__Chum_salmon_influenza-like_virus_:0.812067)[&label="17/50"]:0.119159)[&label="93.3/91"]:0.206505,AVM87632_hemagglutinin__Wuhan_asiatic_toad_influenza_virus_:1.090833)[&label="99.9/100"]:0.351052)[&label="100/100"]:0.256175,WYD72859_hemagglutinin__Influenza_A_virus_:0.233492);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=842;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

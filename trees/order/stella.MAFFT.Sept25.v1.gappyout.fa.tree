@@ -1,0 +1,393 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=291;
+	taxlabels
+	'AAF60952.Avastrovirus_3.Astroviridae'
+	'ADJ56369.Astrovirus_VA1.Astroviridae'
+	'ADP21510.Porcine_astrovirus_PAstV-2_2007_HUN.Astroviridae'
+	'ADR65075.Mamastrovirus_10.Astroviridae'
+	'AEM37615.California_sea_lion_astrovirus_4.Astroviridae'
+	'AEM37633.California_sea_lion_astrovirus_10.Astroviridae'
+	'AGK45543.Fox_astrovirus.Astroviridae'
+	'AHX26591.Duck_astrovirus.Astroviridae'
+	'AII82242.Mamastrovirus_2.Astroviridae'
+	'AJA30077.Astrovirus_Pygoscelis_DT_2012.Astroviridae'
+	'ANI20910.Duck_hepatitis_virus_3.Astroviridae'
+	'APB03098.Astrovirus_MLB2.Astroviridae'
+	'APQ41656.Canine_astrovirus.Astroviridae'
+	'ARU76989.Mamastrovirus_3.Astroviridae'
+	'AVM87138.Wenling_banjofish_astrovirus.Astroviridae'
+	'AVM87141.Beihai_cephalopholis_spiloparaea_astrovirus.Astroviridae'
+	'AVM87143.Dongtou_red_stingray_astrovirus.Astroviridae'
+	'AVM87145.Dongbei_arctic_lamprey_astrovirus_2.Astroviridae'
+	'AVM87148.Dongbei_arctic_lamprey_astrovirus_4.Astroviridae'
+	'AVM87150.Wenling_rattails_astrovirus_1.Astroviridae'
+	'AVM87153.Wenling_rattails_astrovirus_4.Astroviridae'
+	'AVM87155.Wenling_rattails_astrovirus_5.Astroviridae'
+	'AVM87156.Wenling_lepidotrigla_astrovirus.Astroviridae'
+	'AVM87158.Wenling_pterygotrigla_hemisticta_astrovirus.Astroviridae'
+	'AVM87160.Wuhan_asiatic_toad_astrovirus.Astroviridae'
+	'AVM87162.Hainan_marbled_pigmy_frog_astrovirus_1.Astroviridae'
+	'AVM87164.Hainan_black-spectacled_toad_astrovirus_2.Astroviridae'
+	'AVM87166.Huanan_hylidae_astrovirus.Astroviridae'
+	'AVM87168.Fujian_spotted_paddle-tail_newt_astrovirus.Astroviridae'
+	'AVM87170.Zhejiang_chinese_fire_belly_newt_astrovirus_1.Astroviridae'
+	'AVM87172.Zhejiang_chinese_fire_belly_newt_astrovirus_3.Astroviridae'
+	'AVM87174.Wenling_longspine_snipefish_astrovirus.Astroviridae'
+	'AVM87176.Wenling_plagiopsetta_astrovirus.Astroviridae'
+	'AVM87178.Wenling_crossorhombus_astrovirus_1.Astroviridae'
+	'AVM87180.Wenling_crossorhombus_astrovirus_2.Astroviridae'
+	'AVM87184.Wenling_yellow-striped_sandperch_astrovirus.Astroviridae'
+	'AVM87186.Yancheng_grey_stingfish_astrovirus.Astroviridae'
+	'AVM87188.Beihai_tree_frog_astrovirus.Astroviridae'
+	'AVM87190.Guangxi_changeable_lizard_astrovirus.Astroviridae'
+	'AVM87192.Wenling_japanese_topeshark_astrovirus.Astroviridae'
+	'AVM87484.Wuhan_japanese_halfbeak_astrovirus.Astroviridae'
+	'AVM87494.Wenzhou_pacific_spadenose_shark_astrovirus_2.Astroviridae'
+	'AVM87496.Dongbei_arctic_lamprey_astrovirus_1.Astroviridae'
+	'AVM87498.Wenling_snipefish_astrovirus.Astroviridae'
+	'AVM87501.Wenling_rattails_astrovirus_3.Astroviridae'
+	'AVM87503.Wenling_japanese_thread-sail_fish_astrovirus.Astroviridae'
+	'AVM87505.Guangdong_sanke_astrovirus.Astroviridae'
+	'AVM87507.Hainan_leptobrachium_hainanense_astrovirus.Astroviridae'
+	'AVM87509.Yili_teratoscincus_roborowskii_astrovirus.Astroviridae'
+	'AVM87511.Hainan_marbled_pigmy_frog_astrovirus_2.Astroviridae'
+	'AVM87513.Zhejiang_chinese_fire_belly_newt_astrovirus_2.Astroviridae'
+	'AVM87517.Hainan_gekko_similignum_astrovirus.Astroviridae'
+	'AVM87518.Hainan_oriental_leaf-toed_gecko_astrovirus_1.Astroviridae'
+	'AVM87520.Hainan_oriental_leaf-toed_gecko_astrovirus_2.Astroviridae'
+	'AVM87522.Guangdong_chinese_water_skink_astrovirus.Astroviridae'
+	'AVM87524.Wenling_bighead_beaked_sandfish_astrovirus.Astroviridae'
+	'AVM87528.Beihai_fish_astrovirus_1.Astroviridae'
+	'AVM87530.Beihai_tree_frog_astrovirus.Astroviridae'
+	'AVM87532.Nanhai_ghost_shark_astrovirus_1.Astroviridae'
+	'AVM87534.Nanhai_ghost_shark_astrovirus_2.Astroviridae'
+	'AVM87601.Dongbei_arctic_lamprey_astrovirus_3.Astroviridae'
+	'AVM87603.Wenzhou_pacific_spadenose_shark_astrovirus_3.Astroviridae'
+	'AVM87605.Wenling_rattails_astrovirus_2.Astroviridae'
+	'AVM87607.Wenling_righteye_flounders_astrovirus.Astroviridae'
+	'AVM87609.Guangdong_chinese_water_snake_astrovirus.Astroviridae'
+	'AVM87611.Zhejiang_gunthers_frog_astrovirus.Astroviridae'
+	'AVX29488.Marmot_astrovirus_2.Astroviridae'
+	'AVX29491.Marmot_astrovirus_3.Astroviridae'
+	'AWV67085.Bat_astrovirus.Astroviridae'
+	'AYN07252.Goat_astrovirus.Astroviridae'
+	'AYU58606.Eastern_red_scorpionfish_astrovirus.Astroviridae'
+	'BAS29616.Bovine_astrovirus.Astroviridae'
+	'BAX00213.Porcine_astrovirus_4.Astroviridae'
+	'CAB95003.Mamastrovirus_13.Astroviridae'
+	'CAB95006.Avastrovirus_1.Astroviridae'
+	'CUI02221.Bovine_astrovirus.Astroviridae'
+	'DBA48501.Bunastrovirus_betta10698.Astroviridae'
+	'MP12.k141_82519'[&!color=#ff0080]
+	'QAT19947.Mamastrovirus_1.Astroviridae'
+	'QBJ01389.Mamastrovirus_3.Astroviridae'
+	'QBJ01452.Mamastrovirus_3.Astroviridae'
+	'QBJ04608.Tasmanian_devil-associated_astrovirus_1.Astroviridae'
+	'QCO31422.Passerine_astrovirus_1.Astroviridae'
+	'QCO31425.Passerine_astrovirus_2.Astroviridae'
+	'QCO31428.Passerine_astrovirus_3.Astroviridae'
+	'QCO31431.Passerine_astrovirus_4.Astroviridae'
+	'QCP68856.Ruddy_turnstone_astrovirus.Astroviridae'
+	'QDH87307.Astroviridae_sp..Astroviridae'
+	'QDH87562.Astroviridae_sp..Astroviridae'
+	'QDH88137.Astroviridae_sp..Astroviridae'
+	'QDH88207.Astroviridae_sp..Astroviridae'
+	'QDH88834.Astroviridae_sp..Astroviridae'
+	'QDH89315.Astroviridae_sp..Astroviridae'
+	'QDH90753.Astroviridae_sp..Astroviridae'
+	'QDH91500.Astroviridae_sp..Astroviridae'
+	'QDY92123.Mamastrovirus_1.Astroviridae'
+	'QHG11393.Astrovirus_sp..Astroviridae'
+	'QII88294.White-tailed_deer_astrovirus.Astroviridae'
+	'QJF11792.Grey_squirrel_astrovirus.Astroviridae'
+	'QJI53417.Astroviridae_sp..Astroviridae'
+	'QJI53420.Astroviridae_sp..Astroviridae'
+	'QJI53423.Astroviridae_sp..Astroviridae'
+	'QJI53432.Astroviridae_sp..Astroviridae'
+	'QJI53438.Astroviridae_sp..Astroviridae'
+	'QKN88799.Astroviridae_sp..Astroviridae'
+	'QKN88802.Astroviridae_sp..Astroviridae'
+	'QKN88805.Astroviridae_sp..Astroviridae'
+	'QKN88808.Astroviridae_sp..Astroviridae'
+	'QKN88811.Astroviridae_sp..Astroviridae'
+	'QKN88814.Astroviridae_sp..Astroviridae'
+	'QKN88817.Astroviridae_sp..Astroviridae'
+	'QKN88820.Astroviridae_sp..Astroviridae'
+	'QKN88826.Astroviridae_sp..Astroviridae'
+	'QKN88835.Astroviridae_sp..Astroviridae'
+	'QKN88838.Astroviridae_sp..Astroviridae'
+	'QKN88841.Astroviridae_sp..Astroviridae'
+	'QKN88847.Astroviridae_sp..Astroviridae'
+	'QKN88920.Astroviridae_sp..Astroviridae'
+	'QKN88923.Astroviridae_sp..Astroviridae'
+	'QKN88926.Astroviridae_sp..Astroviridae'
+	'QKN88929.Astroviridae_sp..Astroviridae'
+	'QKN88935.Astroviridae_sp..Astroviridae'
+	'QKX49055.Astrovirus_sp..Astroviridae'
+	'QOR29562.Bat_astrovirus.Astroviridae'
+	'QPD02145.Mamastrovirus_4.Astroviridae'
+	'QPI69528.Feline_astrovirus_3.Astroviridae'
+	'QQJ42399.Bat_astrovirus.Astroviridae'
+	'QRV59627.Big_eyed_perch_astrovirus_FL2.Astroviridae'
+	'QTZ20035.Raccoon_dog_astrovirus.Astroviridae'
+	'QUF61504.Murray-Darling_rainbowfish_astrovirus.Astroviridae'
+	'QUS52559.Mute_swan_feces_associated_avastrovius_1.Astroviridae'
+	'QUS52565.Mute_swan_feces_associated_avastrovius_2.Astroviridae'
+	'QVY10201.Mamastrovirus_HMU-1.Astroviridae'
+	'QXO14921.Chicken_astrovirus.Astroviridae'
+	'QXV86345.Avastrovirus_sp..Astroviridae'
+	'QXV86415.Mamastrovirus_sp..Astroviridae'
+	'QXV86504.Avastrovirus_sp..Astroviridae'
+	'QXV86507.Avastrovirus_sp..Astroviridae'
+	'QXV86603.Mamastrovirus_sp..Astroviridae'
+	'QYJ54464.Astroviridae_sp..Astroviridae'
+	'QYJ54474.Astroviridae_sp..Astroviridae'
+	'QYJ54475.Astroviridae_sp..Astroviridae'
+	'SNQ28002.Mamastrovirus_3.Astroviridae'
+	'UBY12857.Astroviridae_sp..Astroviridae'
+	'UCS96441.Astroviridae_sp..Astroviridae'
+	'UCS96446.Astroviridae_sp..Astroviridae'
+	'UCS96448.Astroviridae_sp..Astroviridae'
+	'UCW36903.Astroviridae_sp..Astroviridae'
+	'UCW36906.Astroviridae_sp..Astroviridae'
+	'UCW36907.Astroviridae_sp..Astroviridae'
+	'UCW36911.Astroviridae_sp..Astroviridae'
+	'UDB45808.Rabbit_astrovirus.Astroviridae'
+	'UEC95828.Bovine_astrovirus.Astroviridae'
+	'UGO57102.Pyongtaek_Culex_bastrovirus.Astroviridae'
+	'UHK03192.Hangzhou_astrovirus_1.Astroviridae'
+	'UIW24839.Goose_astrovirus_2.Astroviridae'
+	'UIX56551.Goose_astrovirus_1.Astroviridae'
+	'ULF47994.Bamboo_rat_astrovirus.Astroviridae'
+	'ULR75182.Coypu_astrovirus_1.Astroviridae'
+	'ULR75186.Coypu_astrovirus_2.Astroviridae'
+	'UMO75520.Mamastrovirus_3.Astroviridae'
+	'UMO75824.Henan_mamastrovirus_3.Astroviridae'
+	'UMO75847.Sichuan_mamastrovirus_5.Astroviridae'
+	'UMO75857.Sichuan_mamastrovirus_8.Astroviridae'
+	'UMO75860.Xinjiang_mamastrovirus_3.Astroviridae'
+	'UNA01413.Porcupine_astrovirus_2.Astroviridae'
+	'UNJ12753.Duck_astrovirus.Astroviridae'
+	'UNJ19224.Toitoi_astrovirus_1.Astroviridae'
+	'UNJ19229.Porure_astrovirus_1.Astroviridae'
+	'UQB75981.Flumine_Astrovirus_10.Astroviridae'[&!color=#cc66ff]
+	'UQB75982.Flumine_Astrovirus_12.Astroviridae'[&!color=#cc66ff]
+	'UQB75983.Flumine_Astrovirus_2.Astroviridae'[&!color=#cc66ff]
+	'UQB75984.Flumine_Astrovirus_22.Astroviridae'[&!color=#cc66ff]
+	'UQB75985.Flumine_Astrovirus_25.Astroviridae'[&!color=#cc66ff]
+	'UQB75986.Flumine_Astrovirus_4.Astroviridae'[&!color=#cc66ff]
+	'UQB75987.Flumine_Astrovirus_5.Astroviridae'[&!color=#cc66ff]
+	'UQB75988.Flumine_Astrovirus_6.Astroviridae'[&!color=#cc66ff]
+	'UQB75989.Flumine_Astrovirus_7.Astroviridae'[&!color=#cc66ff]
+	'UQB75990.Flumine_Astrovirus_8.Astroviridae'[&!color=#cc66ff]
+	'UQB75991.Flumine_Astrovirus_9.Astroviridae'[&!color=#cc66ff]
+	'UQB75992.Flumine_Bastrovirus_1.Astroviridae'[&!color=#cc66ff]
+	'UQB75993.Flumine_Bastrovirus_3.Astroviridae'[&!color=#cc66ff]
+	'UQB76161.Flumine_Astrovirus_11.Astroviridae'[&!color=#cc66ff]
+	'UQB76162.Flumine_Astrovirus_13.Astroviridae'[&!color=#cc66ff]
+	'UQB76163.Flumine_Astrovirus_14.Astroviridae'[&!color=#cc66ff]
+	'UQB76165.Flumine_Astrovirus_16.Astroviridae'[&!color=#cc66ff]
+	'UQB76168.Flumine_Astrovirus_19.Astroviridae'[&!color=#cc66ff]
+	'UQB76169.Flumine_Astrovirus_20.Astroviridae'[&!color=#cc66ff]
+	'UQB76172.Flumine_Astrovirus_3.Astroviridae'[&!color=#cc66ff]
+	'USL90197.Astrovirus_sp..Astroviridae'
+	'UVF58755.Istigobius_nigroocellatus_astrovirus.Astroviridae'
+	'UVF58764.Goby_astrovirus_3.Astroviridae'
+	'UVW93785.Crow_astrovirus.Astroviridae'
+	'UVW93787.Crow_astrovirus.Astroviridae'
+	'UWK09061.Gerbil_astrovirus.Astroviridae'
+	'UZG75484.Porcine_astrovirus_1.Astroviridae'
+	'UZH25307.Mamastrovirus_3.Astroviridae'
+	'UZH25322.Mamastrovirus_3.Astroviridae'
+	'UZH25325.Mamastrovirus_3.Astroviridae'
+	'UZV41864.Mamastrovirus_2.Astroviridae'
+	'WAY16550.Stellavirales_sp..'
+	'WAY16553.Stellavirales_sp..'
+	'WBM84730.Bat_astrovirus_2.Astroviridae'
+	'WBM84732.Bat_astrovirus_3.Astroviridae'
+	'WBM84736.Bat_astrovirus_5.Astroviridae'
+	'WBM84738.Bat_astrovirus_6.Astroviridae'
+	'WBM84743.Bat_astrovirus_10.Astroviridae'
+	'WBV74329.Bat_astrovirus_BtSY5.Astroviridae'
+	'WDW25706.Canine_astrovirus.Astroviridae'
+	'WDW25709.Canine_astrovirus.Astroviridae'
+	'WDW25712.Canine_astrovirus.Astroviridae'
+	'WDW25721.Canine_astrovirus.Astroviridae'
+	'WEU38133.Mamastrovirus_1.Astroviridae'
+	'WEY02619.Goose_astrovirus.Astroviridae'
+	'WEY37092.Hippocampus_erectus_astro-like_virus_1.Astroviridae'
+	'WFD49989.Bamboo_rat_astrovirus.Astroviridae'
+	'WFG33633.Bat_astrovirus.Astroviridae'
+	'WFG33636.Bat_astrovirus.Astroviridae'
+	'WGC86356.Bat_picornavirus_WD1.Astroviridae'
+	'WGC86358.Bat_picornavirus_BS2.Astroviridae'
+	'WGC86359.Bat_picornavirus_CX8.Astroviridae'
+	'WGC86361.Bat_picornavirus_LS1.Astroviridae'
+	'WGC86362.Bat_picornavirus_WD2.Astroviridae'
+	'WHO17424.Mamastrovirus_sp..Astroviridae'
+	'WIM33499.Bovine_astrovirus.Astroviridae'
+	'WIM51729.Bat_astrovirus_ZK1.Astroviridae'
+	'WIM51730.Bat_astrovirus_BS1.Astroviridae'
+	'WKU83420.Astroviridae_sp..Astroviridae'
+	'WLJ60736.Porure_astrovirus_1.Astroviridae'
+	'WLJ60740.Retropinna_astrovirus_1.Astroviridae'
+	'WLN26237.Xenotilapia_boulengeri_astrovirus.Astroviridae'
+	'WLN26238.Enantiopus_melanogenys_astrovirus.Astroviridae'
+	'WLN26241.Xenotilapia_nasus_astrovirus_1.Astroviridae'
+	'WLN26242.Xenotilapia_nasus_astrovirus_2.Astroviridae'
+	'WLN26243.Benthochromis_horii_astrovirus.Astroviridae'
+	'WLN26244.Limnochromis_auritus_astrovirus.Astroviridae'
+	'WNO11817.Astroviridae_sp..Astroviridae'
+	'WOC95067.Chicken_astrovirus.Astroviridae'
+	'WOK58275.Jingmen_bat_astrovirus_1.Astroviridae'
+	'WOK58279.Jingmen_bat_astrovirus_2.Astroviridae'
+	'WOK58284.Jingmen_bat_astrovirus_4.Astroviridae'
+	'WOK58286.Jingmen_bat_astrovirus_5.Astroviridae'
+	'WOK58290.Jingmen_bat_astrovirus_8.Astroviridae'
+	'WOK58297.Jingmen_bat_astrovirus_9.Astroviridae'
+	'WOK58300.Jingmen_bat_astrovirus_11.Astroviridae'
+	'WOK58305.Jingmen_bat_astrovirus_12.Astroviridae'
+	'WOK58311.Jingmen_rodent_astrovirus_1.Astroviridae'
+	'WOK58314.Jingmen_rodent_astrovirus_2.Astroviridae'
+	'WOK58317.Jingmen_rodent_astrovirus_2.Astroviridae'
+	'WOK58320.Jingmen_rodent_astrovirus_2.Astroviridae'
+	'WOK58338.Jingmen_rodent_astrovirus_3.Astroviridae'
+	'WOK58354.Jingmen_shrew_astrovirus_1.Astroviridae'
+	'WOK58359.Longquan_bat_astrovirus_1.Astroviridae'
+	'WOK58361.Longquan_bat_astrovirus_2.Astroviridae'
+	'WOK58363.Longquan_rodent_astrovirus_1.Astroviridae'
+	'WOK58369.Longquan_rodent_astrovirus_2.Astroviridae'
+	'WOK58375.Wenzhou_bat_astrovirus_1.Astroviridae'
+	'WOK58378.Wenzhou_bat_astrovirus_2.Astroviridae'
+	'WOK58394.Wenzhou_bat_astrovirus_3.Astroviridae'
+	'WOK58399.Wenzhou_bat_astrovirus_4.Astroviridae'
+	'WOK58401.Wenzhou_rodent_astrovirus_1.Astroviridae'
+	'WOK58411.Wufeng_shrew_astrovirus_1.Astroviridae'
+	'WOV94024.Bat_astrovirus.Astroviridae'
+	'WOV94027.Bat_astrovirus.Astroviridae'
+	'WOV94045.Bat_astrovirus.Astroviridae'
+	'WOV94056.Bat_astrovirus.Astroviridae'
+	'WOV94059.Bat_astrovirus.Astroviridae'
+	'WOV94062.Bat_astrovirus.Astroviridae'
+	'WOX58987.Rodent_astrovirus.Astroviridae'
+	'WPX51682.Duck_astrovirus.Astroviridae'
+	'WPX56562.Duck_astrovirus_CPH.Astroviridae'
+	'WYV95587.Goat_astrovirus.Astroviridae'
+	'WYV95591.Goat_astrovirus.Astroviridae'
+	'YP_002290967.Astrovirus_MLB1.Astroviridae'
+	'YP_002728002.Duck_astrovirus_C-NGB.Astroviridae'
+	'YP_006905856.Astrovirus_VA4.Astroviridae'
+	'YP_006905859.Astrovirus_VA3.Astroviridae'
+	'YP_007003830.Porcine_astrovirus_3.Astroviridae'
+	'YP_009010968.Porcine_astrovirus_5.Astroviridae'
+	'YP_009047078.Human_astrovirus_BF34.Astroviridae'
+	'YP_009052461.Feline_astrovirus_D1.Astroviridae'
+	'YP_009130648.Canine_astrovirus.Astroviridae'
+	'YP_009154706.Astrovirus_Er_SZAL6_HUN_2011.Astroviridae'
+	'YP_009345898.Qinghai_Himalayan_marmot_astrovirus_1.Astroviridae'
+	'YP_009664775.Bottlenose_dolphin_astrovirus_1.Astroviridae'
+	'k141_15586_flag1_multi4.7194_len2764_SRR10743032'
+	'k141_21442_flag1_multi11.0000_len6485_SRR10743033'
+	'k141_23665_flag1_multi80.0000_len2378_SRR18265385'
+	'k141_29714_flag1_multi5829.0000_len6823_SRR10743032'
+	'k141_9918_flag1_multi8.0000_len3619_SRR10743035'
+	'k99_62_flag1_multi9.0000_len3831_SRR1324899'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('MP12.k141_82519':0.695431,'k141_23665_flag1_multi80.0000_len2378_SRR18265385':0.776756,(((('DBA48501.Bunastrovirus_betta10698.Astroviridae':0.297363,('WLN26237.Xenotilapia_boulengeri_astrovirus.Astroviridae':0.032641,'WLN26238.Enantiopus_melanogenys_astrovirus.Astroviridae':0.129735)[&label="99.2/100"]:0.189167)[&label="99/100"]:0.309912,'QUF61504.Murray-Darling_rainbowfish_astrovirus.Astroviridae':0.693547)[&label="99.8/100"]:0.715443,('WOK58275.Jingmen_bat_astrovirus_1.Astroviridae':0.511282,(((('WLN26241.Xenotilapia_nasus_astrovirus_1.Astroviridae':0.076092,('WLN26243.Benthochromis_horii_astrovirus.Astroviridae':0.114613,'WLN26244.Limnochromis_auritus_astrovirus.Astroviridae':0.083248)[&label="71.1/78"]:0.041723)[&label="100/100"]:0.243617,'WLN26242.Xenotilapia_nasus_astrovirus_2.Astroviridae':0.253129)[&label="27/60"]:0.080341,('UNJ19229.Porure_astrovirus_1.Astroviridae':2.0E-6,'WLJ60736.Porure_astrovirus_1.Astroviridae':0.005293)[&label="99.8/100"]:0.229161)[&label="99.8/99"]:0.231576,'UNJ19224.Toitoi_astrovirus_1.Astroviridae':0.567203)[&label="33.4/56"]:0.114067)[&label="98.4/97"]:0.490865)[&label="52.2/78"]:0.391582,(((((((('UQB75983.Flumine_Astrovirus_2.Astroviridae':0.43138,'QDH89315.Astroviridae_sp..Astroviridae':0.70553)[&label="100/100"]:2.302621,('UQB75986.Flumine_Astrovirus_4.Astroviridae':0.560418,'UQB75991.Flumine_Astrovirus_9.Astroviridae':0.460776)[&label="100/100"]:1.067755)[&label="95.2/74"]:0.623733,(('QDH88834.Astroviridae_sp..Astroviridae':1.971981,'QDH88137.Astroviridae_sp..Astroviridae':2.099539)[&label="98.3/95"]:0.907388,((((('WGC86356.Bat_picornavirus_WD1.Astroviridae':0.287433,'WGC86362.Bat_picornavirus_WD2.Astroviridae':0.357014)[&label="61.6/67"]:0.113548,('WGC86358.Bat_picornavirus_BS2.Astroviridae':0.12347,'WGC86361.Bat_picornavirus_LS1.Astroviridae':0.199004)[&label="99.1/100"]:0.265919)[&label="98.5/100"]:0.374919,'WGC86359.Bat_picornavirus_CX8.Astroviridae':0.881644)[&label="29.6/56"]:0.305218,'ANI20910.Duck_hepatitis_virus_3.Astroviridae':0.694116)[&label="99.9/100"]:1.668871,((((('UQB75992.Flumine_Bastrovirus_1.Astroviridae':0.282079,'UQB75993.Flumine_Bastrovirus_3.Astroviridae':0.136668)[&label="98.1/98"]:0.13196,'QYJ54464.Astroviridae_sp..Astroviridae':0.192119)[&label="89.6/88"]:0.082164,('QYJ54475.Astroviridae_sp..Astroviridae':2.0E-6,'QYJ54474.Astroviridae_sp..Astroviridae':3.0E-6)[&label="99.7/100"]:0.209001)[&label="85.8/98"]:0.364864,'UGO57102.Pyongtaek_Culex_bastrovirus.Astroviridae':0.612602)[&label="99.8/100"]:2.458851,'WOV94062.Bat_astrovirus.Astroviridae':2.936018)[&label="95/99"]:1.765526)[&label="37.2/52"]:0.366202)[&label="34/43"]:0.328416)[&label="81.2/50"]:0.168567,(('UQB75985.Flumine_Astrovirus_25.Astroviridae':1.373725,((('UQB75987.Flumine_Astrovirus_5.Astroviridae':0.455057,'UQB75990.Flumine_Astrovirus_8.Astroviridae':0.654491)[&label="47/56"]:0.084929,'UQB76169.Flumine_Astrovirus_20.Astroviridae':0.893735)[&label="96.5/96"]:0.238583,('UQB76172.Flumine_Astrovirus_3.Astroviridae':0.337884,'UQB76163.Flumine_Astrovirus_14.Astroviridae':0.598724)[&label="93/93"]:0.262387)[&label="99.5/100"]:0.677557)[&label="87.9/76"]:0.217784,('WOK58361.Longquan_bat_astrovirus_2.Astroviridae':1.303639,'QDH88207.Astroviridae_sp..Astroviridae':0.973121)[&label="99.7/100"]:0.821861)[&label="90.2/75"]:0.203835)[&label="95.6/58"]:0.212074,(((('WAY16550.Stellavirales_sp..':0.98866,'UQB75982.Flumine_Astrovirus_12.Astroviridae':0.711885)[&label="77.7/79"]:0.263731,(('UQB75989.Flumine_Astrovirus_7.Astroviridae':0.440531,('UQB76168.Flumine_Astrovirus_19.Astroviridae':0.559053,('UQB76161.Flumine_Astrovirus_11.Astroviridae':0.974922,'UQB76165.Flumine_Astrovirus_16.Astroviridae':0.905581)[&label="72.1/74"]:0.181729)[&label="91.5/88"]:0.187244)[&label="97.1/99"]:0.327041,'UBY12857.Astroviridae_sp..Astroviridae':1.272322)[&label="98/99"]:0.379514)[&label="97.9/100"]:0.464313,((('UQB75984.Flumine_Astrovirus_22.Astroviridae':0.502569,'QDH87307.Astroviridae_sp..Astroviridae':0.672259)[&label="79.2/80"]:0.195895,'UQB76162.Flumine_Astrovirus_13.Astroviridae':0.8364)[&label="97.1/96"]:0.391376,'WAY16553.Stellavirales_sp..':1.23382)[&label="93.4/98"]:0.260227)[&label="97.4/97"]:0.50926,((('UQB75981.Flumine_Astrovirus_10.Astroviridae':0.816368,'QDH91500.Astroviridae_sp..Astroviridae':0.68675)[&label="73/75"]:0.212651,'UQB75988.Flumine_Astrovirus_6.Astroviridae':0.627213)[&label="99.5/100"]:1.152895,'QDH87562.Astroviridae_sp..Astroviridae':3.44069)[&label="84.9/89"]:0.640003)[&label="90.5/81"]:0.287679)[&label="24.3/35"]:0.136203,'QDH90753.Astroviridae_sp..Astroviridae':2.254433)[&label="37.7/29"]:0.090345,(((('k141_15586_flag1_multi4.7194_len2764_SRR10743032':0.029692,('k141_21442_flag1_multi11.0000_len6485_SRR10743033':2.0E-6,'k141_9918_flag1_multi8.0000_len3619_SRR10743035':2.0E-6)[&label="89.7/100"]:0.018421)[&label="78.1/97"]:0.044206,'k141_29714_flag1_multi5829.0000_len6823_SRR10743032':0.041703)[&label="100/100"]:1.076223,('k99_62_flag1_multi9.0000_len3831_SRR1324899':0.654947,'WOV94024.Bat_astrovirus.Astroviridae':5.417256)[&label="73.8/93"]:0.432282)[&label="100/100"]:1.422104,(((((((((((('YP_009664775.Bottlenose_dolphin_astrovirus_1.Astroviridae':0.237863,(((('YP_009130648.Canine_astrovirus.Astroviridae':3.0E-6,'APQ41656.Canine_astrovirus.Astroviridae':0.210438)[&label="100/100"]:0.208196,('AEM37615.California_sea_lion_astrovirus_4.Astroviridae':0.0492,'AEM37633.California_sea_lion_astrovirus_10.Astroviridae':0.130956)[&label="98.7/100"]:0.078638)[&label="58.4/64"]:0.043555,'QTZ20035.Raccoon_dog_astrovirus.Astroviridae':0.137262)[&label="97.7/98"]:0.0663,(('WEU38133.Mamastrovirus_1.Astroviridae':0.007817,('QDY92123.Mamastrovirus_1.Astroviridae':2.0E-6,'QAT19947.Mamastrovirus_1.Astroviridae':0.008372)[&label="91.1/100"]:0.037568)[&label="98.6/100"]:0.082529,(('UZV41864.Mamastrovirus_2.Astroviridae':0.018646,'AII82242.Mamastrovirus_2.Astroviridae':0.029499)[&label="79.4/76"]:0.014796,'UZG75484.Porcine_astrovirus_1.Astroviridae':0.050911)[&label="100/100"]:0.102164)[&label="99.2/100"]:0.084472)[&label="97.1/98"]:0.069594)[&label="99.8/100"]:0.142513,((('YP_009345898.Qinghai_Himalayan_marmot_astrovirus_1.Astroviridae':0.192065,'AYN07252.Goat_astrovirus.Astroviridae':0.106167)[&label="100/100"]:0.255169,('YP_002290967.Astrovirus_MLB1.Astroviridae':0.130292,'APB03098.Astrovirus_MLB2.Astroviridae':0.086785)[&label="100/100"]:0.272846)[&label="87.4/86"]:0.07106,(('WDW25721.Canine_astrovirus.Astroviridae':0.090374,'UDB45808.Rabbit_astrovirus.Astroviridae':0.083444)[&label="99.9/100"]:0.16114,'AVX29488.Marmot_astrovirus_2.Astroviridae':0.323922)[&label="96.9/98"]:0.099622)[&label="91.8/86"]:0.045924)[&label="30.1/19"]:0.016725,(((('YP_009154706.Astrovirus_Er_SZAL6_HUN_2011.Astroviridae':0.22132,'QHG11393.Astrovirus_sp..Astroviridae':0.175727)[&label="94.6/93"]:0.055954,('QXV86415.Mamastrovirus_sp..Astroviridae':0.27929,'QXV86603.Mamastrovirus_sp..Astroviridae':0.247203)[&label="85/75"]:0.042838)[&label="51.1/58"]:0.037543,('ULR75182.Coypu_astrovirus_1.Astroviridae':0.241756,('WOK58338.Jingmen_rodent_astrovirus_3.Astroviridae':0.333139,'WOX58987.Rodent_astrovirus.Astroviridae':0.30822)[&label="12.7/40"]:0.04977)[&label="87.2/64"]:0.04086)[&label="85.1/71"]:0.05642,(((((((((('UZH25307.Mamastrovirus_3.Astroviridae':0.052126,('UMO75824.Henan_mamastrovirus_3.Astroviridae':0.012378,'BAX00213.Porcine_astrovirus_4.Astroviridae':0.019362)[&label="86.9/79"]:0.006351)[&label="85.4/82"]:0.010834,'QPD02145.Mamastrovirus_4.Astroviridae':0.030318)[&label="68.2/54"]:0.013255,'UMO75847.Sichuan_mamastrovirus_5.Astroviridae':0.015171)[&label="0/52"]:3.0E-6,'QBJ01389.Mamastrovirus_3.Astroviridae':2.0E-6)[&label="92.1/100"]:0.072629,'UMO75860.Xinjiang_mamastrovirus_3.Astroviridae':0.085824)[&label="98.4/98"]:0.074876,'UWK09061.Gerbil_astrovirus.Astroviridae':0.226521)[&label="81.3/76"]:0.047248,(((('WOK58314.Jingmen_rodent_astrovirus_2.Astroviridae':0.085429,'WOK58320.Jingmen_rodent_astrovirus_2.Astroviridae':0.058906)[&label="63.7/70"]:0.033714,'WOK58317.Jingmen_rodent_astrovirus_2.Astroviridae':0.088033)[&label="99.5/100"]:0.080349,'WOK58411.Wufeng_shrew_astrovirus_1.Astroviridae':0.1177)[&label="94.2/94"]:0.042933,'WOK58311.Jingmen_rodent_astrovirus_1.Astroviridae':0.211946)[&label="87.5/81"]:0.028386)[&label="39.8/57"]:0.030277,('WOK58363.Longquan_rodent_astrovirus_1.Astroviridae':0.134979,('QJF11792.Grey_squirrel_astrovirus.Astroviridae':0.165577,'AVX29491.Marmot_astrovirus_3.Astroviridae':0.076381)[&label="100/100"]:0.167608)[&label="95.9/86"]:0.077528)[&label="52.7/71"]:0.030467,'WOK58369.Longquan_rodent_astrovirus_2.Astroviridae':0.152363)[&label="99/100"]:0.089535,'WDW25712.Canine_astrovirus.Astroviridae':0.522145)[&label="92.2/76"]:0.046116)[&label="93.7/65"]:0.043633)[&label="75.6/26"]:0.040566,((((('WYV95587.Goat_astrovirus.Astroviridae':0.144441,('WYV95591.Goat_astrovirus.Astroviridae':0.074413,(('WIM33499.Bovine_astrovirus.Astroviridae':0.054162,(('WNO11817.Astroviridae_sp..Astroviridae':0.004626,'WDW25709.Canine_astrovirus.Astroviridae':0.1909)[&label="100/100"]:0.145258,'WDW25706.Canine_astrovirus.Astroviridae':0.008694)[&label="92.8/78"]:0.023438)[&label="68.6/54"]:0.016442,'QII88294.White-tailed_deer_astrovirus.Astroviridae':0.043552)[&label="75.8/63"]:0.024011)[&label="76/82"]:0.038722)[&label="95.4/92"]:0.041801,'UZH25322.Mamastrovirus_3.Astroviridae':0.064772)[&label="78.8/73"]:0.025452,(('UZH25325.Mamastrovirus_3.Astroviridae':0.036073,'SNQ28002.Mamastrovirus_3.Astroviridae':0.038357)[&label="90.5/56"]:0.017732,'UMO75857.Sichuan_mamastrovirus_8.Astroviridae':0.028959)[&label="81.8/54"]:0.01389)[&label="96.6/78"]:0.056992,'ADP21510.Porcine_astrovirus_PAstV-2_2007_HUN.Astroviridae':0.155687)[&label="99.4/100"]:0.137957,('WFD49989.Bamboo_rat_astrovirus.Astroviridae':0.108137,'ULF47994.Bamboo_rat_astrovirus.Astroviridae':0.093808)[&label="100/100"]:0.535537)[&label="88/35"]:0.070703)[&label="93.8/44"]:0.082126,((('YP_009010968.Porcine_astrovirus_5.Astroviridae':0.033619,(('UMO75520.Mamastrovirus_3.Astroviridae':0.016121,'QBJ01452.Mamastrovirus_3.Astroviridae':0.006991)[&label="98/93"]:0.039718,'BAS29616.Bovine_astrovirus.Astroviridae':0.086585)[&label="44.1/73"]:0.033999)[&label="99.9/100"]:0.280565,'UNA01413.Porcupine_astrovirus_2.Astroviridae':0.639379)[&label="99.1/100"]:0.203749,'ULR75186.Coypu_astrovirus_2.Astroviridae':0.398285)[&label="99.8/100"]:0.235)[&label="97.1/96"]:0.113324,(((((('YP_009052461.Feline_astrovirus_D1.Astroviridae':0.073955,'AGK45543.Fox_astrovirus.Astroviridae':0.167887)[&label="100/100"]:0.172835,('QVY10201.Mamastrovirus_HMU-1.Astroviridae':0.133402,'ADR65075.Mamastrovirus_10.Astroviridae':0.119802)[&label="100/100"]:0.149021)[&label="30.2/50"]:0.055953,('UEC95828.Bovine_astrovirus.Astroviridae':0.178643,('CUI02221.Bovine_astrovirus.Astroviridae':0.091443,'CAB95003.Mamastrovirus_13.Astroviridae':0.067861)[&label="99.6/100"]:0.106963)[&label="99.2/100"]:0.098175)[&label="65.5/52"]:0.04817,(('YP_009047078.Human_astrovirus_BF34.Astroviridae':0.136462,('USL90197.Astrovirus_sp..Astroviridae':0.137225,(('YP_006905856.Astrovirus_VA4.Astroviridae':0.130027,'WHO17424.Mamastrovirus_sp..Astroviridae':0.1209)[&label="91.4/90"]:0.057025,('YP_006905859.Astrovirus_VA3.Astroviridae':0.096934,'ADJ56369.Astrovirus_VA1.Astroviridae':0.082692)[&label="99.5/100"]:0.098255)[&label="78.2/67"]:0.024915)[&label="34.5/51"]:0.010351)[&label="98.2/97"]:0.052542,'QPI69528.Feline_astrovirus_3.Astroviridae':0.259978)[&label="68.4/51"]:0.035269)[&label="88.8/71"]:0.044148,(('YP_007003830.Porcine_astrovirus_3.Astroviridae':0.095052,'ARU76989.Mamastrovirus_3.Astroviridae':0.093739)[&label="100/100"]:0.136808,'WKU83420.Astroviridae_sp..Astroviridae':0.283635)[&label="37.1/45"]:0.033277)[&label="100/99"]:0.144727,'AWV67085.Bat_astrovirus.Astroviridae':0.391373)[&label="73.5/43"]:0.072121)[&label="35.7/64"]:0.044855,((((('WOK58284.Jingmen_bat_astrovirus_4.Astroviridae':0.083787,('WBM84730.Bat_astrovirus_2.Astroviridae':0.046885,'WBM84732.Bat_astrovirus_3.Astroviridae':0.087799)[&label="77.3/76"]:0.025454)[&label="93.4/91"]:0.055299,'WOK58286.Jingmen_bat_astrovirus_5.Astroviridae':0.118832)[&label="94.5/94"]:0.074596,(('WBM84736.Bat_astrovirus_5.Astroviridae':0.087963,'WBM84743.Bat_astrovirus_10.Astroviridae':0.085369)[&label="100/100"]:0.153594,'WBM84738.Bat_astrovirus_6.Astroviridae':0.167145)[&label="74.4/75"]:0.046211)[&label="64.5/72"]:0.056001,((((('WOV94027.Bat_astrovirus.Astroviridae':0.058741,'WBV74329.Bat_astrovirus_BtSY5.Astroviridae':0.099829)[&label="90.6/88"]:0.051816,'WOK58359.Longquan_bat_astrovirus_1.Astroviridae':0.069025)[&label="94.9/88"]:0.043707,('WFG33633.Bat_astrovirus.Astroviridae':0.070816,'WIM51730.Bat_astrovirus_BS1.Astroviridae':0.093872)[&label="33.4/50"]:0.015158)[&label="88.7/77"]:0.040803,('WFG33636.Bat_astrovirus.Astroviridae':0.055246,'WIM51729.Bat_astrovirus_ZK1.Astroviridae':0.115734)[&label="97.7/98"]:0.092623)[&label="85.1/82"]:0.033638,'WOK58297.Jingmen_bat_astrovirus_9.Astroviridae':0.198772)[&label="97.4/100"]:0.077139)[&label="99.9/100"]:0.171323,'WOK58354.Jingmen_shrew_astrovirus_1.Astroviridae':0.363819)[&label="98.8/98"]:0.131214)[&label="42.9/61"]:0.033108,('WOK58300.Jingmen_bat_astrovirus_11.Astroviridae':0.405281,'QBJ04608.Tasmanian_devil-associated_astrovirus_1.Astroviridae':0.539163)[&label="91.1/80"]:0.106163)[&label="88.3/69"]:0.054262,(('WOV94045.Bat_astrovirus.Astroviridae':0.238676,'WOK58305.Jingmen_bat_astrovirus_12.Astroviridae':0.195039)[&label="99.3/100"]:0.13308,((('WOV94056.Bat_astrovirus.Astroviridae':0.167806,('WOK58394.Wenzhou_bat_astrovirus_3.Astroviridae':0.059406,('WOK58399.Wenzhou_bat_astrovirus_4.Astroviridae':0.095541,'QQJ42399.Bat_astrovirus.Astroviridae':0.049336)[&label="59.2/75"]:0.051121)[&label="99.9/100"]:0.114836)[&label="54.4/66"]:0.044215,'WOK58279.Jingmen_bat_astrovirus_2.Astroviridae':0.161849)[&label="99.1/100"]:0.101617,('WOV94059.Bat_astrovirus.Astroviridae':0.232835,(('WOK58290.Jingmen_bat_astrovirus_8.Astroviridae':0.143658,'QOR29562.Bat_astrovirus.Astroviridae':0.122209)[&label="87.7/88"]:0.063246,'WOK58378.Wenzhou_bat_astrovirus_2.Astroviridae':0.210688)[&label="66.2/75"]:0.078631)[&label="97.3/98"]:0.076039)[&label="91.8/92"]:0.053839)[&label="99.6/100"]:0.122288)[&label="100/100"]:0.301982,(((((((((('YP_002728002.Duck_astrovirus_C-NGB.Astroviridae':0.139043,'QUS52559.Mute_swan_feces_associated_avastrovius_1.Astroviridae':0.147028)[&label="98.4/96"]:0.060088,((('WPX56562.Duck_astrovirus_CPH.Astroviridae':0.130669,'UNJ12753.Duck_astrovirus.Astroviridae':0.132759)[&label="17.7/50"]:0.047886,'WOC95067.Chicken_astrovirus.Astroviridae':0.114549)[&label="99.6/97"]:0.071713,(('AHX26591.Duck_astrovirus.Astroviridae':0.05713,'AAF60952.Avastrovirus_3.Astroviridae':0.091398)[&label="99/100"]:0.073813,('UIW24839.Goose_astrovirus_2.Astroviridae':0.148082,'WPX51682.Duck_astrovirus.Astroviridae':0.339082)[&label="93.3/56"]:0.065696)[&label="94.8/55"]:0.064538)[&label="93.6/63"]:0.032073)[&label="64/51"]:0.026409,('WEY02619.Goose_astrovirus.Astroviridae':2.0E-6,'UIX56551.Goose_astrovirus_1.Astroviridae':0.00537)[&label="100/100"]:0.270536)[&label="99.1/94"]:0.079736,'QUS52565.Mute_swan_feces_associated_avastrovius_2.Astroviridae':0.208388)[&label="33.1/54"]:0.030821,'QKN88817.Astroviridae_sp..Astroviridae':0.193336)[&label="91.1/93"]:0.064381,'CAB95006.Avastrovirus_1.Astroviridae':0.393613)[&label="93.1/99"]:0.074554,('QXO14921.Chicken_astrovirus.Astroviridae':0.260071,((((('QKX49055.Astrovirus_sp..Astroviridae':0.032412,'QKN88920.Astroviridae_sp..Astroviridae':0.081821)[&label="99.5/100"]:0.100702,('QKN88923.Astroviridae_sp..Astroviridae':0.136724,'QKN88926.Astroviridae_sp..Astroviridae':0.132148)[&label="14.3/42"]:0.031632)[&label="94.3/97"]:0.063757,'AJA30077.Astrovirus_Pygoscelis_DT_2012.Astroviridae':0.222222)[&label="34.4/61"]:0.061724,('QKN88929.Astroviridae_sp..Astroviridae':0.081524,'QKN88935.Astroviridae_sp..Astroviridae':0.065422)[&label="99.2/100"]:0.093182)[&label="99/99"]:0.137999,'QCP68856.Ruddy_turnstone_astrovirus.Astroviridae':0.241262)[&label="89.3/87"]:0.102519)[&label="100/100"]:0.239181)[&label="97.4/99"]:0.098196,(((('UVW93785.Crow_astrovirus.Astroviridae':0.208834,'UVW93787.Crow_astrovirus.Astroviridae':0.239422)[&label="95.8/79"]:0.081779,((((((('QXV86345.Avastrovirus_sp..Astroviridae':0.065143,('QKN88811.Astroviridae_sp..Astroviridae':0.055419,('QJI53417.Astroviridae_sp..Astroviridae':0.05288,'QJI53432.Astroviridae_sp..Astroviridae':0.091039)[&label="67.8/63"]:0.023578)[&label="83.3/56"]:0.018747)[&label="14.3/31"]:0.014238,'QKN88802.Astroviridae_sp..Astroviridae':0.061762)[&label="87.6/76"]:0.029521,'QXV86504.Avastrovirus_sp..Astroviridae':0.084833)[&label="100/100"]:0.165117,'QCO31425.Passerine_astrovirus_2.Astroviridae':0.237017)[&label="81.4/70"]:0.028259,'QKN88847.Astroviridae_sp..Astroviridae':0.217116)[&label="90.6/83"]:0.041717,('QKN88799.Astroviridae_sp..Astroviridae':0.172055,('QKN88814.Astroviridae_sp..Astroviridae':0.11665,'QJI53438.Astroviridae_sp..Astroviridae':0.151514)[&label="94.5/93"]:0.074142)[&label="47.9/61"]:0.02645)[&label="57.8/45"]:0.013701,('QKN88826.Astroviridae_sp..Astroviridae':0.234674,('QCO31428.Passerine_astrovirus_3.Astroviridae':0.248617,'QCO31431.Passerine_astrovirus_4.Astroviridae':0.164396)[&label="73.1/78"]:0.069836)[&label="81/71"]:0.058356)[&label="92.3/86"]:0.047538)[&label="14.5/50"]:0.027082,((('QKN88835.Astroviridae_sp..Astroviridae':0.077134,'QKN88841.Astroviridae_sp..Astroviridae':0.051378)[&label="99.9/100"]:0.120819,('QJI53420.Astroviridae_sp..Astroviridae':0.138487,'QJI53423.Astroviridae_sp..Astroviridae':0.174392)[&label="71.4/67"]:0.051967)[&label="25.5/51"]:0.027574,'QKN88808.Astroviridae_sp..Astroviridae':0.289815)[&label="94.7/95"]:0.058213)[&label="59.8/59"]:0.045438,'QCO31422.Passerine_astrovirus_1.Astroviridae':0.377496)[&label="95.5/95"]:0.064641)[&label="40.2/65"]:0.062304,(('QXV86507.Avastrovirus_sp..Astroviridae':0.122594,'QKN88820.Astroviridae_sp..Astroviridae':0.068268)[&label="99.5/100"]:0.128765,('QKN88805.Astroviridae_sp..Astroviridae':0.27283,'QKN88838.Astroviridae_sp..Astroviridae':0.11009)[&label="93.2/96"]:0.073352)[&label="99.6/100"]:0.153183)[&label="82.6/79"]:0.048819,((((('UCS96446.Astroviridae_sp..Astroviridae':0.129297,'AVM87517.Hainan_gekko_similignum_astrovirus.Astroviridae':0.133196)[&label="72.5/77"]:0.057416,('AVM87518.Hainan_oriental_leaf-toed_gecko_astrovirus_1.Astroviridae':0.155351,'AVM87520.Hainan_oriental_leaf-toed_gecko_astrovirus_2.Astroviridae':0.209572)[&label="42/59"]:0.036343)[&label="98.4/99"]:0.109553,'AVM87513.Zhejiang_chinese_fire_belly_newt_astrovirus_2.Astroviridae':0.230275)[&label="100/100"]:0.204874,'AVM87164.Hainan_black-spectacled_toad_astrovirus_2.Astroviridae':0.346327)[&label="73/75"]:0.08161,'AVM87530.Beihai_tree_frog_astrovirus.Astroviridae':0.472722)[&label="97.7/99"]:0.154082)[&label="84.7/83"]:0.128132)[&label="91/94"]:0.229032,(('WLJ60740.Retropinna_astrovirus_1.Astroviridae':0.436158,'WEY37092.Hippocampus_erectus_astro-like_virus_1.Astroviridae':0.310739)[&label="100/100"]:0.473656,(('AVM87155.Wenling_rattails_astrovirus_5.Astroviridae':0.49989,((((('UVF58755.Istigobius_nigroocellatus_astrovirus.Astroviridae':0.30893,'AVM87503.Wenling_japanese_thread-sail_fish_astrovirus.Astroviridae':0.244124)[&label="63.3/62"]:0.028999,'AVM87528.Beihai_fish_astrovirus_1.Astroviridae':0.238593)[&label="72.2/56"]:0.027499,(('AYU58606.Eastern_red_scorpionfish_astrovirus.Astroviridae':0.226081,'AVM87607.Wenling_righteye_flounders_astrovirus.Astroviridae':0.153714)[&label="67.9/72"]:0.032775,('AVM87184.Wenling_yellow-striped_sandperch_astrovirus.Astroviridae':0.140328,'AVM87156.Wenling_lepidotrigla_astrovirus.Astroviridae':0.174784)[&label="99.2/98"]:0.098805)[&label="54.7/63"]:0.035747)[&label="89.7/77"]:0.063059,'AVM87180.Wenling_crossorhombus_astrovirus_2.Astroviridae':0.194626)[&label="90.2/82"]:0.068021,'AVM87178.Wenling_crossorhombus_astrovirus_1.Astroviridae':0.120987)[&label="100/84"]:0.621686)[&label="97/79"]:0.17782,((('AVM87145.Dongbei_arctic_lamprey_astrovirus_2.Astroviridae':0.528866,('AVM87148.Dongbei_arctic_lamprey_astrovirus_4.Astroviridae':0.214361,'AVM87496.Dongbei_arctic_lamprey_astrovirus_1.Astroviridae':0.152712)[&label="99.8/100"]:0.277367)[&label="83.7/88"]:0.166745,'AVM87524.Wenling_bighead_beaked_sandfish_astrovirus.Astroviridae':1.026242)[&label="98.2/99"]:0.228851,(((('AVM87150.Wenling_rattails_astrovirus_1.Astroviridae':0.190902,('AVM87153.Wenling_rattails_astrovirus_4.Astroviridae':0.11653,'AVM87501.Wenling_rattails_astrovirus_3.Astroviridae':0.148467)[&label="100/96"]:0.188311)[&label="93.4/92"]:0.08737,'AVM87605.Wenling_rattails_astrovirus_2.Astroviridae':0.135251)[&label="52.4/87"]:0.367912,'QRV59627.Big_eyed_perch_astrovirus_FL2.Astroviridae':2.688082)[&label="41.6/54"]:0.06694,(('AVM87176.Wenling_plagiopsetta_astrovirus.Astroviridae':0.346405,('AVM87186.Yancheng_grey_stingfish_astrovirus.Astroviridae':0.288317,'AVM87498.Wenling_snipefish_astrovirus.Astroviridae':0.26076)[&label="92.8/92"]:0.126571)[&label="100/89"]:0.433886,('UVF58764.Goby_astrovirus_3.Astroviridae':0.659878,('AVM87174.Wenling_longspine_snipefish_astrovirus.Astroviridae':0.65802,'AVM87601.Dongbei_arctic_lamprey_astrovirus_3.Astroviridae':0.990576)[&label="26.9/46"]:0.126717)[&label="54.2/52"]:0.078084)[&label="71.6/58"]:0.159348)[&label="95.4/73"]:0.205992)[&label="99.7/79"]:0.27372)[&label="73.3/59"]:0.083845)[&label="44.5/59"]:0.164004)[&label="100/99"]:0.488466,((((('WOK58375.Wenzhou_bat_astrovirus_1.Astroviridae':0.193768,'WOK58401.Wenzhou_rodent_astrovirus_1.Astroviridae':0.21899)[&label="100/100"]:0.398542,((((((((('AVM87160.Wuhan_asiatic_toad_astrovirus.Astroviridae':0.336107,'AVM87166.Huanan_hylidae_astrovirus.Astroviridae':0.376912)[&label="97.1/95"]:0.130861,('AVM87511.Hainan_marbled_pigmy_frog_astrovirus_2.Astroviridae':0.341219,'AVM87188.Beihai_tree_frog_astrovirus.Astroviridae':0.342581)[&label="27.6/53"]:0.06328)[&label="61.9/54"]:0.075307,('AVM87162.Hainan_marbled_pigmy_frog_astrovirus_1.Astroviridae':0.259728,'AVM87611.Zhejiang_gunthers_frog_astrovirus.Astroviridae':0.344515)[&label="93.1/88"]:0.108476)[&label="23.3/38"]:0.059217,'AVM87507.Hainan_leptobrachium_hainanense_astrovirus.Astroviridae':0.38565)[&label="94.2/88"]:0.108852,'AVM87168.Fujian_spotted_paddle-tail_newt_astrovirus.Astroviridae':0.387256)[&label="70.6/60"]:0.079099,('AVM87170.Zhejiang_chinese_fire_belly_newt_astrovirus_1.Astroviridae':0.078781,'AVM87172.Zhejiang_chinese_fire_belly_newt_astrovirus_3.Astroviridae':0.127759)[&label="100/100"]:0.317328)[&label="47.5/51"]:0.058203,'AVM87509.Yili_teratoscincus_roborowskii_astrovirus.Astroviridae':0.433272)[&label="88.9/59"]:0.071826,'AVM87522.Guangdong_chinese_water_skink_astrovirus.Astroviridae':0.661252)[&label="11.3/32"]:0.049691,(((('UCW36903.Astroviridae_sp..Astroviridae':0.071867,(('UCW36906.Astroviridae_sp..Astroviridae':0.049141,'UCS96441.Astroviridae_sp..Astroviridae':0.073986)[&label="11.4/43"]:0.011118,('UCW36907.Astroviridae_sp..Astroviridae':0.065802,'UCS96448.Astroviridae_sp..Astroviridae':0.025224)[&label="95/97"]:0.035367)[&label="99.8/100"]:0.111308)[&label="73.2/83"]:0.065167,'UCW36911.Astroviridae_sp..Astroviridae':0.172484)[&label="99.6/100"]:0.141666,'AVM87190.Guangxi_changeable_lizard_astrovirus.Astroviridae':0.242313)[&label="99.8/100"]:0.155422,('AVM87505.Guangdong_sanke_astrovirus.Astroviridae':0.299633,'AVM87609.Guangdong_chinese_water_snake_astrovirus.Astroviridae':0.426513)[&label="87/85"]:0.125758)[&label="97.7/96"]:0.100948)[&label="93/82"]:0.111469)[&label="99.5/100"]:0.359739,(('AVM87138.Wenling_banjofish_astrovirus.Astroviridae':0.471099,'AVM87141.Beihai_cephalopholis_spiloparaea_astrovirus.Astroviridae':0.484197)[&label="99.7/100"]:0.345664,'AVM87532.Nanhai_ghost_shark_astrovirus_1.Astroviridae':0.552895)[&label="100/100"]:0.526843)[&label="93.5/83"]:0.14089,('AVM87484.Wuhan_japanese_halfbeak_astrovirus.Astroviridae':0.835472,((('AVM87143.Dongtou_red_stingray_astrovirus.Astroviridae':0.597822,('AVM87192.Wenling_japanese_topeshark_astrovirus.Astroviridae':0.416915,'AVM87603.Wenzhou_pacific_spadenose_shark_astrovirus_3.Astroviridae':0.442156)[&label="31.7/60"]:0.145055)[&label="98.9/99"]:0.32952,'AVM87534.Nanhai_ghost_shark_astrovirus_2.Astroviridae':1.071927)[&label="51.8/61"]:0.235734,'AVM87494.Wenzhou_pacific_spadenose_shark_astrovirus_2.Astroviridae':0.769342)[&label="99.7/100"]:0.518835)[&label="5.1/29"]:0.074229)[&label="96.8/90"]:0.264904,'AVM87158.Wenling_pterygotrigla_hemisticta_astrovirus.Astroviridae':1.093818)[&label="76/81"]:0.152484)[&label="95.7/89"]:0.251535)[&label="96.3/90"]:0.341675)[&label="85.8/59"]:0.192304,'UHK03192.Hangzhou_astrovirus_1.Astroviridae':1.995386)[&label="97.8/90"]:0.885218)[&label="100/100"]:3.503926);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

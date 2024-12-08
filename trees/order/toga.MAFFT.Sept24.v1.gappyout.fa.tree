@@ -1,0 +1,148 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=46;
+	taxlabels
+	7F0S_A_Chain_A
+	ADG95922_nonstructural_polyprotein__Chikungunya_virus_
+	AEX25347_nonstructural_polyprotein__Chikungunya_virus_
+	AGE98150_non-structural_polyprotein_precursor_P1234__Venezuelan_equine_encephalitis_virus_
+	AGE98164_non-structural_polyprotein_precursor_P1234__Venezuelan_equine_encephalitis_virus_
+	AHL83802_non-structural_polyprotein_precursor_P1234__Madariaga_virus_
+	AMT80029_non-structural_polyprotein_precursor_P1234__Eastern_equine_encephalitis_virus_
+	AMT80209_non-structural_polyprotein_precursor_P1234__Eastern_equine_encephalitis_virus_
+	AND80849_non-structural_polyprotein__Chikungunya_virus_
+	ASF83122_nonstructural_protein__Mayaro_virus_
+	'BDT53067.1_replicase__wheat_closterovirus_1_'
+	'BDT53077.1_replicase__wheat_closterovirus_1_'
+	CAA52868_nonstructural_polyprotein
+	DBA56805_TPA_asm
+	POLN_AURAV_RecName
+	POLN_BFV_RecName
+	POLN_MIDDV_RecName
+	POLN_ONNVG_RecName
+	POLN_SAGV_RecName
+	POLN_SFV_RecName
+	POLN_SINDO_RecName
+	POLN_SPDV_RecName
+	QPN36947_polyprotein__Shenzhen_toga-like_virus_
+	'QSQ86321.1_polyprotein__Fig_closterovirus_1_'
+	'QWY93911.1'
+	UQB76362_RNA_polymerase
+	'UQR78697.1_ORF1ab_fusion_polyprotein__Thesium_chinense_closterovirus_1_'
+	'UTQ50482.1_MAG'
+	'UVK78302.1_MAG'
+	'WAB51749.1'
+	WGH73009_MAG
+	WGH73031_MAG
+	'WIL96182.1_P1a-P1b__Carrot_closterovirus_2_'
+	'WIL96192.1_P1a-P1b__Carrot_closterovirus_3_'
+	WZL61567_nonstructural_polyprotein__Western_equine_encephalitis_virus_
+	'YP_003324587.1'
+	'YP_008888545.1'
+	YP_009507794_nonstructural_polyprotein__Cabassou_virus_
+	YP_009507798_nonstructural_polyprotein__Mucambo_virus_
+	YP_009507800_nonstructural_polyprotein__Pixuna_virus_
+	YP_009507802_nonstructural_polyprotein__Rio_Negro_virus_
+	YP_009507804_nonstructural_polyprotein__Tonate_virus_
+	YP_009508088_nonstructural_polyprotein__Mosso_das_Pedras_virus_
+	'YP_009553641.1_polyprotein_1a_1b__Blackcurrant-associated_closterovirus_1_'
+	YP_010775817_putative_nonstructural_polyprotein_precursor__Venezuelan_equine_encephalitis_virus_
+	'k141_43666_flag1_multi15.0000_len3481_DRR177519_orf1_rdrp'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('k141_43666_flag1_multi15.0000_len3481_DRR177519_orf1_rdrp':2.052775,(((((((((YP_010775817_putative_nonstructural_polyprotein_precursor__Venezuelan_equine_encephalitis_virus_:0.043152,(AGE98164_non-structural_polyprotein_precursor_P1234__Venezuelan_equine_encephalitis_virus_:0.006165,AGE98150_non-structural_polyprotein_precursor_P1234__Venezuelan_equine_encephalitis_virus_:0.007078)[&label="100/100"]:0.03102)[&label="100/100"]:0.032657,(YP_009507804_nonstructural_polyprotein__Tonate_virus_:0.027673,YP_009507798_nonstructural_polyprotein__Mucambo_virus_:0.036143)[&label="100/100"]:0.046008)[&label="76.3/62"]:0.010729,YP_009507800_nonstructural_polyprotein__Pixuna_virus_:0.105672)[&label="25/46"]:0.011329,YP_009507794_nonstructural_polyprotein__Cabassou_virus_:0.067608)[&label="88.9/92"]:0.015513,(YP_009508088_nonstructural_polyprotein__Mosso_das_Pedras_virus_:0.051427,YP_009507802_nonstructural_polyprotein__Rio_Negro_virus_:0.063911)[&label="100/100"]:0.046796)[&label="100/100"]:0.191672,(((WZL61567_nonstructural_polyprotein__Western_equine_encephalitis_virus_:0.001508,CAA52868_nonstructural_polyprotein:0.013576)[&label="100/100"]:0.082029,'YP_003324587.1':0.158234)[&label="99/100"]:0.039853,((WGH73031_MAG:7.43E-4,(WGH73009_MAG:0.001945,(AMT80209_non-structural_polyprotein_precursor_P1234__Eastern_equine_encephalitis_virus_:1.0E-6,AMT80029_non-structural_polyprotein_precursor_P1234__Eastern_equine_encephalitis_virus_:4.38E-4)[&label="88.2/97"]:8.86E-4)[&label="75.5/62"]:4.79E-4)[&label="100/100"]:0.04929,AHL83802_non-structural_polyprotein_precursor_P1234__Madariaga_virus_:0.04419)[&label="100/100"]:0.06326)[&label="100/100"]:0.156888)[&label="100/99"]:0.196475,((POLN_SINDO_RecName:0.213145,POLN_AURAV_RecName:0.271123)[&label="100/100"]:0.238063,((((((POLN_SFV_RecName:0.154664,ASF83122_nonstructural_protein__Mayaro_virus_:0.207076)[&label="97.7/95"]:0.043255,(POLN_SAGV_RecName:0.078605,(7F0S_A_Chain_A:0.018454,'WAB51749.1':0.006464)[&label="99.9/100"]:0.055843)[&label="100/100"]:0.142424)[&label="99.6/93"]:0.05433,(POLN_ONNVG_RecName:0.082184,(AND80849_non-structural_polyprotein__Chikungunya_virus_:0.022712,(AEX25347_nonstructural_polyprotein__Chikungunya_virus_:0.005262,ADG95922_nonstructural_polyprotein__Chikungunya_virus_:0.011964)[&label="82.8/84"]:0.002072)[&label="100/100"]:0.046608)[&label="100/100"]:0.204011)[&label="78.3/84"]:0.048244,POLN_MIDDV_RecName:0.310661)[&label="98.8/100"]:0.055167,'QWY93911.1':0.237096)[&label="91/79"]:0.032506,POLN_BFV_RecName:0.392172)[&label="49.5/62"]:0.052984)[&label="85.6/76"]:0.067303)[&label="87.5/62"]:0.102351,'YP_008888545.1':0.439482)[&label="73.7/51"]:0.117092,POLN_SPDV_RecName:0.998885)[&label="100/100"]:0.989741,(QPN36947_polyprotein__Shenzhen_toga-like_virus_:3.718193,((((('QSQ86321.1_polyprotein__Fig_closterovirus_1_':1.577283,'YP_009553641.1_polyprotein_1a_1b__Blackcurrant-associated_closterovirus_1_':1.147897)[&label="96/97"]:0.230104,(('UQR78697.1_ORF1ab_fusion_polyprotein__Thesium_chinense_closterovirus_1_':0.887888,('WIL96192.1_P1a-P1b__Carrot_closterovirus_3_':0.365933,'WIL96182.1_P1a-P1b__Carrot_closterovirus_2_':0.306414)[&label="100/100"]:0.451667)[&label="100/100"]:0.334311,(('BDT53077.1_replicase__wheat_closterovirus_1_':0.144437,'BDT53067.1_replicase__wheat_closterovirus_1_':0.183442)[&label="100/100"]:0.84286,'UTQ50482.1_MAG':1.116568)[&label="30.4/39"]:0.102428)[&label="87.4/69"]:0.190752)[&label="100/100"]:1.244919,'UVK78302.1_MAG':2.751757)[&label="98.8/99"]:0.862053,DBA56805_TPA_asm:3.659645)[&label="75.3/84"]:0.570139,UQB76362_RNA_polymerase:4.238657)[&label="60.5/81"]:0.55795)[&label="99.9/100"]:1.599709);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

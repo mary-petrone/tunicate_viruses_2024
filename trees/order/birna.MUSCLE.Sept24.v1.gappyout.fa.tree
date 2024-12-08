@@ -1,0 +1,158 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=56;
+	taxlabels
+	'AAB68518.1__VP1_RNA_polymerase__Infectious_bursal_disease_virus_'
+	'AVM87434.1__RNA-dependent_RNA_polymerase__Wenling_jack_mackerels_birnavirus_'
+	'AVM87435.1__RNA-dependent_RNA_polymerase__Wenling_japanese_topeshark_birnavirus_'
+	'BEH00719.1__RNA_dependent_RNA_polymerase__Birnavirus_TM-2022_'
+	'NP_690806.1__putative_RNA-dependent_RNA_polymerase_VP1__Drosophila_X_virus_'
+	'NP_690835.1__putative_RNA-dependent_RNA_polymerase__Yellowtail_ascites_virus_'
+	'Pool19.k141_13751_RdRp'
+	'Pool19.k141_61496_RdRp'
+	'Pool20.k141_21148_RdRp'
+	'Pool25.k141_56993_SegB'
+	'QBS55242.1__RNA-dependent_RNA_polymerase'
+	'QIW91913.1__VP1__Port_Bolivar_virus_'
+	'QJT73725.1__RNA-dependent_RNA_polymerase__Botrytis_cinerea_binarnavirus_2_'
+	'QOE89200.1__VP1'
+	'QPL12185.1__VP1__Chicken_proventricular_necrosis_virus_'
+	'UDL09409.1__VP1__porcine_birnavirus_'
+	'UMO75737.1__MAG'
+	'UMO75738.1__MAG'
+	'UMO75739.1__MAG'
+	'UMO75740.1__MAG'
+	'UMO75741.1__MAG'
+	'UMO75742.1__MAG'
+	'UMO75744.1__MAG'
+	'UMO75745.1__MAG'
+	'UMO75746.1__MAG'
+	'UMO75747.1__MAG'
+	'UMO75748.1__MAG'
+	'UMO75749.1__MAG'
+	'UMO75750.1__MAG'
+	'UMO75751.1__MAG'
+	'UMO75753.1__MAG'
+	'UMO75754.1__MAG'
+	'UMO75755.1__MAG'
+	'UMO75756.1__MAG'
+	'UMO75757.1__MAG'
+	'UMO75758.1__MAG'
+	'UMO75760.1__MAG'
+	'UMO75762.1__MAG'
+	'UMO75763.1__MAG'
+	'UMO75764.1__MAG'
+	'UNI72661.1__MAG'
+	'UQB75995.1__RNA-dependent_RNA_polymerase__Flumine_birnavirus_'
+	'UTQ48830.1__RNA-dependent_RNA_polymerase__Monilinia_fructicola_binarnavirus_1_'
+	'UVF62127.1__MAG'
+	'WLN26247.1__MAG'
+	'WNA12649.1__RNA_dependent_RNA_polymerase__Botrytis_cinerea_binarnavirus_6_'
+	'WNN64190.1__VP1__Rocky_Mountain_birnavirus_'
+	'WOE89315.1__VP1__Cambodia_Culex_birnavirus_'
+	'YP_004956721.1__unnamed_protein_product__Espirito_Santo_virus_'
+	'YP_009508102.1__RNA-dependant_RNA_polymerase__Tellina_virus_1_'
+	'YP_010086266.1__RNA-dependent_RNA_polymerase__Lates_calcarifer_birnavirus_'
+	'YP_010839775.1__RNA-dependant_RNA_polymerase__Rotifer_birnavirus_strain_Palavas_'
+	'YP_010839778.1__RNA-dependent_RNA_polymerase__Drosophila_melanogaster_birnavirus_SW-2009a_'
+	'YP_052864.1__RNA-dependent_RNA_polymerase__Blotched_snakehead_virus_'
+	'k141_59798_flag1_multi70.0000_len2782_SRR6179114_RdRp'
+	'k141_67065_flag1_multi8.0000_len580_SRR6179135_RdRp'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Pool19.k141_61496_RdRp':2.0E-6,(((((((('k141_59798_flag1_multi70.0000_len2782_SRR6179114_RdRp':0.014911,'k141_67065_flag1_multi8.0000_len580_SRR6179135_RdRp':0.088325)[&label="100/100"]:2.376583,((((('UMO75737.1__MAG':1.591436,'UMO75742.1__MAG':2.055973)[&label="98.9/98"]:0.519521,((('UMO75741.1__MAG':1.211568,'UMO75760.1__MAG':1.601154)[&label="92.1/88"]:0.20605,(('UMO75744.1__MAG':0.891125,'UMO75751.1__MAG':0.672346)[&label="97.7/98"]:0.282853,'UMO75756.1__MAG':1.719512)[&label="98.1/99"]:0.291558)[&label="88.2/94"]:0.153626,'UMO75747.1__MAG':1.98053)[&label="62.1/79"]:0.152066)[&label="87.3/77"]:0.107544,('UMO75745.1__MAG':0.860794,'UMO75746.1__MAG':1.128304)[&label="99.9/100"]:0.812929)[&label="51/50"]:0.088082,((('UMO75738.1__MAG':1.463382,'UMO75739.1__MAG':1.18219)[&label="99.9/100"]:0.735644,('UMO75755.1__MAG':1.707672,'UMO75764.1__MAG':1.501994)[&label="94.2/95"]:0.367056)[&label="69.6/58"]:0.076138,('UMO75740.1__MAG':2.32524,'UMO75753.1__MAG':1.886333)[&label="90.2/84"]:0.376583)[&label="87.1/60"]:0.145451)[&label="94.9/75"]:0.372899,('UMO75749.1__MAG':1.640457,'UMO75762.1__MAG':2.385413)[&label="24.1/47"]:0.217291)[&label="96.2/84"]:0.317675)[&label="46.3/54"]:0.156746,('UVF62127.1__MAG':0.742005,'QPL12185.1__VP1__Chicken_proventricular_necrosis_virus_':0.398787)[&label="100/100"]:2.408915)[&label="99.8/99"]:0.484457,('UMO75748.1__MAG':1.367853,('UMO75750.1__MAG':0.629088,'UMO75763.1__MAG':0.461387)[&label="100/100"]:1.116352)[&label="84.4/47"]:0.276357)[&label="41.3/16"]:0.066673,((('YP_010839775.1__RNA-dependant_RNA_polymerase__Rotifer_birnavirus_strain_Palavas_':1.011559,'QOE89200.1__VP1':0.814051)[&label="95/95"]:0.205518,'YP_009508102.1__RNA-dependant_RNA_polymerase__Tellina_virus_1_':1.254642)[&label="80.4/82"]:0.160808,(((('YP_010839778.1__RNA-dependent_RNA_polymerase__Drosophila_melanogaster_birnavirus_SW-2009a_':1.270558,('UMO75754.1__MAG':1.440158,'UMO75757.1__MAG':1.798697)[&label="49.7/71"]:0.393024)[&label="31/22"]:0.061771,'UQB75995.1__RNA-dependent_RNA_polymerase__Flumine_birnavirus_':1.388887)[&label="60.8/22"]:0.148084,('UMO75758.1__MAG':0.848851,'QBS55242.1__RNA-dependent_RNA_polymerase':0.849424)[&label="84.9/73"]:0.120625)[&label="68.8/14"]:0.088802,((('YP_010086266.1__RNA-dependent_RNA_polymerase__Lates_calcarifer_birnavirus_':0.279047,'YP_052864.1__RNA-dependent_RNA_polymerase__Blotched_snakehead_virus_':0.364269)[&label="79.3/79"]:0.102516,('WNA12649.1__RNA_dependent_RNA_polymerase__Botrytis_cinerea_binarnavirus_6_':4.366779,'WLN26247.1__MAG':0.304424)[&label="79.9/89"]:0.169639)[&label="99.2/83"]:0.123418,((('NP_690835.1__putative_RNA-dependent_RNA_polymerase__Yellowtail_ascites_virus_':0.303923,('WNN64190.1__VP1__Rocky_Mountain_birnavirus_':0.383036,'AVM87434.1__RNA-dependent_RNA_polymerase__Wenling_jack_mackerels_birnavirus_':0.238751)[&label="94.9/92"]:0.08736)[&label="100/98"]:0.152641,((('UTQ48830.1__RNA-dependent_RNA_polymerase__Monilinia_fructicola_binarnavirus_1_':0.527231,'QJT73725.1__RNA-dependent_RNA_polymerase__Botrytis_cinerea_binarnavirus_2_':0.381644)[&label="93.7/99"]:0.477633,'UNI72661.1__MAG':2.032682)[&label="100/100"]:4.418246,'AVM87435.1__RNA-dependent_RNA_polymerase__Wenling_japanese_topeshark_birnavirus_':0.311339)[&label="0/45"]:2.0E-6)[&label="100/74"]:0.270682,('UDL09409.1__VP1__porcine_birnavirus_':0.26661,'AAB68518.1__VP1_RNA_polymerase__Infectious_bursal_disease_virus_':0.306707)[&label="100/100"]:0.297111)[&label="92.5/63"]:0.085439)[&label="100/89"]:0.301548)[&label="74.4/23"]:0.068377)[&label="98.3/36"]:0.186019)[&label="98.6/100"]:0.260567,'Pool25.k141_56993_SegB':1.712269)[&label="80.2/79"]:0.114364,(((('YP_004956721.1__unnamed_protein_product__Espirito_Santo_virus_':0.065209,'QIW91913.1__VP1__Port_Bolivar_virus_':0.095642)[&label="98.7/100"]:0.130594,'NP_690806.1__putative_RNA-dependent_RNA_polymerase_VP1__Drosophila_X_virus_':0.198608)[&label="100/100"]:0.67654,'WOE89315.1__VP1__Cambodia_Culex_birnavirus_':0.616095)[&label="80/73"]:0.11888,'BEH00719.1__RNA_dependent_RNA_polymerase__Birnavirus_TM-2022_':0.64805)[&label="99.9/100"]:0.331005)[&label="100/100"]:1.00758,'Pool20.k141_21148_RdRp':2.0E-6)[&label="0/35"]:2.0E-6,'Pool19.k141_13751_RdRp':0.003713);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

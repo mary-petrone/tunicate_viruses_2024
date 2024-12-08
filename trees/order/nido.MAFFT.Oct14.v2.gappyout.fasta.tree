@@ -1,0 +1,406 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=304;
+	taxlabels
+	'AAA74104.1__polyprotein'
+	'AAF69331.1__RNAdirected_RNA_polymerase__Murine_hepatitis_virus_'
+	'AAR14192.1__ORF1ab_polyprotein__Equine_arteritis_virus_'
+	'ABD75543.1__orf1ab_polyprotein__Human_coronavirus_HKU1_'[&!color=#ff0000]
+	ABG02430_Nam_Dinh
+	'ABP87986.1__ORF1ab_polyprotein__Equine_coronavirus_'[&!color=#ff0000]
+	ACS44770_Roniviridae
+	ACS44770_classII
+	'ADI80522.1__orf1ab_polyprotein__Mink_coronavirus_strain_WD1133_'[&!color=#ff0000]
+	'ADX59465.1__polyprotein'
+	'AFE48822.1__polyprotein__Rabbit_coronavirus_HKU14_'[&!color=#ff0000]
+	AGE00056_Mesoniviridae
+	'AGQ55890.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'AGW31675.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'AGW31699.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'AGW81828.1__ORF1ab__Infectious_bronchitis_virus_'
+	'AID16669.1__orf1ab_polyprotein'
+	AII00825
+	'AKS03757.1__polyprotein'
+	'ALI16786.1__ORF1ab_polyprotein'
+	'ALJ84012.1__polyprotein'
+	'AOM53013.1__polyprotein__Porcine_epidemic_diarrhea_virus_'
+	APG77325_Wuhan_nido-like_virus_1
+	APG77333_Wuhan_insect_virus_19
+	'APP93296.1__polyprotein'
+	'APP93608.1__polyprotein'
+	'APX44046.1__ORF1ab__Infectious_bronchitis_virus_'
+	AQS27932_classII
+	'AQT20230.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'AQV12793.1__ORF1b_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'ARI44793.1__orf1ab_polyprotein__Bat_coronavirus_'[&!color=#ff0000]
+	'ASF90469.1__ORF1ab_polyprotein__Wencheng_Sm_shrew_coronavirus_'[&!color=#ff0000]
+	'ATP66731.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#ff0000]
+	'ATP66760.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#ff0000]
+	'ATP66777.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#ff0000]
+	'ATQ39389.1__ORF1ab_polyprotein__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#ff0000]
+	'AUM60013.1__ORF1ab_polyprotein__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#ff0000]
+	AXG63957
+	AYD75846_mononi_rdrp
+	'AZF86117.1__ORF1ab_polyprotein__Alphacoronavirus_BatCoV_P.kuhlii_Italy_20664541_2011_'[&!color=#ff0000]
+	'AZF86129.1__ORF1ab_polyprotein__Alphacoronavirus_BatCoV_P.kuhlii_Italy_2066793_2010_'[&!color=#ff0000]
+	'BAV31347.1__ORF1a_polyprotein__Ferret_coronavirus_'[&!color=#ff0000]
+	'BDB46529.1__orf1a_polyprotein__Human_coronavirus_HKU1_'[&!color=#ff0000]
+	'BDD37257.1__ORF1ab_polyprotein__Sarbecovirus_sp._'
+	'BDG58102.1__orf1a_polyprotein__Human_coronavirus_HKU1_'[&!color=#ff0000]
+	'BDI08819.1__ORF1ab_polyprotein__Merbecovirus_sp._'
+	'DAZ90582.1__TPA_inf'
+	'DAZ90586.1__TPA_inf'
+	'DAZ90588.1__TPA_inf'
+	'DAZ90590.1__TPA_inf'
+	DAZ91089
+	DBA46699
+	'DBA46699.1__MAG_TPA_asm'
+	DBA46746
+	'DBA46746.1__MAG_TPA_asm'
+	DBA46894
+	'DBA46894.1__MAG_TPA_asm'
+	DBA47271_MAG_TPA_asm
+	DBA47380
+	'DBA47380.1__MAG_TPA_asm'
+	DBA47674
+	'DBA47674.1__MAG_TPA_asm'
+	DBA47776
+	'DBA47776.1__MAG_TPA_asm'
+	DBA47814
+	'DBA47814.1__MAG_TPA_asm'
+	DBA47901
+	'DBA47901.1__MAG_TPA_asm'
+	DBA47925
+	DBA48364
+	'DBA48364.1__MAG_TPA_asm'
+	DBA48393
+	'DBA48393.1__MAG_TPA_asm'
+	DBA48461
+	'DBA48461.1__MAG_TPA_asm'
+	DBA48566
+	DBA48958_MAG_TPA_asm
+	DBA48968_MAG_TPA_asm
+	DBA48979
+	'DBA48979.1__MAG_TPA_asm'
+	DBA49091
+	'DBA49091.1__MAG_TPA_asm'
+	DBA49323
+	'DBA49323.1__MAG_TPA_asm'
+	DBA49629
+	'DBA49629.1__MAG_TPA_asm'
+	DBA49986
+	'DBA49986.1__MAG_TPA_asm'
+	DBA50354
+	'MP12.k141_25089_orf2'[&!color=#800080]
+	'MP20.k141_92559_orf_only'
+	'NODE_4_length_32668_cov_191.359266_g1_i0_SRR7503169_orf1'
+	'Pool27.k141_39226_orf_only'
+	'QBF80585.1__ORF1ab__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#ff0000]
+	'QDF43839.1__ORF1ab__Coronavirus_BtRtBetaCoV_GX2018_'[&!color=#ff0000]
+	'QED88024.1__orf1ab_polyprotein__Human_coronavirus_NL63_'[&!color=#ff0000]
+	QGW58038
+	QGW58041
+	QGW58047
+	'QHA24664.1__orf1ab_polyprotein__Rousettus_aegyptiacus_bat_coronavirus_229Erelated_'[&!color=#ff0000]
+	'QIM73811.1__ORF1ab_polyprotein'
+	'QIM73820.1__ORF1ab_polyprotein'
+	'QIM73826.1__ORF1ab_polyprotein'
+	'QIM73838.1__ORF1ab_polyprotein'
+	'QIM73839.1__ORF1ab_polyprotein'
+	'QIM73845.1__ORF1ab_polyprotein'
+	QIZ97060_SARSCoV2
+	QJQ82275
+	QJQ82347
+	'QKX95779.1__polyprotein__Mink_coronavirus_1_'[&!color=#ff0000]
+	'QLD98029.1__ORF1ab__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#ff0000]
+	'QLD98073.1__ORF1ab'
+	'QLD98082.1__ORF1ab'
+	'QLD98103.1__ORF1ab'
+	'QPN00060.1__ORF1ab_polyprotein__Apodemus_peninsulae_coronavirus_'[&!color=#ff0000]
+	'QRL06409.1__ORF1ab_polyprotein__Hedgehog_arterivirus_'
+	'QSE37596.1__ORF1ab_polyprotein__Deltacoronavirus_HNU11_'[&!color=#ff0000]
+	'QTF66155.1__ORF1ab_polyprotein__Betacoronavirus_1_'[&!color=#ff0000]
+	'QTJ30134.1__orf1ab_polyprotein__Sarbecovirus_sp._'
+	QVU02400_Mesoniviridae
+	'QVW10136.1__MAG'
+	QWC36473
+	'QWC71303.1__ORF1ab__Infectious_bronchitis_virus_'
+	'QWN56272.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#ff0000]
+	'QWN56333.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#ff0000]
+	'QWN56341.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#ff0000]
+	'QWN56357.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#ff0000]
+	'QWN56393.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#ff0000]
+	'QWO79061.1__MAG'
+	'QXE39832.1__ORF1b__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'QYL35070.1__ORF1ab__Lopma_virus_'
+	'QYL35090.1__ORF1ab__Praja_virus_'
+	'QZH69631.1__polyprotein__Antelope_torovirus_'
+	'QZL09680.1__ORF1a__plateatu_pika_coronavirus_P83_'[&!color=#ff0000]
+	'QZX47254.1__ORF1ab_polyprotein__Sarbecovirus_sp._'
+	'QZX47304.1__ORF1ab_polyprotein__Sarbecovirus_sp._'
+	'SBN64800.1__polyprotein'
+	'SBN64801.1__polyprotein'
+	Supergroup012--AI-nido_houxin_aquatic_W16-DG_k141_51650_flag1_multi120_len11889_ORF2
+	Supergroup012--AI-nido_marine_ERR1719354_k119_30219_flag1_multi570_len19927_ORF2
+	Supergroup012--nido_estuary_SRR7088795_k141_8974_flag1_multi13_len11992_ORF2
+	Supergroup012--nido_freshwater_SRR5204322_k141_250313_flag1_multi17_len17425_ORF3
+	Supergroup012--nido_freshwater_sediment_SRR7007744_k141_168390_flag1_multi10_len14968_ORF2
+	Supergroup012--nido_lake_water_SRR5839346_k141_59823_flag1_multi27_len16381_ORF2
+	Supergroup012--nido_lake_water_SRR5839349_k141_29891_flag1_multi7_len10424_ORF1
+	Supergroup012--nido_marine_SRR6201536_k141_321755_flag1_multi120_len22841_ORF2
+	Supergroup012--nido_marine_SRR8820896_k99_26205_flag1_multi33_len11635_ORF2
+	Supergroup012--nido_soil_SRR5215306_k141_264356_flag1_multi30_len38030_ORF4
+	Supergroup012--nido_soil_SRR5829926_k141_103166_flag1_multi14_len47250_ORF3
+	Supergroup012--nido_wastewater_SRR8840828_k141_118584_flag1_multi25_len36514_ORF2
+	Supergroup012--nido_wastewater_SRR8857871_k141_184565_flag1_multi11_len10652_ORF2
+	'UBB38808.1__ORF1ab__Casuarina_virus_'
+	UBB38819_Mesoniviridae
+	'UBB42446.1__orf1ab_polyprotein__Jingmen_Miniopterus_schreibersii_alphacoronavirus_1_'[&!color=#ff0000]
+	'UBB42453.1__orf1ab_polyprotein__Jingmen_Miniopterus_schreibersii_alphacoronavirus_2_'[&!color=#ff0000]
+	'UBB42460.1__orf1ab_polyprotein__Longquan_Berylmys_bowersi_alphacoronavirus_1_'[&!color=#ff0000]
+	'UBB42469.1__orf1ab_polyprotein__Jingmen_Apodemus_agrarius_alphacoronavirus_1_'[&!color=#ff0000]
+	'UBF41767.1__ORF1b'
+	UHK03299_Hangzhou_whitmania_pigra_medionivirus_1
+	'UIE29793.1__PP1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'UIE29921.1__PP1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'UIE30105.1__PP1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'UJH59864.1__ORF1ab_polyprotein__Human_coronavirus_229E_'
+	'UJH59885.1__ORF1ab_polyprotein'
+	'UJH59904.1__ORF1ab_polyprotein'
+	'UJH94696.1__ORF1ab_polyprotein__Human_coronavirus_NL63_'[&!color=#ff0000]
+	'UJY53823.1__ORF1a__Pteropus_rufus_nobecovirus_'
+	'ULD45285.1__ORF1ab_polyprotein'
+	ULE28633_Roniviridae
+	ULR75150_ADD
+	'UMO75619.1__MAG'
+	'UMZ07454.1__ORF1ab_polyprotein'
+	'UNE74475.1__orf1ab_polyprotein__Eptesicus_bat_coronavirus_'[&!color=#ff0000]
+	'UOZ96102.1__ORF1b__Chinook_salmon_bafinivirus_'
+	'URD31229.1__orf1ab_polyprotein__Triaenops_bat_coronavirus_'[&!color=#ff0000]
+	'URD31276.1__orf1ab_polyprotein__Hipposideros_bat_coronavirus_'[&!color=#ff0000]
+	'URD31284.1__orf1ab_polyprotein__Mouse_coronavirus_'[&!color=#ff0000]
+	'URD31293.1__orf1ab_polyprotein__Mimon_bat_coronavirus_'[&!color=#ff0000]
+	'URD31299.1__orf1ab_polyprotein__Megaderma_bat_coronavirus_'[&!color=#ff0000]
+	'URD31388.1__orf1ab_polyprotein__Hipposideros_bat_coronavirus_'[&!color=#ff0000]
+	'USF97407.1__ORF1ab__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#ff0000]
+	'USF97420.1__ORF1ab__Bat_alphacoronavirus_'[&!color=#ff0000]
+	'UUJ75518.1__polyprotein__Bat_alphacoronavirus_'[&!color=#ff0000]
+	'UUS54189.1__MAG'
+	'UUS54195.1__MAG'
+	'UUS54215.1__orf1a_polyprotein__Porcine_deltacoronavirus_'[&!color=#ff0000]
+	'UUT43647.1__ORF1ab_polyprotein__Betacoronavirus_sp._'[&!color=#ff0000]
+	'UUT43907.1__ORF1ab_polyprotein__Tylonycteris_robustula_coronavirus_'[&!color=#ff0000]
+	'UVF62111.1__MAG'
+	'UVJ46729.1__ORF1ab__Canine_coronavirus_'[&!color=#ff0000]
+	'UVT36855.1__ORF1ab__Canine_coronavirus_'[&!color=#ff0000]
+	'UYB79115.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#ff0000]
+	'UYL90068.1__polyprotein__Porcine_epidemic_diarrhea_virus_'
+	'UZK98244.1__MAG'
+	'UZK98258.1__MAG'
+	'UZV41928.1__MAG'
+	'WBU87225.1__ORF1ab_polyprotein__Bat_coronavirus_'[&!color=#ff0000]
+	'WBV74426.1__orf1ab_polyprotein__Rousettus_bat_coronavirus_HKU9_'[&!color=#ff0000]
+	'WCC61639.1__ORF1ab_polyprotein__Bat_Coronavirus_HpHI19_'[&!color=#ff0000]
+	'WCC61763.1__ORF1ab_polyprotein__Bat_Coronavirus_MsGX16_'[&!color=#ff0000]
+	'WCC61775.1__ORF1ab_polyprotein__Bat_Coronavirus_ShYN16_'[&!color=#ff0000]
+	'WCC61817.1__ORF1ab_polyprotein__Bat_Coronavirus_SkHI19_'[&!color=#ff0000]
+	'WCC61847.1__ORF1ab_polyprotein__Bat_Coronavirus_RsYN16_'[&!color=#ff0000]
+	'WCC61865.1__ORF1ab_polyprotein__Bat_Coronavirus_RfYN20_'[&!color=#ff0000]
+	'WCC61920.1__ORF1ab_polyprotein__Bat_Coronavirus_RaGD19_'[&!color=#ff0000]
+	'WCC61944.1__ORF1ab_polyprotein__Bat_Coronavirus_MpGD17_'[&!color=#ff0000]
+	'WCC61956.1__ORF1ab_polyprotein__Bat_Coronavirus_MpGD16_'[&!color=#ff0000]
+	'WCC61992.1__ORF1ab_polyprotein__Bat_Coronavirus_MpGD16_'[&!color=#ff0000]
+	'WCC62022.1__ORF1ab_polyprotein__Bat_Coronavirus_MsYN20_'[&!color=#ff0000]
+	'WCC62147.1__ORF1ab_polyprotein__Bat_Coronavirus_MaJX20_'[&!color=#ff0000]
+	'WCC62291.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGX17_'[&!color=#ff0000]
+	'WCC62309.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGD16_'[&!color=#ff0000]
+	'WCC62817.1__ORF1ab_polyprotein__Bat_Coronavirus_RpGX16_'[&!color=#ff0000]
+	'WCC62858.1__ORF1ab_polyprotein__Bat_Coronavirus_MrJX20_'[&!color=#ff0000]
+	'WCC63240.1__ORF1ab_polyprotein__Bat_Coronavirus_IlYN20_'[&!color=#ff0000]
+	'WCC63255.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGD16_'[&!color=#ff0000]
+	'WCC63368.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGD17_'[&!color=#ff0000]
+	'WCC63753.1__ORF1ab_polyprotein__Bat_Coronavirus_TpYN16_'[&!color=#ff0000]
+	'WCC63882.1__ORF1ab_polyprotein__Bat_Coronavirus_McGD16_'[&!color=#ff0000]
+	'WDE18064.1__orf1ab_polyprotein__Human_coronavirus_HKU1_'[&!color=#ff0000]
+	'WDE18160.1__orf1ab_polyprotein'
+	'WDE19392.1__ORF1ab_polyprotein__Human_coronavirus_OC43_'[&!color=#ff0000]
+	'WDE20355.1__orf1a_polyprotein__Betacoronavirus_sp._'[&!color=#ff0000]
+	'WDQ26976.1__MAG'
+	'WDS46302.2__MAG'
+	'WDW25658.1__MAG'
+	'WDY61075.1__polyprotein__Bovine_torovirus_'
+	WEM01947
+	'WGH58583.1__ORF1b__Yichang_virus_'
+	'WGO81911.1__pp1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'WKW84059.1__ORF1a__Swan_goose_coronavirus_'[&!color=#ff0000]
+	WLJ60742
+	WLJ60743
+	'WLJ60743.1__MAG'
+	WLJ60744_ADD
+	'WLK26100.1__orf1ab_polyprotein__Mouse_coronavirus_'[&!color=#ff0000]
+	WLN26249_nanghosha
+	'WMT59274.1__ORF1ab_polyprotein__Horseshoe_bat_sarbecovirus_'
+	'WMT59516.1__ORF1a_polyprotein__Horseshoe_bat_sarbecovirus_'
+	'WOL52690.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'
+	'WOR09765.1__ORF1ab__Chinese_pond_heron_coronavirus_XN11_'[&!color=#ff0000]
+	WPR16483_mononi_rdrp
+	WQH26022_nanghosha
+	'WWZ17310.1__ORF1ab_polyprotein__Porcine_hemagglutinating_encephalomyelitis_virus_'
+	'WYM67007.1__ORF1ab_polyprotein__Feline_infectious_peritonitis_virus_'
+	'WYM67017.1__ORF1ab_polyprotein__Murine_hepatitis_virus_'
+	XAE45187
+	XGU09096
+	'YP_001039970.1__orf1ab_polyprotein__Rousettus_bat_coronavirus_HKU9_'[&!color=#ff0000]
+	YP_001661452_Roniviridae
+	YP_001661452_classII
+	'YP_001718610.1__ORF1ab_polyprotein__Miniopterus_bat_coronavirus_HKU8_'[&!color=#ff0000]
+	'YP_002308478.1__orf1ab_polyprotein__Bulbul_coronavirus_HKU11934_'[&!color=#ff0000]
+	'YP_002308496.1__orf1ab_polyprotein__Thrush_coronavirus_HKU12600_'[&!color=#ff0000]
+	'YP_002308505.1__orf1ab_polyprotein__Munia_coronavirus_HKU133514_'[&!color=#ff0000]
+	'YP_005352837.1__ORF1ab_polyprotein__Whiteeye_coronavirus_HKU16_'[&!color=#ff0000]
+	'YP_005352845.1__ORF1ab_polyprotein__Sparrow_coronavirus_HKU17_'[&!color=#ff0000]
+	'YP_005352870.1__ORF1ab_polyprotein__Wigeon_coronavirus_HKU20_'[&!color=#ff0000]
+	'YP_005352880.1__ORF1ab_polyprotein__Common_moorhen_coronavirus_HKU21_'[&!color=#ff0000]
+	'YP_005454239.1__ORF1ab_polyprotein__Rabbit_coronavirus_HKU14_'[&!color=#ff0000]
+	'YP_007697629.1__ORF1ab__Alphamesonivirus_2_'
+	YP_007697629_Mesoniviridae
+	'YP_007697636.1__ORF1ab__Alphamesonivirus_3_'
+	YP_007697636_Mesoniviridae
+	'YP_007697642.1__ORF1ab__Alphamesonivirus_4_'
+	YP_007697642_Mesoniviridae
+	'YP_009072438.1__ORF1ab_polyprotein__Bat_Hpbetacoronavirus_Zhejiang2013_'[&!color=#ff0000]
+	'YP_009118960.1__ORF1ab__African_pouched_rat_arterivirus_'
+	'YP_009121772.1__ORF1ab__DeBrazza_s_monkey_arterivirus_'
+	'YP_009201729.1__ORF1ab_polyprotein__BtNvAlphaCoV_SC2013_'
+	'YP_009214659.1__ORF1ab_polyprotein__Rat_arterivirus_1_'
+	'YP_009256195.1__ORF1ab_polyprotein__Ferret_coronavirus_'[&!color=#ff0000]
+	'YP_009273004.1__ORF1ab_polyprotein__Rousettus_bat_coronavirus_'[&!color=#ff0000]
+	YP_009333323_Euroniviridae
+	YP_009333332_Euroniviridae
+	YP_009333332_classII
+	YP_009333345_Beihai_Nido-like_virus_1
+	YP_009336549_Euroniviridae
+	YP_009336549_classII
+	'YP_009337022.1__ORF1ab_polyprotein__Rat_arterivirus_1_'
+	'YP_009362006.1__polyprotein'
+	'YP_009388590.1__ORF1ab__Olivier_s_shrew_virus_1_'
+	'YP_009513008.1__ORF1ab_polyprotein__Betacoronavirus_Erinaceus_VMC_DEU_2012_'[&!color=#ff0000]
+	'YP_009551703.1__ORF1ab_polyprotein__Rodent_arterivirus_'
+	'YP_009755832.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#ff0000]
+	'YP_009755838.1__ORF1ab_polyprotein__Shrew_coronavirus_'[&!color=#ff0000]
+	YP_009755856_Olifoviridae
+	YP_009755862_Gresnaviridae
+	YP_009755872_Cremegaviridae
+	'YP_009755895.1__ORF1ab_polyprotein__Canada_goose_coronavirus_'[&!color=#ff0000]
+	'YP_009824957.1__ORF1ab_polyprotein'
+	'YP_009824989.2__ORF1ab_polyprotein__Bat_coronavirus_'[&!color=#ff0000]
+	'YP_009824996.1__ORF1ab_polyprotein__Infectious_bronchitis_virus_'
+	'YP_010087319.1__orf1ab_polyprotein__Botrylloides_leachii_nidovirus_'
+	'YP_010229071.1__ORF1a_polyprotein__Bat_coronavirus_BM4831_BGR_2008_'[&!color=#ff0000]
+	'YP_010229072.1__ORF1a_polyprotein__Magpierobin_coronavirus_HKU18_'[&!color=#ff0000]
+	'YP_010796257.1__ORF1ab_polyprotein__Rodent_arterivirus_'
+	YP_010799370_Cremegaviridae
+	'YP_010799913.1__MAG'
+	YP_010800020_Tobaniviridae
+	YP_010800868_Tobaniviridae
+	YP_010800869_Tobaniviridae
+	'k141_24784_flag0_multi308.0000_len40196_SRR7503200_orf1'[&!color=#ffcc66]
+	'k99_34686_flag1_multi109.6114_len18921_SRR27715840_orf1'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (YP_009336549_classII[&!color=#000000]:2.0E-6,YP_009336549_Euroniviridae[&!color=#000000]:2.0E-6,((YP_009333332_classII[&!color=#000000]:2.0E-6,YP_009333332_Euroniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.728214,(YP_009333323_Euroniviridae[&!color=#000000]:2.745683,(((((((((((ABG02430_Nam_Dinh[&!color=#000000]:0.117582,(('YP_007697629.1__ORF1ab__Alphamesonivirus_2_'[&!color=#000000]:0.0,AGE00056_Mesoniviridae[&!color=#000000]:0.0)[&!color=#000000]:2.0E-6,YP_007697629_Mesoniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.142656)[&label="100/100",!color=#000000]:0.100871,(('UBB38808.1__ORF1ab__Casuarina_virus_'[&!color=#000000]:2.0E-6,UBB38819_Mesoniviridae[&!color=#000000]:2.0E-6)[&label="92.1/100",!color=#000000]:0.003023,QVU02400_Mesoniviridae[&!color=#000000]:0.010815)[&label="100/100",!color=#000000]:0.187495)[&label="100/100",!color=#000000]:0.18579,('YP_007697642.1__ORF1ab__Alphamesonivirus_4_'[&!color=#000000]:2.0E-6,YP_007697642_Mesoniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.354863)[&label="100/100",!color=#000000]:0.194788,('YP_007697636.1__ORF1ab__Alphamesonivirus_3_'[&!color=#000000]:2.0E-6,YP_007697636_Mesoniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.413949)[&label="100/100",!color=#000000]:0.453587,'WGH58583.1__ORF1b__Yichang_virus_'[&!color=#000000]:1.032658)[&label="100/100",!color=#000000]:3.100798,(((YP_009333345_Beihai_Nido-like_virus_1[&!color=#000000]:1.770688,(('MP20.k141_92559_orf_only'[&!color=#000000]:0.937837,'MP12.k141_25089_orf2'[&!color=#000000]:0.933829)[&label="99.2/99",!color=#000000]:0.260442,DBA48958_MAG_TPA_asm[&!color=#000000]:0.951736)[&label="100/100",!color=#000000]:1.142659)[&label="100/100",!color=#000000]:0.882991,'YP_010087319.1__orf1ab_polyprotein__Botrylloides_leachii_nidovirus_'[&!color=#000000]:2.821014)[&label="99.2/99",!color=#000000]:0.334607,DBA47271_MAG_TPA_asm[&!color=#000000]:3.547276)[&label="99.6/100",!color=#000000]:0.323286)[&label="99.2/92",!color=#000000]:0.309345,((Supergroup012--nido_wastewater_SRR8857871_k141_184565_flag1_multi11_len10652_ORF2[&!color=#000000]:4.879168,Supergroup012--nido_freshwater_sediment_SRR7007744_k141_168390_flag1_multi10_len14968_ORF2[&!color=#000000]:6.424265)[&label="55.2/28",!color=#000000]:0.302188,((Supergroup012--nido_wastewater_SRR8840828_k141_118584_flag1_multi25_len36514_ORF2[&!color=#ff0080]:2.905191,(Supergroup012--nido_soil_SRR5215306_k141_264356_flag1_multi30_len38030_ORF4[&!color=#ff0080]:1.699725,Supergroup012--nido_soil_SRR5829926_k141_103166_flag1_multi14_len47250_ORF3[&!color=#ff0080]:1.613988)[&label="100/100",!color=#000000]:1.408503)[&label="100/100",!color=#000000]:1.284573,(AXG63957[&!color=#000000]:3.049874,DBA48968_MAG_TPA_asm[&!color=#000000]:4.133286)[&label="99.5/100",!color=#000000]:0.517959)[&label="84.7/85",!color=#000000]:0.266744)[&label="66.4/40",!color=#000000]:0.153271)[&label="99.4/50",!color=#000000]:0.178178,(((((((ULR75150_ADD[&!color=#000000]:1.661857,XAE45187[&!color=#000000]:1.594938)[&label="100/100",!color=#000000]:0.360642,(YP_010800020_Tobaniviridae[&!color=#000000]:1.373422,((((AII00825[&!color=#000000]:0.019531,QGW58041[&!color=#000000]:0.079291)[&label="79.8/95",!color=#000000]:0.066515,QJQ82347[&!color=#000000]:0.122731)[&label="97.5/96",!color=#000000]:0.102533,((QGW58038[&!color=#000000]:2.0E-6,QJQ82275[&!color=#000000]:0.013069)[&label="0/97",!color=#000000]:2.0E-6,QGW58047[&!color=#000000]:0.019327)[&label="99.7/100",!color=#000000]:0.183111)[&label="100/100",!color=#000000]:1.101277,(YP_010800868_Tobaniviridae[&!color=#000000]:2.0E-6,YP_010800869_Tobaniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.046624)[&label="100/100",!color=#000000]:0.55957)[&label="100/100",!color=#000000]:0.336661)[&label="100/100",!color=#000000]:0.897336,(((((DBA46894[&!color=#000000]:2.0E-6,'DBA46894.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.681024,'UOZ96102.1__ORF1b__Chinook_salmon_bafinivirus_'[&!color=#000000]:0.767004)[&label="100/100",!color=#000000]:0.318309,((DBA47925[&!color=#000000]:0.12696,(DBA48393[&!color=#000000]:2.0E-6,'DBA48393.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.125175)[&label="100/100",!color=#000000]:0.779164,'DAZ90586.1__TPA_inf'[&!color=#000000]:0.940413)[&label="99.9/100",!color=#000000]:0.20873)[&label="100/100",!color=#000000]:0.294283,(WEM01947[&!color=#000000]:1.164079,(DBA48461[&!color=#000000]:2.0E-6,'DBA48461.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.476967)[&label="100/94",!color=#000000]:0.316491)[&label="82.1/76",!color=#000000]:0.289427,((DBA47776[&!color=#000000]:2.0E-6,'DBA47776.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="94.4/100",!color=#000000]:0.011628,DBA48566[&!color=#000000]:0.013434)[&label="100/100",!color=#000000]:1.440402)[&label="100/100",!color=#000000]:1.361907)[&label="70.5/76",!color=#000000]:0.259203,('WDY61075.1__polyprotein__Bovine_torovirus_'[&!color=#000000]:0.108502,'QZH69631.1__polyprotein__Antelope_torovirus_'[&!color=#000000]:0.089547)[&label="100/100",!color=#000000]:2.663748)[&label="100/100",!color=#000000]:0.763859,((((DAZ91089[&!color=#000000]:0.965656,YP_010799370_Cremegaviridae[&!color=#000000]:1.022478)[&label="100/100",!color=#000000]:1.222583,YP_009755872_Cremegaviridae[&!color=#000000]:1.342925)[&label="100/100",!color=#000000]:2.312175,(YP_009755862_Gresnaviridae[&!color=#000000]:3.155415,(YP_009755856_Olifoviridae[&!color=#000000]:2.889874,(((((('YP_010796257.1__ORF1ab_polyprotein__Rodent_arterivirus_'[&!color=#000000]:0.612758,((('YP_009824957.1__ORF1ab_polyprotein'[&!color=#000000]:0.292649,('YP_009337022.1__ORF1ab_polyprotein__Rat_arterivirus_1_'[&!color=#000000]:0.271,'YP_009214659.1__ORF1ab_polyprotein__Rat_arterivirus_1_'[&!color=#000000]:0.275059)[&label="81.6/84",!color=#000000]:0.078583)[&label="100/100",!color=#000000]:0.108749,(((('WOL52690.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.059131,'WGO81911.1__pp1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.063881)[&label="100/100",!color=#000000]:0.030189,'QXE39832.1__ORF1b__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.094538)[&label="64.4/78",!color=#000000]:0.012828,(('AQT20230.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.047676,('AKS03757.1__polyprotein'[&!color=#000000]:0.062389,('AGW31675.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.066547,'AGW31699.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.058248)[&label="64.4/89",!color=#000000]:0.017862)[&label="95/88",!color=#000000]:0.016142)[&label="93/78",!color=#000000]:0.0161,('AQV12793.1__ORF1b_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.02957,'AGQ55890.1__ORF1ab_polyprotein__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.025142)[&label="100/100",!color=#000000]:0.046324)[&label="97.6/85",!color=#000000]:0.016189)[&label="100/100",!color=#000000]:0.28995,'YP_009551703.1__ORF1ab_polyprotein__Rodent_arterivirus_'[&!color=#000000]:0.376529)[&label="53.2/61",!color=#000000]:0.065387)[&label="100/100",!color=#000000]:0.170764,('UIE29793.1__PP1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.049282,(('UIE30105.1__PP1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.04389,('SBN64801.1__polyprotein'[&!color=#000000]:0.019625,'SBN64800.1__polyprotein'[&!color=#000000]:0.027668)[&label="83/79",!color=#000000]:0.027246)[&label="98.3/94",!color=#000000]:0.035,'UIE29921.1__PP1ab__Porcine_reproductive_and_respiratory_syndrome_virus_'[&!color=#000000]:0.065113)[&label="17.1/62",!color=#000000]:0.016482)[&label="100/100",!color=#000000]:0.491858)[&label="100/100",!color=#000000]:0.205837)[&label="99.6/99",!color=#000000]:0.144864,'ALI16786.1__ORF1ab_polyprotein'[&!color=#000000]:0.893353)[&label="88/73",!color=#000000]:0.102706,('AAA74104.1__polyprotein'[&!color=#000000]:0.933736,'QYL35070.1__ORF1ab__Lopma_virus_'[&!color=#000000]:0.924193)[&label="44.6/64",!color=#000000]:0.157774)[&label="100/100",!color=#000000]:0.322567,('ALJ84012.1__polyprotein'[&!color=#000000]:0.817501,(('YP_009362006.1__polyprotein'[&!color=#000000]:0.779327,'APP93296.1__polyprotein'[&!color=#000000]:0.826119)[&label="93.4/84",!color=#000000]:0.17925,('YP_009121772.1__ORF1ab__DeBrazza_s_monkey_arterivirus_'[&!color=#000000]:0.509634,'APP93608.1__polyprotein'[&!color=#000000]:0.739189)[&label="100/100",!color=#000000]:0.260494)[&label="71/82",!color=#000000]:0.153031)[&label="100/100",!color=#000000]:0.642319)[&label="97/97",!color=#000000]:0.132677,((('QYL35090.1__ORF1ab__Praja_virus_'[&!color=#000000]:0.838611,'QRL06409.1__ORF1ab_polyprotein__Hedgehog_arterivirus_'[&!color=#000000]:0.913143)[&label="94.4/91",!color=#000000]:0.194027,'YP_009118960.1__ORF1ab__African_pouched_rat_arterivirus_'[&!color=#000000]:1.056625)[&label="100/100",!color=#000000]:0.252556,'YP_009388590.1__ORF1ab__Olivier_s_shrew_virus_1_'[&!color=#000000]:1.582128)[&label="33.8/74",!color=#000000]:0.147581)[&label="100/100",!color=#000000]:0.392407,'AAR14192.1__ORF1ab_polyprotein__Equine_arteritis_virus_'[&!color=#000000]:1.813866)[&label="71.1/92",!color=#000000]:0.292713)[&label="100/100",!color=#000000]:1.712581)[&label="58.8/61",!color=#000000]:0.236799)[&label="90/84",!color=#000000]:0.348358,(WLN26249_nanghosha[&!color=#000000]:4.035841,WQH26022_nanghosha[&!color=#000000]:3.086486)[&label="100/100",!color=#000000]:2.835079)[&label="99.9/100",!color=#000000]:0.491285)[&label="80.2/90",!color=#000000]:0.223653,((((((WLJ60744_ADD[&!color=#000000]:0.833242,(DBA48364[&!color=#000000]:2.0E-6,'DBA48364.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.860812)[&label="100/100",!color=#000000]:0.437915,WLJ60742[&!color=#000000]:1.277289)[&label="62.6/66",!color=#000000]:0.143012,(DBA47674[&!color=#000000]:2.0E-6,'DBA47674.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.12362)[&label="100/100",!color=#000000]:0.665942,(DBA47380[&!color=#000000]:2.0E-6,'DBA47380.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:2.229782)[&label="99.6/99",!color=#000000]:0.217151,((((((((DBA46746[&!color=#000000]:2.0E-6,'DBA46746.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.703423,'DAZ90588.1__TPA_inf'[&!color=#000000]:0.836606)[&label="100/100",!color=#000000]:0.2749,('YP_010799913.1__MAG'[&!color=#000000]:0.661095,'DAZ90582.1__TPA_inf'[&!color=#000000]:1.020738)[&label="86/90",!color=#000000]:0.17219)[&label="100/100",!color=#000000]:0.299231,'UBF41767.1__ORF1b'[&!color=#000000]:1.34373)[&label="66.2/83",!color=#000000]:0.15598,(WLJ60743[&!color=#000000]:2.0E-6,'WLJ60743.1__MAG'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.112889)[&label="67.3/86",!color=#000000]:0.154255,(DBA48979[&!color=#000000]:2.0E-6,'DBA48979.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.633958)[&label="80.5/85",!color=#000000]:0.162705,(((DBA49091[&!color=#000000]:2.0E-6,'DBA49091.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.946423,(DBA47814[&!color=#000000]:2.0E-6,'DBA47814.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.179863)[&label="100/100",!color=#000000]:0.306114,((DBA49629[&!color=#000000]:2.0E-6,'DBA49629.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:1.073513,(DBA46699[&!color=#000000]:2.0E-6,'DBA46699.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.998846)[&label="100/100",!color=#000000]:0.470317)[&label="100/100",!color=#000000]:0.220934)[&label="100/100",!color=#000000]:0.455689,(((DBA47901[&!color=#000000]:2.0E-6,'DBA47901.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.86436,'DAZ90590.1__TPA_inf'[&!color=#000000]:0.579037)[&label="20/27",!color=#000000]:0.032735,(((DBA49323[&!color=#000000]:2.0E-6,'DBA49323.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="86.6/100",!color=#000000]:0.003772,DBA50354[&!color=#000000]:0.002763)[&label="100/100",!color=#000000]:0.752495,(DBA49986[&!color=#000000]:2.0E-6,'DBA49986.1__MAG_TPA_asm'[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.745054)[&label="99.9/58",!color=#000000]:0.205558)[&label="100/100",!color=#000000]:1.489401)[&label="100/100",!color=#000000]:0.57529)[&label="94.9/90",!color=#000000]:0.21238,((((((((((((QIZ97060_SARSCoV2[&!color=#000000]:0.020535,'QZX47304.1__ORF1ab_polyprotein__Sarbecovirus_sp._'[&!color=#000000]:0.008765)[&label="100/100",!color=#000000]:0.038014,'BDD37257.1__ORF1ab_polyprotein__Sarbecovirus_sp._'[&!color=#000000]:0.079064)[&label="100/100",!color=#000000]:0.051872,(('WMT59274.1__ORF1ab_polyprotein__Horseshoe_bat_sarbecovirus_'[&!color=#000000]:0.015739,'WMT59516.1__ORF1a_polyprotein__Horseshoe_bat_sarbecovirus_'[&!color=#000000]:0.028793)[&label="81/82",!color=#000000]:0.00695,'QZX47254.1__ORF1ab_polyprotein__Sarbecovirus_sp._'[&!color=#000000]:0.029316)[&label="100/100",!color=#000000]:0.034994)[&label="100/100",!color=#000000]:0.037504,('QTJ30134.1__orf1ab_polyprotein__Sarbecovirus_sp._'[&!color=#000000]:0.062787,'YP_010229071.1__ORF1a_polyprotein__Bat_coronavirus_BM4831_BGR_2008_'[&!color=#000000]:0.068409)[&label="99.8/100",!color=#000000]:0.017822)[&label="97.9/100",!color=#000000]:0.025116,'WDS46302.2__MAG'[&!color=#000000]:0.076435)[&label="100/100",!color=#000000]:0.376973,('YP_009072438.1__ORF1ab_polyprotein__Bat_Hpbetacoronavirus_Zhejiang2013_'[&!color=#000000]:0.149624,'UUT43647.1__ORF1ab_polyprotein__Betacoronavirus_sp._'[&!color=#000000]:0.14252)[&label="100/100",!color=#000000]:0.289516)[&label="100/100",!color=#000000]:0.111553,'URD31388.1__orf1ab_polyprotein__Hipposideros_bat_coronavirus_'[&!color=#000000]:0.467734)[&label="100/100",!color=#000000]:0.165462,(('YP_009824989.2__ORF1ab_polyprotein__Bat_coronavirus_'[&!color=#000000]:0.223297,(('YP_009273004.1__ORF1ab_polyprotein__Rousettus_bat_coronavirus_'[&!color=#000000]:0.002259,'UMZ07454.1__ORF1ab_polyprotein'[&!color=#000000]:0.043709)[&label="100/100",!color=#000000]:0.179083,(('YP_001039970.1__orf1ab_polyprotein__Rousettus_bat_coronavirus_HKU9_'[&!color=#000000]:0.063036,'WBV74426.1__orf1ab_polyprotein__Rousettus_bat_coronavirus_HKU9_'[&!color=#000000]:0.064191)[&label="100/100",!color=#000000]:0.055064,'QDF43839.1__ORF1ab__Coronavirus_BtRtBetaCoV_GX2018_'[&!color=#000000]:0.121022)[&label="100/100",!color=#000000]:0.083758)[&label="100/100",!color=#000000]:0.108321)[&label="100/100",!color=#000000]:0.185884,('UVF62111.1__MAG'[&!color=#000000]:0.107016,'UJY53823.1__ORF1a__Pteropus_rufus_nobecovirus_'[&!color=#000000]:0.123589)[&label="100/100",!color=#000000]:0.29501)[&label="100/100",!color=#000000]:0.363139)[&label="100/100",!color=#000000]:0.11287,(('YP_009513008.1__ORF1ab_polyprotein__Betacoronavirus_Erinaceus_VMC_DEU_2012_'[&!color=#000000]:0.09824,'UMO75619.1__MAG'[&!color=#000000]:0.108958)[&label="100/100",!color=#000000]:0.102993,((((('WCC63240.1__ORF1ab_polyprotein__Bat_Coronavirus_IlYN20_'[&!color=#000000]:0.057393,'USF97407.1__ORF1ab__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#000000]:0.033655)[&label="100/100",!color=#000000]:0.018835,('BDI08819.1__ORF1ab_polyprotein__Merbecovirus_sp._'[&!color=#000000]:0.039684,'WCC63255.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGD16_'[&!color=#000000]:0.083538)[&label="88/87",!color=#000000]:0.016785)[&label="100/100",!color=#000000]:0.049426,('AUM60013.1__ORF1ab_polyprotein__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#000000]:0.088302,'WDE20355.1__orf1a_polyprotein__Betacoronavirus_sp._'[&!color=#000000]:0.09585)[&label="93.8/92",!color=#000000]:0.018352)[&label="100/100",!color=#000000]:0.027567,(((('QLD98029.1__ORF1ab__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#000000]:2.0E-6,'QLD98073.1__ORF1ab'[&!color=#000000]:2.0E-6)[&label="0/61",!color=#000000]:5.6E-5,('QLD98082.1__ORF1ab'[&!color=#000000]:2.0E-6,'QLD98103.1__ORF1ab'[&!color=#000000]:4.72E-4)[&label="100/100",!color=#000000]:0.01832)[&label="83.4/95",!color=#000000]:6.25E-4,'QBF80585.1__ORF1ab__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#000000]:0.001435)[&label="100/100",!color=#000000]:0.041092,'ATQ39389.1__ORF1ab_polyprotein__Middle_East_respiratory_syndromerelated_coronavirus_'[&!color=#000000]:0.035988)[&label="100/100",!color=#000000]:0.086786)[&label="100/100",!color=#000000]:0.052932,('WCC63368.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGD17_'[&!color=#000000]:0.110345,'WCC63753.1__ORF1ab_polyprotein__Bat_Coronavirus_TpYN16_'[&!color=#000000]:0.171979)[&label="100/100",!color=#000000]:0.108553)[&label="97.9/100",!color=#000000]:0.05753)[&label="100/100",!color=#000000]:0.484265)[&label="99.7/99",!color=#000000]:0.132996,(('YP_009755832.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#000000]:0.147578,((((('YP_005454239.1__ORF1ab_polyprotein__Rabbit_coronavirus_HKU14_'[&!color=#000000]:0.001382,'AFE48822.1__polyprotein__Rabbit_coronavirus_HKU14_'[&!color=#000000]:0.00164)[&label="100/100",!color=#000000]:0.050077,(('WWZ17310.1__ORF1ab_polyprotein__Porcine_hemagglutinating_encephalomyelitis_virus_'[&!color=#000000]:0.022953,('WDE19392.1__ORF1ab_polyprotein__Human_coronavirus_OC43_'[&!color=#000000]:0.001437,'UJH59904.1__ORF1ab_polyprotein'[&!color=#000000]:0.001674)[&label="100/100",!color=#000000]:0.01884)[&label="100/100",!color=#000000]:0.055482,'ABP87986.1__ORF1ab_polyprotein__Equine_coronavirus_'[&!color=#000000]:0.034376)[&label="100/100",!color=#000000]:0.056192)[&label="100/100",!color=#000000]:0.028572,'ATP66777.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#000000]:0.134716)[&label="66.7/73",!color=#000000]:0.018042,'ATP66731.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#000000]:0.133365)[&label="99/99",!color=#000000]:0.024802,(((('WYM67017.1__ORF1ab_polyprotein__Murine_hepatitis_virus_'[&!color=#000000]:0.018809,'AAF69331.1__RNAdirected_RNA_polymerase__Murine_hepatitis_virus_'[&!color=#000000]:0.02439)[&label="100/100",!color=#000000]:0.06353,'QTF66155.1__ORF1ab_polyprotein__Betacoronavirus_1_'[&!color=#000000]:0.05776)[&label="100/100",!color=#000000]:0.061646,(((((('QIM73811.1__ORF1ab_polyprotein'[&!color=#000000]:0.013473,'QIM73826.1__ORF1ab_polyprotein'[&!color=#000000]:0.010557)[&label="99.7/100",!color=#000000]:0.019518,'QIM73839.1__ORF1ab_polyprotein'[&!color=#000000]:0.0148)[&label="79.1/77",!color=#000000]:0.005996,'QIM73820.1__ORF1ab_polyprotein'[&!color=#000000]:0.010047)[&label="100/88",!color=#000000]:0.017568,('QIM73838.1__ORF1ab_polyprotein'[&!color=#000000]:0.014606,'QIM73845.1__ORF1ab_polyprotein'[&!color=#000000]:0.021147)[&label="99.8/100",!color=#000000]:0.021565)[&label="53.6/59",!color=#000000]:0.006392,'ATP66760.1__ORF1ab_polyprotein__Rodent_coronavirus_'[&!color=#000000]:0.031236)[&label="100/100",!color=#000000]:0.026339,((('WDE18064.1__orf1ab_polyprotein__Human_coronavirus_HKU1_'[&!color=#000000]:0.001479,'UJH59885.1__ORF1ab_polyprotein'[&!color=#000000]:0.00406)[&label="45.5/66",!color=#000000]:0.001439,'WDE18160.1__orf1ab_polyprotein'[&!color=#000000]:6.77E-4)[&label="99.7/98",!color=#000000]:0.004589,(('BDG58102.1__orf1a_polyprotein__Human_coronavirus_HKU1_'[&!color=#000000]:4.07E-4,'BDB46529.1__orf1a_polyprotein__Human_coronavirus_HKU1_'[&!color=#000000]:2.02E-4)[&label="88.6/86",!color=#000000]:4.02E-4,'ABD75543.1__orf1ab_polyprotein__Human_coronavirus_HKU1_'[&!color=#000000]:8.67E-4)[&label="99.2/100",!color=#000000]:0.005498)[&label="100/100",!color=#000000]:0.178647)[&label="100/100",!color=#000000]:0.031368)[&label="100/100",!color=#000000]:0.060777,'URD31284.1__orf1ab_polyprotein__Mouse_coronavirus_'[&!color=#000000]:0.140904)[&label="100/100",!color=#000000]:0.080569)[&label="76.1/81",!color=#000000]:0.030108)[&label="99.9/97",!color=#000000]:0.062614,'QPN00060.1__ORF1ab_polyprotein__Apodemus_peninsulae_coronavirus_'[&!color=#000000]:0.155368)[&label="100/100",!color=#000000]:0.65606)[&label="100/100",!color=#000000]:0.322865,(((('YP_009824996.1__ORF1ab_polyprotein__Infectious_bronchitis_virus_'[&!color=#000000]:0.097103,'QWC71303.1__ORF1ab__Infectious_bronchitis_virus_'[&!color=#000000]:0.031383)[&label="99.7/100",!color=#000000]:0.020428,('APX44046.1__ORF1ab__Infectious_bronchitis_virus_'[&!color=#000000]:0.039866,'AGW81828.1__ORF1ab__Infectious_bronchitis_virus_'[&!color=#000000]:0.033825)[&label="100/100",!color=#000000]:0.027946)[&label="100/100",!color=#000000]:0.352784,('YP_009755895.1__ORF1ab_polyprotein__Canada_goose_coronavirus_'[&!color=#000000]:0.075472,'WKW84059.1__ORF1a__Swan_goose_coronavirus_'[&!color=#000000]:0.075661)[&label="100/100",!color=#000000]:0.364596)[&label="100/100",!color=#000000]:0.556956,(((((('YP_010229072.1__ORF1a_polyprotein__Magpierobin_coronavirus_HKU18_'[&!color=#000000]:0.073063,'YP_002308505.1__orf1ab_polyprotein__Munia_coronavirus_HKU133514_'[&!color=#000000]:0.067633)[&label="100/100",!color=#000000]:0.105097,(('YP_005352845.1__ORF1ab_polyprotein__Sparrow_coronavirus_HKU17_'[&!color=#000000]:0.020784,'UUS54215.1__orf1a_polyprotein__Porcine_deltacoronavirus_'[&!color=#000000]:0.041546)[&label="100/100",!color=#000000]:0.035442,'QSE37596.1__ORF1ab_polyprotein__Deltacoronavirus_HNU11_'[&!color=#000000]:0.063662)[&label="100/100",!color=#000000]:0.075018)[&label="100/100",!color=#000000]:0.086059,(('YP_002308478.1__orf1ab_polyprotein__Bulbul_coronavirus_HKU11934_'[&!color=#000000]:0.102828,'YP_002308496.1__orf1ab_polyprotein__Thrush_coronavirus_HKU12600_'[&!color=#000000]:0.111119)[&label="100/100",!color=#000000]:0.053782,'YP_005352837.1__ORF1ab_polyprotein__Whiteeye_coronavirus_HKU16_'[&!color=#000000]:0.172277)[&label="100/100",!color=#000000]:0.051178)[&label="100/100",!color=#000000]:0.100783,'YP_005352880.1__ORF1ab_polyprotein__Common_moorhen_coronavirus_HKU21_'[&!color=#000000]:0.220747)[&label="100/100",!color=#000000]:0.31872,'YP_005352870.1__ORF1ab_polyprotein__Wigeon_coronavirus_HKU20_'[&!color=#000000]:0.615627)[&label="42.3/80",!color=#000000]:0.102298,'WOR09765.1__ORF1ab__Chinese_pond_heron_coronavirus_XN11_'[&!color=#000000]:0.464568)[&label="100/100",!color=#000000]:1.061142)[&label="100/100",!color=#000000]:0.307287)[&label="89.8/91",!color=#000000]:0.125903,('YP_009755838.1__ORF1ab_polyprotein__Shrew_coronavirus_'[&!color=#000000]:0.915858,((((('YP_009256195.1__ORF1ab_polyprotein__Ferret_coronavirus_'[&!color=#000000]:0.0267,'BAV31347.1__ORF1a_polyprotein__Ferret_coronavirus_'[&!color=#000000]:0.026438)[&label="100/100",!color=#000000]:0.113781,('QKX95779.1__polyprotein__Mink_coronavirus_1_'[&!color=#000000]:0.021187,'ADI80522.1__orf1ab_polyprotein__Mink_coronavirus_strain_WD1133_'[&!color=#000000]:0.024106)[&label="100/100",!color=#000000]:0.107392)[&label="100/100",!color=#000000]:0.170219,(('WYM67007.1__ORF1ab_polyprotein__Feline_infectious_peritonitis_virus_'[&!color=#000000]:0.020626,'UZV41928.1__MAG'[&!color=#000000]:0.033708)[&label="100/100",!color=#000000]:0.046079,('UVJ46729.1__ORF1ab__Canine_coronavirus_'[&!color=#000000]:0.030143,'UVT36855.1__ORF1ab__Canine_coronavirus_'[&!color=#000000]:0.018781)[&label="100/100",!color=#000000]:0.036462)[&label="100/100",!color=#000000]:0.249055)[&label="100/100",!color=#000000]:0.276286,(((((((((('YP_009201729.1__ORF1ab_polyprotein__BtNvAlphaCoV_SC2013_'[&!color=#000000]:0.127855,(('UUS54189.1__MAG'[&!color=#000000]:0.061896,'ULD45285.1__ORF1ab_polyprotein'[&!color=#000000]:0.119078)[&label="82.7/81",!color=#000000]:0.02582,'AZF86117.1__ORF1ab_polyprotein__Alphacoronavirus_BatCoV_P.kuhlii_Italy_20664541_2011_'[&!color=#000000]:0.093803)[&label="100/100",!color=#000000]:0.037342)[&label="100/100",!color=#000000]:0.068439,(('WCC62291.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGX17_'[&!color=#000000]:0.083275,'WCC62309.1__ORF1ab_polyprotein__Bat_Coronavirus_PaGD16_'[&!color=#000000]:0.087235)[&label="100/100",!color=#000000]:0.098822,'UUT43907.1__ORF1ab_polyprotein__Tylonycteris_robustula_coronavirus_'[&!color=#000000]:0.222494)[&label="98.9/97",!color=#000000]:0.03469)[&label="99.3/98",!color=#000000]:0.041802,'AZF86129.1__ORF1ab_polyprotein__Alphacoronavirus_BatCoV_P.kuhlii_Italy_2066793_2010_'[&!color=#000000]:0.171925)[&label="100/100",!color=#000000]:0.204539,('YP_001718610.1__ORF1ab_polyprotein__Miniopterus_bat_coronavirus_HKU8_'[&!color=#000000]:0.197703,((('WCC61944.1__ORF1ab_polyprotein__Bat_Coronavirus_MpGD17_'[&!color=#000000]:0.006951,'WCC61956.1__ORF1ab_polyprotein__Bat_Coronavirus_MpGD16_'[&!color=#000000]:0.005452)[&label="68.7/77",!color=#000000]:0.001215,'WCC61992.1__ORF1ab_polyprotein__Bat_Coronavirus_MpGD16_'[&!color=#000000]:0.004026)[&label="100/100",!color=#000000]:0.030251,'WCC62022.1__ORF1ab_polyprotein__Bat_Coronavirus_MsYN20_'[&!color=#000000]:0.028241)[&label="100/100",!color=#000000]:0.171582)[&label="100/100",!color=#000000]:0.145008)[&label="88.9/89",!color=#000000]:0.033027,((((((((('WBU87225.1__ORF1ab_polyprotein__Bat_coronavirus_'[&!color=#000000]:0.025901,(('UUS54195.1__MAG'[&!color=#000000]:0.004701,'QVW10136.1__MAG'[&!color=#000000]:0.003427)[&label="100/100",!color=#000000]:0.013102,'WDQ26976.1__MAG'[&!color=#000000]:0.025269)[&label="100/100",!color=#000000]:0.013695)[&label="100/100",!color=#000000]:0.060664,'UUJ75518.1__polyprotein__Bat_alphacoronavirus_'[&!color=#000000]:0.061279)[&label="100/100",!color=#000000]:0.045656,('WCC61763.1__ORF1ab_polyprotein__Bat_Coronavirus_MsGX16_'[&!color=#000000]:0.068794,'USF97420.1__ORF1ab__Bat_alphacoronavirus_'[&!color=#000000]:0.085066)[&label="28.6/63",!color=#000000]:0.018462)[&label="100/100",!color=#000000]:0.058154,('WCC62858.1__ORF1ab_polyprotein__Bat_Coronavirus_MrJX20_'[&!color=#000000]:0.120174,'UBB42453.1__orf1ab_polyprotein__Jingmen_Miniopterus_schreibersii_alphacoronavirus_2_'[&!color=#000000]:0.110404)[&label="100/100",!color=#000000]:0.060078)[&label="100/100",!color=#000000]:0.05922,('WCC61775.1__ORF1ab_polyprotein__Bat_Coronavirus_ShYN16_'[&!color=#000000]:0.099204,'WCC61817.1__ORF1ab_polyprotein__Bat_Coronavirus_SkHI19_'[&!color=#000000]:0.100063)[&label="100/100",!color=#000000]:0.150421)[&label="99.8/100",!color=#000000]:0.034126,((('UYL90068.1__polyprotein__Porcine_epidemic_diarrhea_virus_'[&!color=#000000]:0.006053,'AOM53013.1__polyprotein__Porcine_epidemic_diarrhea_virus_'[&!color=#000000]:0.007401)[&label="100/100",!color=#000000]:0.111909,'AID16669.1__orf1ab_polyprotein'[&!color=#000000]:0.215874)[&label="100/100",!color=#000000]:0.048235,'QWN56393.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#000000]:0.177718)[&label="100/100",!color=#000000]:0.048324)[&label="44.9/89",!color=#000000]:0.029711,'ADX59465.1__polyprotein'[&!color=#000000]:0.293866)[&label="100/100",!color=#000000]:0.089737,'UZK98244.1__MAG'[&!color=#000000]:0.240378)[&label="100/100",!color=#000000]:0.082729,('QWN56272.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#000000]:0.2203,((((('WCC61639.1__ORF1ab_polyprotein__Bat_Coronavirus_HpHI19_'[&!color=#000000]:0.04998,'QWN56341.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#000000]:0.050811)[&label="100/100",!color=#000000]:0.087905,'URD31276.1__orf1ab_polyprotein__Hipposideros_bat_coronavirus_'[&!color=#000000]:0.142664)[&label="100/100",!color=#000000]:0.039879,'QWN56333.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#000000]:0.168369)[&label="100/100",!color=#000000]:0.048538,'QWN56357.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#000000]:0.169421)[&label="99.7/99",!color=#000000]:0.038565,((('WCC61847.1__ORF1ab_polyprotein__Bat_Coronavirus_RsYN16_'[&!color=#000000]:0.097831,'WCC61920.1__ORF1ab_polyprotein__Bat_Coronavirus_RaGD19_'[&!color=#000000]:0.12497)[&label="98.9/97",!color=#000000]:0.027185,'URD31299.1__orf1ab_polyprotein__Megaderma_bat_coronavirus_'[&!color=#000000]:0.13434)[&label="99.3/98",!color=#000000]:0.029035,'WCC61865.1__ORF1ab_polyprotein__Bat_Coronavirus_RfYN20_'[&!color=#000000]:0.134086)[&label="100/100",!color=#000000]:0.047507)[&label="100/100",!color=#000000]:0.11152)[&label="99/99",!color=#000000]:0.04043)[&label="97.5/93",!color=#000000]:0.031362)[&label="100/100",!color=#000000]:0.076322,(('URD31229.1__orf1ab_polyprotein__Triaenops_bat_coronavirus_'[&!color=#000000]:0.176328,('UJH94696.1__ORF1ab_polyprotein__Human_coronavirus_NL63_'[&!color=#000000]:0.006357,'QED88024.1__orf1ab_polyprotein__Human_coronavirus_NL63_'[&!color=#000000]:0.00893)[&label="100/100",!color=#000000]:0.239013)[&label="100/100",!color=#000000]:0.078599,('UJH59864.1__ORF1ab_polyprotein__Human_coronavirus_229E_'[&!color=#000000]:0.039352,'QHA24664.1__orf1ab_polyprotein__Rousettus_aegyptiacus_bat_coronavirus_229Erelated_'[&!color=#000000]:0.022132)[&label="100/100",!color=#000000]:0.24549)[&label="100/100",!color=#000000]:0.131387)[&label="99.9/92",!color=#000000]:0.044558,((((('WCC62147.1__ORF1ab_polyprotein__Bat_Coronavirus_MaJX20_'[&!color=#000000]:0.023054,'QWO79061.1__MAG'[&!color=#000000]:0.030376)[&label="100/100",!color=#000000]:0.029867,'WCC63882.1__ORF1ab_polyprotein__Bat_Coronavirus_McGD16_'[&!color=#000000]:0.07295)[&label="100/100",!color=#000000]:0.038246,'ARI44793.1__orf1ab_polyprotein__Bat_coronavirus_'[&!color=#000000]:0.071667)[&label="100/100",!color=#000000]:0.049283,('UYB79115.1__ORF1ab_polyprotein__Alphacoronavirus_sp._'[&!color=#000000]:0.063411,'UBB42446.1__orf1ab_polyprotein__Jingmen_Miniopterus_schreibersii_alphacoronavirus_1_'[&!color=#000000]:0.070512)[&label="100/100",!color=#000000]:0.048376)[&label="100/100",!color=#000000]:0.210333,('UZK98258.1__MAG'[&!color=#000000]:0.084913,'UNE74475.1__orf1ab_polyprotein__Eptesicus_bat_coronavirus_'[&!color=#000000]:0.055102)[&label="100/100",!color=#000000]:0.322482)[&label="100/99",!color=#000000]:0.066049)[&label="62.6/78",!color=#000000]:0.036071,'URD31293.1__orf1ab_polyprotein__Mimon_bat_coronavirus_'[&!color=#000000]:0.466467)[&label="99.3/100",!color=#000000]:0.064898,'WCC62817.1__ORF1ab_polyprotein__Bat_Coronavirus_RpGX16_'[&!color=#000000]:0.348964)[&label="100/100",!color=#000000]:0.120197,(('WLK26100.1__orf1ab_polyprotein__Mouse_coronavirus_'[&!color=#000000]:0.155234,(('WDW25658.1__MAG'[&!color=#000000]:0.057347,'UBB42460.1__orf1ab_polyprotein__Longquan_Berylmys_bowersi_alphacoronavirus_1_'[&!color=#000000]:0.041989)[&label="100/100",!color=#000000]:0.048535,'UBB42469.1__orf1ab_polyprotein__Jingmen_Apodemus_agrarius_alphacoronavirus_1_'[&!color=#000000]:0.117231)[&label="100/100",!color=#000000]:0.040428)[&label="94.2/99",!color=#000000]:0.068407,'QZL09680.1__ORF1a__plateatu_pika_coronavirus_P83_'[&!color=#000000]:0.191479)[&label="100/100",!color=#000000]:0.608507)[&label="24.9/64",!color=#000000]:0.057018)[&label="100/100",!color=#000000]:0.156224,'ASF90469.1__ORF1ab_polyprotein__Wencheng_Sm_shrew_coronavirus_'[&!color=#000000]:0.827459)[&label="100/100",!color=#000000]:0.176828)[&label="100/100",!color=#000000]:0.266262)[&label="100/100",!color=#000000]:0.381741)[&label="100/100",!color=#000000]:0.631486)[&label="100/100",!color=#000000]:0.457643,(((Supergroup012--nido_estuary_SRR7088795_k141_8974_flag1_multi13_len11992_ORF2[&!color=#000000]:4.631575,Supergroup012--nido_marine_SRR6201536_k141_321755_flag1_multi120_len22841_ORF2[&!color=#000000]:4.321507)[&label="98.4/100",!color=#000000]:0.744244,(((APG77333_Wuhan_insect_virus_19[&!color=#000000]:1.415489,XGU09096[&!color=#000000]:1.491081)[&label="100/100",!color=#000000]:0.792759,QWC36473[&!color=#000000]:2.672685)[&label="97.8/99",!color=#000000]:0.530949,APG77325_Wuhan_nido-like_virus_1[&!color=#000000]:2.152409)[&label="100/100",!color=#000000]:3.044542)[&label="92.7/91",!color=#000000]:0.32998,UHK03299_Hangzhou_whitmania_pigra_medionivirus_1[&!color=#000000]:4.510209)[&label="96.7/77",!color=#000000]:0.286242)[&label="0/16",!color=#000000]:0.111033)[&label="94/41",!color=#000000]:0.141609,((Supergroup012--nido_marine_SRR8820896_k99_26205_flag1_multi33_len11635_ORF2[&!color=#000000]:3.874996,(((Supergroup012--nido_freshwater_SRR5204322_k141_250313_flag1_multi17_len17425_ORF3[&!color=#000000]:0.130519,Supergroup012--nido_lake_water_SRR5839349_k141_29891_flag1_multi7_len10424_ORF1[&!color=#000000]:0.123919)[&label="100/100",!color=#000000]:3.684231,Supergroup012--AI-nido_marine_ERR1719354_k119_30219_flag1_multi570_len19927_ORF2[&!color=#ff0080]:3.622718)[&label="99.8/100",!color=#000000]:0.744193,(Supergroup012--nido_lake_water_SRR5839346_k141_59823_flag1_multi27_len16381_ORF2[&!color=#000000]:2.362726,Supergroup012--AI-nido_houxin_aquatic_W16-DG_k141_51650_flag1_multi120_len11889_ORF2[&!color=#000000]:3.090991)[&label="100/100",!color=#000000]:1.872028)[&label="14.7/41",!color=#000000]:0.206838)[&label="100/100",!color=#000000]:0.962462,(WPR16483_mononi_rdrp[&!color=#000000]:2.334202,AYD75846_mononi_rdrp[&!color=#000000]:2.288406)[&label="100/100",!color=#000000]:2.705441)[&label="86.5/60",!color=#000000]:0.237128)[&label="97.7/76",!color=#000000]:0.167154,((('k99_34686_flag1_multi109.6114_len18921_SRR27715840_orf1'[&!color=#000000]:3.423869,'Pool27.k141_39226_orf_only'[&!color=#000000]:4.352591)[&label="21.1/66",!color=#000000]:0.39337,'k141_24784_flag0_multi308.0000_len40196_SRR7503200_orf1'[&!color=#000000]:3.716812)[&label="24.4/56",!color=#000000]:0.312544,'NODE_4_length_32668_cov_191.359266_g1_i0_SRR7503169_orf1'[&!color=#000000]:4.101208)[&label="99.4/94",!color=#000000]:0.371076)[&label="99.9/100",!color=#000000]:0.4315,((((ACS44770_classII[&!color=#000000]:2.0E-6,ACS44770_Roniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.054782,AQS27932_classII[&!color=#000000]:0.073521)[&label="97.2/100",!color=#000000]:0.04146,(YP_001661452_classII[&!color=#000000]:2.0E-6,YP_001661452_Roniviridae[&!color=#000000]:2.0E-6)[&label="100/100",!color=#000000]:0.082038)[&label="100/100",!color=#000000]:2.048281,ULE28633_Roniviridae[&!color=#000000]:2.064888)[&label="100/100",!color=#000000]:1.675169)[&label="100/100",!color=#000000]:1.050569)[&label="100/100",!color=#000000]:2.176109)[&label="100/100",!color=#000000]:0.611812);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

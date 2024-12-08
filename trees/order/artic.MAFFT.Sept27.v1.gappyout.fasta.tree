@@ -1,0 +1,271 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=169;
+	taxlabels
+	'AAA42968.1.Thogotovirus_dhoriense.Orthomyxoviridae'
+	'AAC25959.1.Thogotovirus_thogotoense.Orthomyxoviridae'
+	'ABD59818.1_PB1__Influenza_A_virus__A_TW_3355_1997_H1N1___'
+	'ABD59826.1_PB1__Influenza_A_virus__A_TW_3565_02_H3N2___'
+	'ACY56282.1.Quaranjavirus_quaranfilense.Quaranjaviridae'
+	'ACY56282.1_polymerase_PB1__Quaranjavirus_quaranfilense_'
+	'ACY56284.1.Quaranjavirus_johnstonense.Quaranjaviridae'
+	'AED98371.1.Jos_virus.Orthomyxoviridae'
+	'AFP99838.1_PB1__Influenza_A_virus__A_Vladivostok_28_2012_H1N1___'
+	'AHB34055.1.Upolu_virus.Orthomyxoviridae'
+	'AHB34055.1_polymerase_basic_subunit_1__Upolu_virus_'
+	'AHB34061.1_PB1_protein__Aransas_Bay_virus_'
+	'AIY25030.1_polymerase_basic_1_protein__Wellfleet_Bay_virus_'
+	'AJG39084.1.Jingshan_Fly_Virus_1.'
+	'AJG39085.1.Jiujie_Fly_Virus.'
+	'AJG39086.1.Sanxia_Water_Strider_Virus_3.'
+	'AJG39087.1.Shayang_Spider_Virus_3.'
+	'AJG39088.1.Shuangao_Insect_Virus_4.'
+	'AJG39089.1.Wuhan_Louse_Fly_Virus_3.'
+	'AJG39090.1.Wuhan_Louse_Fly_Virus_4.'
+	'AJG39092.1.Wuhan_Mosquito_Virus_4.'
+	'AJG39094.1.Wuhan_Mosquito_Virus_6.'
+	'AJG39096.1.Wuhan_Mothfly_Virus.'
+	'AOE22898.1.Tilapia_lake_virus.Amnoonviridae'
+	'APP91612.1.Sinu_virus.Orthomyxoviridae'
+	'AQU42764.1.Whidbey_virus.'
+	'ASR92124.1.Araguari_virus.Quaranjaviridae'
+	'AVM87619.1.Wenling_orthomyxolike_virus_2.'
+	'AVM87621.1_PB1__Wuhan_spiny_eel_influenza_virus_'
+	AVM87629_PB1__Wuhan_asiatic_toad_influenza_virus_
+	'AVM87635.1_PB1__Wenling_hagfish_influenza_virus_'
+	'AVM87639.1.Wuhan_carp_Isavirus_1.Amnoonviridae'
+	'AVR52567.1.Photinus_pyralis_orthomyxolike_virus_1.'
+	'AVR52572.1.Photinus_pyralis_orthomyxolike_virus_2.'
+	'BAV18531.1_polymerase_1__Influenza_C_virus__C_Yamagata_14_2004__'
+	'BAV18561.1_polymerase_1__Influenza_C_virus__C_Tokyo_3_2010__'
+	'BAV18578.1_polymerase_1__Influenza_C_virus__C_Miyagi_2_2014__'
+	'BBD20265.1.Oz_virus.Orthomyxoviridae'
+	'BDF92391.1.Oba_virus.'
+	'CAA05486.1.Isavirus_salaris.Amnoonviridae'
+	'DBA45442.1.Pufferfish_amnoonvirus_1.Amnoonviridae'
+	'DBA45443.1.Hydra_cnidenomovirus_1.Cnidenomoviridae'
+	'DBA45444.1.Nudibranch_cnidenomovirus_1.Cnidenomoviridae'
+	'DBA45445.1.Nudibranch_cnidenomovirus_2.Cnidenomoviridae'
+	'DBA45446.1.Heliopora_cnidenomovirus_2.Cnidenomoviridae'
+	'DBA45447.1.Spider_cheliceravirus_13.Quaranjaviridae'
+	'DBA45450.1.Spider_cheliceravirus_1.Quaranjaviridae'
+	'DBA45452.1.Spider_cheliceravirus_2.Quaranjaviridae'
+	'DBA45454.1.Spider_cheliceravirus_3.Quaranjaviridae'
+	'DBA45456.1.Spider_cheliceravirus_4.Quaranjaviridae'
+	'DBA45458.1.Spider_cheliceravirus_5.Quaranjaviridae'
+	'DBA45460.1.Spider_cheliceravirus_6.Quaranjaviridae'
+	'DBA45462.1.Spider_cheliceravirus_7.Quaranjaviridae'
+	'DBA45464.1.Spider_cheliceravirus_8.Quaranjaviridae'
+	'DBA45466.1.Spider_cheliceravirus_9.Quaranjaviridae'
+	'DBA45468.1.Spider_cheliceravirus_10.Quaranjaviridae'
+	'DBA45470.1.Spider_cheliceravirus_11.Quaranjaviridae'
+	'DBA45472.1.Spider_cheliceravirus_12.Quaranjaviridae'
+	'DBA45495.1.Xibalbanus_thogotovirus_1.Orthomyxoviridae'
+	'DBA45496.1.Lizard_amnoonvirus_2.Amnoonviridae'
+	'DBA45497.1.Flatfish_amnoonvirus_1.Amnoonviridae'
+	'DBA45498.1.Catfish_amnoonvirus_1.Amnoonviridae'
+	'DBA45499.1.Lizard_amnoonvirus_1.Amnoonviridae'
+	'DBA45500.1.Loach_amnoonvirus_1.Amnoonviridae'
+	'DBA45501.1.Cod_amnoonvirus_1.Amnoonviridae'
+	'DBA45502.1.Locust_thogotovirus_1.Orthomyxoviridae'
+	'DBA45503.1.Spider_thogotovirus_1.Orthomyxoviridae'
+	'DBA45504.1.Centipede_quaranjavirus_2.Quaranjaviridae'
+	'DBA45505.1.Water_boatmen_thogotovirus_1.Orthomyxoviridae'
+	'GIPE01045129.1_A_new_protein_sequence_entered_manually'
+	Grass_carp_influenzalike_virus_SRR6475468_PB1_A_new_protein_sequence_entered_manually
+	Longsnouted_seahorse_influenzalike_virus_PB1_A_new_protein_sequence_entered_manually
+	Paralichthys_olivaceus_influenzalike_virus_B1
+	'QAY29268.1.Bombusassociated_virus_Orth1.'
+	'QCF29600.1.Bourbon_virus.Orthomyxoviridae'
+	'QDK54862.1.Longchuan_virus.'
+	'QED21504.1.Lestrade_virus.'
+	'QEM39320.1.Guadeloupe_mosquito_quaranjalike_virus_3.Quaranjaviridae'
+	'QEM39321.1.Guadeloupe_mosquito_quaranjalike_virus_2.Quaranjaviridae'
+	'QIJ70032.1.Splett_orthomyxolike_virus.'
+	'QKK82920.1.Uumaja_virus.'
+	'QKK82921.1.Neke_harbour_virus.'
+	'QKU36065.1_polymerase_PB1__Influenza_D_virus_'
+	'QKU36089.1_polymerase_PB1__Influenza_D_virus_'
+	'QMP82112.1.Hymenopteran_orthomyxorelated_virus_OKIAV173.'
+	'QMP82147.1.Hemipteran_orthomyxorelated_virus_OKIAV183.'
+	'QMP82168.1.Coleopteran_orthomyxorelated_virus_OKIAV200.'
+	'QMP82195.1.Coleopteran_orthomyxorelated_virus_OKIAV158.'
+	'QMP82202.1.Hemipteran_orthomyxorelated_virus_OKIAV191.'
+	'QMP82204.1.Phasmatodean_orthomyxorelated_virus_OKIAV167.'
+	'QMP82206.1.Coleopteran_orthomyxorelated_virus_OKIAV185.'
+	'QMP82229.1.Dipteran_orthomyxorelated_virus_OKIAV195.'
+	'QMP82233.1.Coleopteran_orthomyxorelated_virus_OKIAV186.'
+	'QMP82248.1.Phasmatodean_orthomyxorelated_virus_OKIAV172.'
+	'QMP82268.1.Coleopteran_orthomyxorelated_virus_OKIAV196.'
+	'QMP82272.1.Dipteran_orthomyxorelated_virus_OKIAV193.'
+	'QMP82285.1.Siphonapteran_orthomyxorelated_virus_OKIAV157.'
+	'QMP82331.1.Coleopteran_orthomyxorelated_virus_OKIAV184.'
+	'QMP82338.1.Coleopteran_orthomyxorelated_virus_OKIAV179.'
+	'QMP82344.1.Blattodean_orthomyxorelated_virus_OKIAV181.'
+	'QMP82355.1.Dermapteran_orthomyxorelated_virus_OKIAV170.'
+	'QMP82362.1.Hemipteran_orthomyxorelated_virus_OKIAV182.'
+	'QMP82367.1.Zygentoman_orthomyxorelated_virus_OKIAV204.'
+	'QMP82388.1.Lepidopteran_orthomyxorelated_virus_OKIAV1731.'
+	'QMP82402.1.Lepidopteran_orthomyxorelated_virus_OKIAV178.'
+	'QMP82403.1.Hemipteran_orthomyxorelated_virus_OKIAV188.'
+	QOE76794_polymerase_basic_1__Ornate_chorus_frog_influenzalike_virus_
+	QOE76801_polymerase_basic_1__Siamese_algaeeater_influenzalike_virus_
+	'QOE76809.1_polymerase_basic_1__Salamander_influenzalike_virus_'
+	'QOE76818.1_polymerase_basic_1__Cane_toad_influenzalike_virus_'
+	QOE76825_polymerase_basic_1__Chum_salmon_influenzalike_virus_
+	'QOQ34680.1_PB1_protein__Thogotovirus_dhoriense_'
+	'QPC41259.1.Flavolineata_virus.Amnoonviridae'
+	'QPL15288.1.Neuropteran_orthomyxorelated_virus_OKIAV190.'
+	'QPL15289.1.Hemipteran_orthomyxorelated_virus_OKIAV211.'
+	'QPL15340.1.Raphidiopteran_orthomyxorelated_virus_OKIAV180.'
+	'QPL15346.1.Neuropteran_orthomyxorelated_virus_OKIAV210.'
+	'QPL15347.1.Hemipteran_orthomyxorelated_virus_OKIAV187.'
+	'QPL15368.1.Hymenopteran_orthomyxorelated_virus_OKIAV175.'
+	'QPL15369.1.Hymenopteran_orthomyxorelated_virus_OKIAV171.'
+	'QPL15381.1.Hymenopteran_orthomyxorelated_virus_OKIAV174.'
+	'QPN36939.1.Solling_orthomyxolike_virus.'
+	'QPN36942.1.Goettingen_orthomyxolike_virus.'
+	'QRW42591.1.Guadeloupe_mosquito_quaranjalike_virus_1.Quaranjaviridae'
+	'QTF10978.1_polymerase_PB1__Influenza_B_virus_'
+	'QUI78351.1_polymerase_PB1__Influenza_B_virus_'
+	'QWC36487.1.Bemisia_tabaci_Quaranjalike_virus_1.Quaranjaviridae'
+	'QXN15716.1_polymerase_PB1__Influenza_B_virus_'
+	'QZO20476.1_polymerase_PB1__Influenza_B_virus_'
+	'UAJ23566.1.Granville_quaranjavirus.Quaranjaviridae'
+	'UBB38850.1.Orthomyxoviridae_sp..'
+	'UDY81312.1.Varroa_orthomyxovirus1.'
+	'UMO75705.1.Guangxi_sediment_orthomyxolike_virus.'
+	'UMO75706.1.Beijing_sediment_orthomyxolike_virus.'
+	'UMO75713.1.Xinjiang_sediment_orthomyxolike_virus_4.'
+	'UMO75717.1.Xinjiang_sediment_orthomyxolike_virus_5.'
+	'UMO75722.1.Henan_sediment_orthomyxolike_virus.'
+	'UMO75723.1.Xinjiang_sediment_orthomyxolike_virus_2.'
+	'UMO75726.1.Heilongjiang_sediment_orthomyxolike_virus.'
+	'UMO75729.1.Yunnan_sediment_orthomyxolike_virus.'
+	'UMO75733.1.Sichuan_orthomyxolike_virus_1.'
+	'UMO75734.1.Hainan_orthomyxolike_virus_2.'
+	'UNJ19230.1.Toitoi_isavirus_1.Amnoonviridae'
+	'UNQ78355.1_polymerase_subunit_PB1__Bourbon_virus_'
+	'UPT53723.1.Bactrocera_correcta_orthomyxolike_virus_isolate_Bl.'
+	'UPT53748.1.Bactrocera_tryoni_orthomyxolike_virus.'
+	'URY50684.1.Quaranjavirus_sp..Quaranjaviridae'
+	'UUG74181.1.Wuhan_Mosquito_Virus_3.'
+	'UUG74184.1.Wuhan_Mosquito_Virus_5.'
+	'UUG74233.1.XiangYun_orthomyxolike_virus_2.'
+	'UUG74234.1.XiangYun_orthomyxolike_virus_4.'
+	'UUG74235.1.XiangYun_orthomyxolike_virus_5.'
+	'UUT42593.1.Orthomyxoviridae_sp..'
+	'UUT42596.1.Orthomyxoviridae_sp..'
+	'UUT42619.1.Orthomyxoviridae_sp..'
+	'UUT42625.1.Orthomyxoviridae_sp..'
+	'UVF58805.1.Cheilodipterus_quinquelineatus_orthomyxovirus.'
+	'UVF62194.1.Bat_faecal_associated_orthomyxolike_virus_1.'
+	'UYL95488.1.Zhangzhou_Ortho_tick_virus_2.'
+	'UYX69296.1.Tiliqua_thogotovirus.Orthomyxoviridae'
+	'UYX69296.1_PB1__Tiliqua_thogotovirus_'
+	'WJE88689.1.Halyomorpha_halys_orthomyxolike_virus_1.'
+	'YP_009553280.1_polymerase_basic_subunit_1__Oz_virus_'
+	'YP_009996585.1_polymerase_basic_1_protein__Quaranjavirus_johnstonense_'
+	clavelina_PB1_frankenstein
+	'k141_186584_flag1_multi2.0000_len542_SRR7057595'
+	'k141_41832_flag1_multi5.0000_len1664_ERR10378036'
+	'k141_53828_flag1_multi19.0000_len2103_ERR6745738'
+	'k141_5415_flag1_multi7.0000_len2344_SRR7503170'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (AVM87629_PB1__Wuhan_asiatic_toad_influenza_virus_[&!color=#800040]:0.779706,(('ABD59818.1_PB1__Influenza_A_virus__A_TW_3355_1997_H1N1___'[&!color=#800040]:0.040854,('ABD59826.1_PB1__Influenza_A_virus__A_TW_3565_02_H3N2___'[&!color=#800040]:0.016169,'AFP99838.1_PB1__Influenza_A_virus__A_Vladivostok_28_2012_H1N1___'[&!color=#800040]:0.011571)[&label="14.7/55",!color=#800040]:0.005773)[&label="100/100",!color=#800040]:0.396093,((('AVM87621.1_PB1__Wuhan_spiny_eel_influenza_virus_'[&!color=#800040]:0.158826,('QOE76809.1_polymerase_basic_1__Salamander_influenzalike_virus_'[&!color=#800040]:0.203207,((('QTF10978.1_polymerase_PB1__Influenza_B_virus_'[&!color=#800040]:2.0E-6,'QXN15716.1_polymerase_PB1__Influenza_B_virus_'[&!color=#800040]:2.0E-6)[&label="0/95",!color=#800040]:2.0E-6,'QUI78351.1_polymerase_PB1__Influenza_B_virus_'[&!color=#800040]:0.001481)[&label="79.5/62",!color=#800040]:0.001482,'QZO20476.1_polymerase_PB1__Influenza_B_virus_'[&!color=#800040]:2.0E-6)[&label="100/100",!color=#800040]:0.131125)[&label="97.6/92",!color=#800040]:0.059585)[&label="73.3/79",!color=#800040]:0.054405,QOE76825_polymerase_basic_1__Chum_salmon_influenzalike_virus_[&!color=#800040]:0.268589)[&label="95.6/95",!color=#800040]:0.084979,QOE76801_polymerase_basic_1__Siamese_algaeeater_influenzalike_virus_[&!color=#800040]:0.21542)[&label="95.9/96",!color=#800040]:0.109931)[&label="100/100",!color=#800040]:0.272171,((Longsnouted_seahorse_influenzalike_virus_PB1_A_new_protein_sequence_entered_manually[&!color=#800040]:0.521762,Paralichthys_olivaceus_influenzalike_virus_B1[&!color=#800040]:0.866066)[&label="99.7/100",!color=#800040]:0.316007,((('BAV18531.1_polymerase_1__Influenza_C_virus__C_Yamagata_14_2004__'[&!color=#800040]:0.0019,('BAV18578.1_polymerase_1__Influenza_C_virus__C_Miyagi_2_2014__'[&!color=#800040]:2.0E-6,'BAV18561.1_polymerase_1__Influenza_C_virus__C_Tokyo_3_2010__'[&!color=#800040]:0.004305)[&label="62.8/66",!color=#800040]:9.68E-4)[&label="99.4/100",!color=#800040]:0.123837,((('QKU36065.1_polymerase_PB1__Influenza_D_virus_'[&!color=#800040]:0.001633,'QKU36089.1_polymerase_PB1__Influenza_D_virus_'[&!color=#800040]:0.002723)[&label="100/100",!color=#800040]:0.117624,QOE76794_polymerase_basic_1__Ornate_chorus_frog_influenzalike_virus_[&!color=#800040]:0.116152)[&label="96.7/95",!color=#800040]:0.051755,'QOE76818.1_polymerase_basic_1__Cane_toad_influenzalike_virus_'[&!color=#800040]:0.182214)[&label="99/100",!color=#800040]:0.128417)[&label="100/100",!color=#800040]:0.564409,(((((((((((((((((((('AHB34055.1_polymerase_basic_subunit_1__Upolu_virus_'[&!color=#ff00ff]:2.0E-6,'AHB34055.1.Upolu_virus.Orthomyxoviridae'[&!color=#ff00ff]:2.0E-6)[&label="100/100",!color=#ff00ff]:0.052977,'AHB34061.1_PB1_protein__Aransas_Bay_virus_'[&!color=#ff00ff]:0.024664)[&label="100/100",!color=#ff00ff]:0.093596,'UUT42593.1.Orthomyxoviridae_sp..'[&!color=#ff00ff]:0.101667)[&label="68.5/69",!color=#ff00ff]:0.031343,'QKK82921.1.Neke_harbour_virus.'[&!color=#ff00ff]:0.109022)[&label="99.5/99",!color=#ff00ff]:0.057227,'AED98371.1.Jos_virus.Orthomyxoviridae'[&!color=#ff00ff]:0.169544)[&label="89.2/88",!color=#ff00ff]:0.060804,'AAC25959.1.Thogotovirus_thogotoense.Orthomyxoviridae'[&!color=#ff00ff]:0.235572)[&label="97.7/98",!color=#ff00ff]:0.076143,('UYX69296.1_PB1__Tiliqua_thogotovirus_'[&!color=#ff00ff]:2.0E-6,'UYX69296.1.Tiliqua_thogotovirus.Orthomyxoviridae'[&!color=#ff00ff]:2.0E-6)[&label="100/100",!color=#ff00ff]:0.296846)[&label="99.9/100",!color=#ff00ff]:0.119272,(('YP_009553280.1_polymerase_basic_subunit_1__Oz_virus_'[&!color=#ff00ff]:2.0E-6,'BBD20265.1.Oz_virus.Orthomyxoviridae'[&!color=#ff00ff]:2.0E-6)[&label="100/100",!color=#ff00ff]:0.182314,(('QOQ34680.1_PB1_protein__Thogotovirus_dhoriense_'[&!color=#ff00ff]:3.0E-6,'AAA42968.1.Thogotovirus_dhoriense.Orthomyxoviridae'[&!color=#ff00ff]:2.0E-6)[&label="100/100",!color=#ff00ff]:0.095101,('UNQ78355.1_polymerase_subunit_PB1__Bourbon_virus_'[&!color=#ff00ff]:3.0E-6,'QCF29600.1.Bourbon_virus.Orthomyxoviridae'[&!color=#ff00ff]:2.0E-6)[&label="100/100",!color=#ff00ff]:0.142545)[&label="99.2/100",!color=#ff00ff]:0.095495)[&label="100/100",!color=#ff00ff]:0.244948)[&label="89.1/81",!color=#ff00ff]:0.073996,(('QPL15289.1.Hemipteran_orthomyxorelated_virus_OKIAV211.'[&!color=#ff00ff]:0.267652,'UDY81312.1.Varroa_orthomyxovirus1.'[&!color=#ff00ff]:0.299099)[&label="100/100",!color=#ff00ff]:0.242264,'UBB38850.1.Orthomyxoviridae_sp..'[&!color=#ff00ff]:0.394081)[&label="40.8/42",!color=#ff00ff]:0.033381)[&label="92.7/80",!color=#ff00ff]:0.111804,(('APP91612.1.Sinu_virus.Orthomyxoviridae'[&!color=#ff00ff]:0.141629,'QPL15346.1.Neuropteran_orthomyxorelated_virus_OKIAV210.'[&!color=#ff00ff]:0.200038)[&label="95.9/96",!color=#ff00ff]:0.118783,'DBA45505.1.Water_boatmen_thogotovirus_1.Orthomyxoviridae'[&!color=#ff00ff]:0.242074)[&label="100/100",!color=#ff00ff]:0.267784)[&label="100/100",!color=#ff00ff]:0.235824,'DBA45495.1.Xibalbanus_thogotovirus_1.Orthomyxoviridae'[&!color=#ff00ff]:0.550673)[&label="87.8/88",!color=#ff00ff]:0.123329,'DBA45503.1.Spider_thogotovirus_1.Orthomyxoviridae'[&!color=#ff00ff]:0.343037)[&label="99.6/100",!color=#ff00ff]:0.317082,'DBA45502.1.Locust_thogotovirus_1.Orthomyxoviridae'[&!color=#ff00ff]:0.522655)[&label="100/100",!color=#ff00ff]:0.600656,('QPN36939.1.Solling_orthomyxolike_virus.'[&!color=#ff00ff]:0.609919,'QPN36942.1.Goettingen_orthomyxolike_virus.'[&!color=#ff00ff]:0.449062)[&label="100/100",!color=#ff00ff]:0.782074)[&label="84/81",!color=#ff00ff]:0.175608,(('AVM87619.1.Wenling_orthomyxolike_virus_2.'[&!color=#ff00ff]:0.974731,'QAY29268.1.Bombusassociated_virus_Orth1.'[&!color=#ff00ff]:1.413055)[&label="19.8/42",!color=#ff00ff]:0.166773,'UMO75705.1.Guangxi_sediment_orthomyxolike_virus.'[&!color=#ff00ff]:0.974822)[&label="100/100",!color=#ff00ff]:1.031462)[&label="98.7/96",!color=#ff00ff]:0.272193,((((((((((('ACY56282.1_polymerase_PB1__Quaranjavirus_quaranfilense_'[&!color=#8000ff]:2.0E-6,'ACY56282.1.Quaranjavirus_quaranfilense.Quaranjaviridae'[&!color=#8000ff]:2.0E-6)[&label="100/100",!color=#8000ff]:0.091796,('YP_009996585.1_polymerase_basic_1_protein__Quaranjavirus_johnstonense_'[&!color=#8000ff]:2.0E-6,'ACY56284.1.Quaranjavirus_johnstonense.Quaranjaviridae'[&!color=#8000ff]:2.0E-6)[&label="100/100",!color=#8000ff]:0.112949)[&label="100/100",!color=#8000ff]:0.11428,('AIY25030.1_polymerase_basic_1_protein__Wellfleet_Bay_virus_'[&!color=#8000ff]:0.225058,'ASR92124.1.Araguari_virus.Quaranjaviridae'[&!color=#8000ff]:0.187814)[&label="64.7/80",!color=#8000ff]:0.07103)[&label="100/100",!color=#8000ff]:0.309636,(('QKK82920.1.Uumaja_virus.'[&!color=#8000ff]:0.312845,((('UAJ23566.1.Granville_quaranjavirus.Quaranjaviridae'[&!color=#8000ff]:0.134928,(('URY50684.1.Quaranjavirus_sp..Quaranjaviridae'[&!color=#8000ff]:0.066925,'UYL95488.1.Zhangzhou_Ortho_tick_virus_2.'[&!color=#8000ff]:0.112037)[&label="98.6/100",!color=#8000ff]:0.064913,'UUT42619.1.Orthomyxoviridae_sp..'[&!color=#8000ff]:0.109322)[&label="96.9/98",!color=#8000ff]:0.057834)[&label="96.9/99",!color=#8000ff]:0.067527,'UUT42625.1.Orthomyxoviridae_sp..'[&!color=#8000ff]:0.156052)[&label="100/100",!color=#8000ff]:0.146132,'UUT42596.1.Orthomyxoviridae_sp..'[&!color=#8000ff]:0.316936)[&label="99.5/100",!color=#8000ff]:0.145717)[&label="100/100",!color=#8000ff]:0.237521,'BDF92391.1.Oba_virus.'[&!color=#8000ff]:0.631502)[&label="41.5/49",!color=#8000ff]:0.063203)[&label="79.9/86",!color=#8000ff]:0.129333,'UVF58805.1.Cheilodipterus_quinquelineatus_orthomyxovirus.'[&!color=#8000ff]:0.951375)[&label="93/95",!color=#8000ff]:0.149172,(('AJG39085.1.Jiujie_Fly_Virus.'[&!color=#8000ff]:0.380131,'AJG39087.1.Shayang_Spider_Virus_3.'[&!color=#8000ff]:0.228576)[&label="92.8/87",!color=#8000ff]:0.117406,(('QDK54862.1.Longchuan_virus.'[&!color=#8000ff]:0.401844,'QWC36487.1.Bemisia_tabaci_Quaranjalike_virus_1.Quaranjaviridae'[&!color=#8000ff]:0.572636)[&label="11.9/55",!color=#8000ff]:0.093418,'QMP82268.1.Coleopteran_orthomyxorelated_virus_OKIAV196.'[&!color=#8000ff]:0.463928)[&label="48.3/67",!color=#8000ff]:0.057023)[&label="100/100",!color=#8000ff]:0.607118)[&label="100/100",!color=#8000ff]:0.29929,(((((((((((('AJG39084.1.Jingshan_Fly_Virus_1.'[&!color=#8000ff]:0.188027,'QMP82229.1.Dipteran_orthomyxorelated_virus_OKIAV195.'[&!color=#8000ff]:0.243176)[&label="95.4/92",!color=#8000ff]:0.05702,'QIJ70032.1.Splett_orthomyxolike_virus.'[&!color=#8000ff]:0.283892)[&label="72.4/76",!color=#8000ff]:0.070133,('AJG39089.1.Wuhan_Louse_Fly_Virus_3.'[&!color=#8000ff]:0.085755,'AJG39090.1.Wuhan_Louse_Fly_Virus_4.'[&!color=#8000ff]:0.099573)[&label="100/100",!color=#8000ff]:0.216216)[&label="95.9/97",!color=#8000ff]:0.084899,'QMP82272.1.Dipteran_orthomyxorelated_virus_OKIAV193.'[&!color=#8000ff]:0.445618)[&label="76.6/80",!color=#8000ff]:0.038738,'AJG39088.1.Shuangao_Insect_Virus_4.'[&!color=#8000ff]:0.395112)[&label="40.6/50",!color=#8000ff]:0.040831,'AJG39086.1.Sanxia_Water_Strider_Virus_3.'[&!color=#8000ff]:0.720394)[&label="90.8/76",!color=#8000ff]:0.075572,('UMO75717.1.Xinjiang_sediment_orthomyxolike_virus_5.'[&!color=#8000ff]:0.657972,(((('UMO75706.1.Beijing_sediment_orthomyxolike_virus.'[&!color=#8000ff]:0.181568,('UMO75729.1.Yunnan_sediment_orthomyxolike_virus.'[&!color=#8000ff]:0.158881,'UUG74234.1.XiangYun_orthomyxolike_virus_4.'[&!color=#8000ff]:0.170433)[&label="97.8/100",!color=#8000ff]:0.123241)[&label="80/78",!color=#8000ff]:0.071029,'UMO75713.1.Xinjiang_sediment_orthomyxolike_virus_4.'[&!color=#8000ff]:0.245793)[&label="100/100",!color=#8000ff]:0.380827,('UMO75722.1.Henan_sediment_orthomyxolike_virus.'[&!color=#8000ff]:0.283851,('UMO75723.1.Xinjiang_sediment_orthomyxolike_virus_2.'[&!color=#8000ff]:0.250829,'UMO75726.1.Heilongjiang_sediment_orthomyxolike_virus.'[&!color=#8000ff]:0.105752)[&label="99.3/100",!color=#8000ff]:0.152957)[&label="100/100",!color=#8000ff]:0.428545)[&label="93.4/91",!color=#8000ff]:0.097464,'UUG74235.1.XiangYun_orthomyxolike_virus_5.'[&!color=#8000ff]:0.734446)[&label="57.6/81",!color=#8000ff]:0.092555)[&label="82/61",!color=#8000ff]:0.073474)[&label="65.7/50",!color=#8000ff]:0.059734,((((('AQU42764.1.Whidbey_virus.'[&!color=#8000ff]:0.095064,'QRW42591.1.Guadeloupe_mosquito_quaranjalike_virus_1.Quaranjaviridae'[&!color=#8000ff]:0.094412)[&label="100/100",!color=#8000ff]:0.329002,'QEM39321.1.Guadeloupe_mosquito_quaranjalike_virus_2.Quaranjaviridae'[&!color=#8000ff]:0.287362)[&label="94.9/95",!color=#8000ff]:0.101929,'UUG74184.1.Wuhan_Mosquito_Virus_5.'[&!color=#8000ff]:0.333498)[&label="100/100",!color=#8000ff]:0.163273,'UUG74181.1.Wuhan_Mosquito_Virus_3.'[&!color=#8000ff]:0.46737)[&label="99.6/100",!color=#8000ff]:0.139263,(('AJG39092.1.Wuhan_Mosquito_Virus_4.'[&!color=#8000ff]:0.278941,'QEM39320.1.Guadeloupe_mosquito_quaranjalike_virus_3.Quaranjaviridae'[&!color=#8000ff]:0.276585)[&label="100/100",!color=#8000ff]:0.236332,('AJG39094.1.Wuhan_Mosquito_Virus_6.'[&!color=#8000ff]:0.098422,'UUG74233.1.XiangYun_orthomyxolike_virus_2.'[&!color=#8000ff]:0.160701)[&label="100/100",!color=#8000ff]:0.43639)[&label="100/100",!color=#8000ff]:0.469377)[&label="35.6/49",!color=#8000ff]:0.046739)[&label="100/100",!color=#8000ff]:0.242861,(('QMP82202.1.Hemipteran_orthomyxorelated_virus_OKIAV191.'[&!color=#8000ff]:0.155044,'WJE88689.1.Halyomorpha_halys_orthomyxolike_virus_1.'[&!color=#8000ff]:0.089276)[&label="100/100",!color=#8000ff]:0.325281,'QPL15288.1.Neuropteran_orthomyxorelated_virus_OKIAV190.'[&!color=#8000ff]:0.399517)[&label="100/100",!color=#8000ff]:0.249269)[&label="88.7/68",!color=#8000ff]:0.083924,((('QMP82403.1.Hemipteran_orthomyxorelated_virus_OKIAV188.'[&!color=#8000ff]:0.165056,'UVF62194.1.Bat_faecal_associated_orthomyxolike_virus_1.'[&!color=#8000ff]:0.105957)[&label="100/100",!color=#8000ff]:0.400876,'QPL15347.1.Hemipteran_orthomyxorelated_virus_OKIAV187.'[&!color=#8000ff]:0.548312)[&label="100/100",!color=#8000ff]:0.293257,'UMO75734.1.Hainan_orthomyxolike_virus_2.'[&!color=#8000ff]:1.05731)[&label="73.5/73",!color=#8000ff]:0.11173)[&label="96.9/93",!color=#8000ff]:0.086575,(((((('AJG39096.1.Wuhan_Mothfly_Virus.'[&!color=#8000ff]:0.455724,(('QMP82112.1.Hymenopteran_orthomyxorelated_virus_OKIAV173.'[&!color=#8000ff]:0.112742,'QMP82248.1.Phasmatodean_orthomyxorelated_virus_OKIAV172.'[&!color=#8000ff]:0.168327)[&label="99.9/100",!color=#8000ff]:0.121345,(('QPL15368.1.Hymenopteran_orthomyxorelated_virus_OKIAV175.'[&!color=#8000ff]:0.246992,'QPL15381.1.Hymenopteran_orthomyxorelated_virus_OKIAV174.'[&!color=#8000ff]:0.191578)[&label="98.4/98",!color=#8000ff]:0.096398,'QPL15369.1.Hymenopteran_orthomyxorelated_virus_OKIAV171.'[&!color=#8000ff]:0.278338)[&label="99.1/99",!color=#8000ff]:0.093662)[&label="98.8/100",!color=#8000ff]:0.11505)[&label="100/100",!color=#8000ff]:0.188213,('AVR52567.1.Photinus_pyralis_orthomyxolike_virus_1.'[&!color=#8000ff]:0.308037,'QPL15340.1.Raphidiopteran_orthomyxorelated_virus_OKIAV180.'[&!color=#8000ff]:0.353867)[&label="100/100",!color=#8000ff]:0.210092)[&label="89.4/67",!color=#8000ff]:0.048297,'QMP82355.1.Dermapteran_orthomyxorelated_virus_OKIAV170.'[&!color=#8000ff]:0.834608)[&label="88.7/63",!color=#8000ff]:0.041371,((((('AVR52572.1.Photinus_pyralis_orthomyxolike_virus_2.'[&!color=#8000ff]:0.441816,'QMP82331.1.Coleopteran_orthomyxorelated_virus_OKIAV184.'[&!color=#8000ff]:0.392573)[&label="43.7/51",!color=#8000ff]:0.058253,('QMP82147.1.Hemipteran_orthomyxorelated_virus_OKIAV183.'[&!color=#8000ff]:0.373375,'QMP82362.1.Hemipteran_orthomyxorelated_virus_OKIAV182.'[&!color=#8000ff]:0.422108)[&label="99.4/99",!color=#8000ff]:0.107268)[&label="68.3/39",!color=#8000ff]:0.029798,('QMP82206.1.Coleopteran_orthomyxorelated_virus_OKIAV185.'[&!color=#8000ff]:0.385113,'QMP82233.1.Coleopteran_orthomyxorelated_virus_OKIAV186.'[&!color=#8000ff]:0.270679)[&label="99.3/100",!color=#8000ff]:0.16184)[&label="94.4/82",!color=#8000ff]:0.058275,('QMP82338.1.Coleopteran_orthomyxorelated_virus_OKIAV179.'[&!color=#8000ff]:0.579943,('QMP82388.1.Lepidopteran_orthomyxorelated_virus_OKIAV1731.'[&!color=#8000ff]:0.17957,'QMP82402.1.Lepidopteran_orthomyxorelated_virus_OKIAV178.'[&!color=#8000ff]:0.189934)[&label="100/100",!color=#8000ff]:0.404954)[&label="99.5/95",!color=#8000ff]:0.129183)[&label="18.2/56",!color=#8000ff]:0.049922,'QMP82344.1.Blattodean_orthomyxorelated_virus_OKIAV181.'[&!color=#8000ff]:0.529371)[&label="96.1/89",!color=#8000ff]:0.078481)[&label="98.6/97",!color=#8000ff]:0.100171,(('QED21504.1.Lestrade_virus.'[&!color=#8000ff]:0.141006,'QMP82285.1.Siphonapteran_orthomyxorelated_virus_OKIAV157.'[&!color=#8000ff]:0.122348)[&label="100/100",!color=#8000ff]:0.385231,'QMP82195.1.Coleopteran_orthomyxorelated_virus_OKIAV158.'[&!color=#8000ff]:0.42751)[&label="100/100",!color=#8000ff]:0.316913)[&label="99/97",!color=#8000ff]:0.101537,'QMP82204.1.Phasmatodean_orthomyxorelated_virus_OKIAV167.'[&!color=#8000ff]:0.822582)[&label="18.1/46",!color=#8000ff]:0.051849)[&label="91.6/82",!color=#8000ff]:0.090041,'DBA45504.1.Centipede_quaranjavirus_2.Quaranjaviridae'[&!color=#8000ff]:0.858666)[&label="66.9/76",!color=#8000ff]:0.07571)[&label="85.4/88",!color=#8000ff]:0.114096,(('QMP82168.1.Coleopteran_orthomyxorelated_virus_OKIAV200.'[&!color=#8000ff]:0.617761,'UMO75733.1.Sichuan_orthomyxolike_virus_1.'[&!color=#8000ff]:0.632164)[&label="100/100",!color=#8000ff]:0.309431,('UPT53723.1.Bactrocera_correcta_orthomyxolike_virus_isolate_Bl.'[&!color=#8000ff]:0.359201,'UPT53748.1.Bactrocera_tryoni_orthomyxolike_virus.'[&!color=#8000ff]:0.341771)[&label="100/100",!color=#8000ff]:0.383599)[&label="99.7/100",!color=#8000ff]:0.274197)[&label="94.7/95",!color=#8000ff]:0.18154,'QMP82367.1.Zygentoman_orthomyxorelated_virus_OKIAV204.'[&!color=#8000ff]:1.644)[&label="99.8/100",!color=#8000ff]:0.515015,((('DBA45447.1.Spider_cheliceravirus_13.Quaranjaviridae'[&!color=#8000ff]:1.012055,('DBA45454.1.Spider_cheliceravirus_3.Quaranjaviridae'[&!color=#8000ff]:0.237872,'DBA45472.1.Spider_cheliceravirus_12.Quaranjaviridae'[&!color=#8000ff]:0.287585)[&label="99.8/100",!color=#8000ff]:0.174351)[&label="18.9/42",!color=#8000ff]:0.052441,'DBA45466.1.Spider_cheliceravirus_9.Quaranjaviridae'[&!color=#8000ff]:0.685433)[&label="92.6/72",!color=#8000ff]:0.114543,((((((('DBA45450.1.Spider_cheliceravirus_1.Quaranjaviridae'[&!color=#8000ff]:0.133355,'DBA45470.1.Spider_cheliceravirus_11.Quaranjaviridae'[&!color=#8000ff]:0.140328)[&label="72.5/77",!color=#8000ff]:0.040031,'DBA45458.1.Spider_cheliceravirus_5.Quaranjaviridae'[&!color=#8000ff]:0.21451)[&label="97.9/99",!color=#8000ff]:0.053015,'DBA45464.1.Spider_cheliceravirus_8.Quaranjaviridae'[&!color=#8000ff]:0.201053)[&label="97.1/96",!color=#8000ff]:0.072007,'DBA45452.1.Spider_cheliceravirus_2.Quaranjaviridae'[&!color=#8000ff]:0.265655)[&label="99.3/100",!color=#8000ff]:0.113184,'DBA45456.1.Spider_cheliceravirus_4.Quaranjaviridae'[&!color=#8000ff]:0.332466)[&label="88.2/90",!color=#8000ff]:0.076806,'DBA45462.1.Spider_cheliceravirus_7.Quaranjaviridae'[&!color=#8000ff]:0.530311)[&label="96.2/98",!color=#8000ff]:0.092942,('DBA45460.1.Spider_cheliceravirus_6.Quaranjaviridae'[&!color=#8000ff]:0.17657,'DBA45468.1.Spider_cheliceravirus_10.Quaranjaviridae'[&!color=#8000ff]:0.189942)[&label="100/100",!color=#8000ff]:0.6669)[&label="59.6/76",!color=#8000ff]:0.085272)[&label="100/100",!color=#8000ff]:1.305701)[&label="99.3/99",!color=#8000ff]:0.446342,((((('CAA05486.1.Isavirus_salaris.Amnoonviridae':0.492297,'UNJ19230.1.Toitoi_isavirus_1.Amnoonviridae':0.376336)[&label="95.6/100"]:0.393696,'AVM87639.1.Wuhan_carp_Isavirus_1.Amnoonviridae':0.712595)[&label="100/100"]:1.995881,(((('AOE22898.1.Tilapia_lake_virus.Amnoonviridae'[&!color=#008080]:1.380027,('QPC41259.1.Flavolineata_virus.Amnoonviridae'[&!color=#008080]:1.060513,'DBA45442.1.Pufferfish_amnoonvirus_1.Amnoonviridae'[&!color=#008080]:1.653312)[&label="98.2/99",!color=#008080]:0.746788)[&label="99.8/100",!color=#008080]:1.288067,('DBA45498.1.Catfish_amnoonvirus_1.Amnoonviridae'[&!color=#008080]:0.289972,'DBA45501.1.Cod_amnoonvirus_1.Amnoonviridae'[&!color=#008080]:0.525342)[&label="100/100",!color=#008080]:1.809957)[&label="83.4/72",!color=#008080]:0.481314,'DBA45497.1.Flatfish_amnoonvirus_1.Amnoonviridae'[&!color=#008080]:2.401938)[&label="0/29",!color=#008080]:0.100584,('DBA45496.1.Lizard_amnoonvirus_2.Amnoonviridae'[&!color=#008080]:1.074238,'DBA45499.1.Lizard_amnoonvirus_1.Amnoonviridae'[&!color=#008080]:1.084322)[&label="99.9/100",!color=#008080]:1.065936)[&label="100/100",!color=#008080]:2.467858)[&label="62.4/72"]:0.362422,'DBA45500.1.Loach_amnoonvirus_1.Amnoonviridae':2.713017)[&label="92.2/87"]:0.286119,(((('DBA45444.1.Nudibranch_cnidenomovirus_1.Cnidenomoviridae'[&!color=#0000ff]:2.563048,'DBA45443.1.Hydra_cnidenomovirus_1.Cnidenomoviridae'[&!color=#0000ff]:2.603464)[&label="95.2/97",!color=#0000ff]:0.65287,'DBA45446.1.Heliopora_cnidenomovirus_2.Cnidenomoviridae'[&!color=#0000ff]:3.492397)[&label="1.2/47",!color=#0000ff]:0.164944,'DBA45445.1.Nudibranch_cnidenomovirus_2.Cnidenomoviridae'[&!color=#0000ff]:2.634297)[&label="86.5/75",!color=#0000ff]:0.314213,'k141_53828_flag1_multi19.0000_len2103_ERR6745738'[&!color=#0000ff]:4.738313)[&label="98.5/100",!color=#0000ff]:0.69269)[&label="95.2/78"]:0.270079)[&label="92.4/72",!color=#ff00ff]:0.215228)[&label="49.9/44",!color=#ff00ff]:0.177259,('GIPE01045129.1_A_new_protein_sequence_entered_manually'[&!color=#ff00ff]:0.355087,Grass_carp_influenzalike_virus_SRR6475468_PB1_A_new_protein_sequence_entered_manually[&!color=#ff00ff]:0.323935)[&label="100/100",!color=#ff00ff]:1.237257)[&label="96.9/51",!color=#ff00ff]:0.231729,('k141_41832_flag1_multi5.0000_len1664_ERR10378036'[&!color=#ff00ff]:1.634054,(clavelina_PB1_frankenstein[&!color=#ff00ff]:0.32599,'k141_5415_flag1_multi7.0000_len2344_SRR7503170'[&!color=#ff00ff]:0.38729)[&label="100/100",!color=#ff00ff]:1.55082)[&label="97/89",!color=#ff00ff]:0.375263)[&label="71.6/68",!color=#ff00ff]:0.14894,'k141_186584_flag1_multi2.0000_len542_SRR7057595'[&!color=#ff00ff]:1.67256)[&label="27.4/81",!color=#ff00ff]:0.075429,'AVM87635.1_PB1__Wenling_hagfish_influenza_virus_'[&!color=#ff00ff]:2.064774)[&label="86.2/82",!color=#800040]:0.145793)[&label="15.7/42",!color=#800040]:0.088196)[&label="100/100",!color=#800040]:0.356074);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=535;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
