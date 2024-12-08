@@ -1,0 +1,1 @@
+This repository contains data corresponding to the manuscript "Tunicate metatranscriptomes reveal ancient virus-host co-divergence and inter-order recombination in the evolutionary history of disease-causing viruses", Petrone, et al., 2024.
