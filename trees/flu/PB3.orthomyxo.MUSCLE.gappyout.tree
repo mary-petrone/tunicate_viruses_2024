@@ -1,0 +1,238 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=136;
+	taxlabels
+	'ABD59837.1_PA__Influenza_A_virus__A_TW_3355_1997_H1N1___'
+	'ABD59841.1_PA__Influenza_A_virus__A_TW_3565_02_H3N2___'
+	'ACY56279.1_polymerase_PA__Quaranjavirus_quaranfilense_'
+	'AFP99839.1_polymerase_PA__Influenza_A_virus__A_Vladivostok_28_2012_H1N1___'
+	'AIW00351.1_PA__Isavirus_salaris_'
+	'APG77878.1_polymerase_PA__Jingshan_Fly_Virus_1_'
+	'APG77886.1_polymerase_PA__Jiujie_Fly_Virus_'
+	'APG77899.1_PA__Jingshan_Fly_Virus_1_'
+	'APG77902.1_polymerase_PA__Sanxia_Water_Strider_Virus_3_'
+	'AQU42766.1_PA'
+	'ASM94087.1_putative_polymerase_PA_subunit__Barns_Ness_dog_whelk_orthomyxo-like_virus_1_'
+	'AVM87617.1_PA'
+	'AVM87622.1_PA__Wuhan_spiny_eel_influenza_virus_'
+	AVM87631_PA__Wuhan_asiatic_toad_influenza_virus_
+	'AVM87637.1_PA__Wenling_hagfish_influenza_virus_'
+	'AVR52566.1_PA__Photinus_pyralis_orthomyxo-like_virus_1_'
+	'AVR52571.1_PA__Photinus_pyralis_orthomyxo-like_virus_2_'
+	'AXL67887.1_polymerase_PA__Quaranjavirus_quaranfilense_'
+	'BAV18633.1_polymerase_3__Influenza_C_virus__C_Yamagata_14_2004__'
+	'BAV18663.1_polymerase_3__Influenza_C_virus__C_Tokyo_3_2010__'
+	'BAV18680.1_polymerase_3__Influenza_C_virus__C_Miyagi_2_2014__'
+	'BDF92390.1_polymerase_acidic_protein'
+	'DAZ85675.1_TPA_asm'
+	'DBA45507.1_TPA_asm'
+	'DBA56670.1_TPA_asm'
+	'DBA56674.1_TPA_asm'
+	'DBA56679.1_TPA_asm'
+	'DBA56684.1_TPA_asm'
+	'DBA56836.1_TPA_asm'
+	'GIPE01017145.1_A_new_protein_sequence_entered_manually'
+	Grass_carp_influenza-like_virus_SRR6475468_P3_A_new_protein_sequence_entered_manually
+	HCDF0102655_Clavelina_lepadiformis_P3
+	Long-snouted_seahorse_influenza-like_virus_PA_A_new_protein_sequence_entered_manually
+	'QDK54865.1_PA__Longchuan_virus_'
+	'QED21503.1_PA__Lestrade_virus_'
+	'QFQ60711.1_PA__Mason_Creek_virus_'
+	'QKU36066.1_polymerase_3__Influenza_D_virus_'
+	'QKU36090.1_polymerase_3__Influenza_D_virus_'
+	'QMP82165.1_polymerase_PA__Hemipteran_orthomyxo-related_virus_OKIAV191_'
+	'QMP82166.1_polymerase_PA'
+	'QMP82208.1_polymerase_PA__Dermapteran_orthomyxo-related_virus_OKIAV170_'
+	'QMP82258.1_polymerase_PA'
+	'QMP82299.1_polymerase_PA__Hemipteran_orthomyxo-related_virus_OKIAV188_'
+	'QMP82356.1_polymerase_PA'
+	'QMP82372.1_polymerase_PA'
+	'QMP82374.1_polymerase_PA__Lepidopteran_orthomyxo-related_virus_OKIAV1731_'
+	'QMP82380.1_polymerase_PA'
+	'QMP82381.1_polymerase_PA__Zygentoman_orthomyxo-related_virus_OKIAV204_'
+	'QMP82382.1_polymerase_PA'
+	'QMP82383.1_polymerase_PA__Coleopteran_orthomyxo-related_virus_OKIAV179_'
+	'QMP82384.1_polymerase_PA__Phasmatodean_orthomyxo-related_virus_OKIAV172_'
+	'QMP82387.1_polymerase_PA__Blattodean_orthomyxo-related_virus_OKIAV181_'
+	'QMP82389.1_polymerase_PA'
+	'QMP82395.1_polymerase_PA__Coleopteran_orthomyxo-related_virus_OKIAV200_'
+	'QMP82398.1_polymerase_PA'
+	'QMP82406.1_polymerase_PA__Dipteran_orthomyxo-related_virus_OKIAV193_'
+	'QMP82409.1_polymerase_PA__Phasmatodean_orthomyxo-related_virus_OKIAV167_'
+	'QMP82410.1_polymerase_PA__Coleopteran_orthomyxo-related_virus_OKIAV186_'
+	QOE76798_polymerase_protein_3__Ornate_chorus_frog_influenza-like_virus_
+	QOE76803_polymerase_acidic_protein__Siamese_algae-eater_influenza-like_virus_
+	'QOE76811.1_polymerase_acidic_protein__Salamander_influenza-like_virus_'
+	'QOE76820.1_polymerase_protein_3__Cane_toad_influenza-like_virus_'
+	QOE76827_polymerase_acidic_protein__Chum_salmon_influenza-like_virus_
+	'QOQ34687.1_PA_protein__Thogotovirus_thogotoense_'
+	'QOQ34701.1_PA_protein__Thogotovirus_thogotoense_'
+	'QPF16737.1_PA__Goettingen_orthomyxo-like_virus_'
+	'QPL15297.1_polymerase_PA__Hymenopteran_orthomyxo-related_virus_OKIAV174_'
+	'QPL15315.1_polymerase_PA'
+	'QPL15317.1_polymerase_PA__Neuropteran_orthomyxo-related_virus_OKIAV190_'
+	'QPL15349.1_polymerase_PA__Raphidiopteran_orthomyxo-related_virus_OKIAV180_'
+	'QPL15360.1_polymerase_PA__Hymenopteran_orthomyxo-related_virus_OKIAV175_'
+	'QPL15375.1_polymerase_PA'
+	'QPZ88432.1_putative_polymerase_PA__Soybean_thrips_quaranja-like_virus_1_'
+	'QPZ88435.1_putative_polymerase_PA__Soybean_thrips_quaranja-like_virus_2_'
+	'QPZ88438.1_putative_polymerase_PA__Soybean_thrips_quaranja-like_virus_4_'
+	'QQN90104.1_RNA-dependent_RNA_polymerase_subunit_PA__Soybean_thrips_thogotovirus_1_'
+	'QRD99911.1_MAG'
+	'QTF10979.1_polymerase_PA__Influenza_B_virus_'
+	'QUI78345.1_polymerase_PA__Influenza_B_virus_'
+	'QWC36486.1_PA'
+	'QWC36497.1_PA__Bemisia_tabaci_Quaranja-like_virus_3_'
+	'QXN15717.1_polymerase_PA__Influenza_B_virus_'
+	'QYW05797.1_MAG'
+	'QYW05799.1_MAG'
+	'QZO20475.1_polymerase_PA__Influenza_B_virus_'
+	'UAJ23568.1_PA'
+	'UBB38851.1_PA__Orthomyxoviridae_sp._'
+	'UCR92579.1_MAG'
+	'UGO48658.1_MAG'
+	'UMO75708.1_MAG'
+	'UMO75715.1_MAG'
+	'UMO75718.1_MAG'
+	'UMO75721.1_MAG'
+	'UMO75725.1_MAG'
+	'UMO75728.1_MAG'
+	'UMO75731.1_MAG'
+	'UMO75736.1_MAG'
+	'UPT53672.1_MAG'
+	'UPT53747.1_MAG'
+	'UQT02519.1_polymerase_PA__Red_mite_quaranjavirus_'
+	'URQ09141.1_replicase_PA__Halyomorpha_halys_orthomyxo-like_virus_1_'
+	'UVF58804.1_MAG'
+	'UVF62195.1_MAG'
+	'UYX69297.1_PA__Tiliqua_thogotovirus_'
+	'WAA68654.1_polymerase_acidic_protein__Guangdong_tick_quaranjavirus_'
+	'WNK15623.1_MAG'
+	'WPR17586.1_MAG'
+	'WPR17587.1_MAG'
+	'WPR17588.1_MAG'
+	'WQQ44638.1_PA__Bourbon_virus_'
+	'WVL03105.1_PA__Wuhan_Mosquito_Virus_4_'
+	'WWP49490.1_MAG'
+	'WXB20456.1_MAG'
+	'XBP46446.1_MAG'
+	'XDO01640.1_MAG'
+	'XFO98650.1_PA__Yanbian_Ortho_tick_virus_1_'
+	'XFO98696.1_PA_polymerase_subunit__Dali_Ortho_tick_virus_1_'
+	'XFO99092.1_PA__Orthomyxoviridae_sp._'
+	'XGZ30222.1_MAG'
+	'XJQ68687.1_PA__Thogotovirus_dhoriense_'
+	'XLV26652.1_MAG'
+	'XLV26852.1_MAG'
+	'YP_009110687.1_polymerase_acidic_protein__Wellfleet_Bay_virus_'
+	'YP_009553281.1_polymerase_subunit__Oz_virus_'
+	'YP_009987460.1_polymerase_acidic_protein__Lake_Chad_virus_'
+	'YP_009996580.1_polymerase_acidic_protein__Quaranjavirus_johnstonense_'
+	'YP_010840231.1_putative_polymerase_acidic__Rainbow_trout_orthomyxovirus-1_'
+	'YP_010840304.1_polymerase_sub-unit_PA__Thailand_tick_thogotovirus_'
+	'YP_010840325.1_PA__Jos_virus_'
+	'YP_010840356.1_polymerase_PA__Tyulek__Tjuloc__virus_'
+	'YP_010840364.1_PA_polymerase_subunit__Upolu_virus_'
+	'YP_010840459.1_polymerase_PA__Araguari_virus_'
+	'YP_010840494.1_PA_polymerase_subunit__Sinu_virus_'
+	_Paralichthys_olivaceus_PA_A_new_protein_sequence_entered_manually
+	'k141_39526_flag1_multi12.0000_len2162_SRR7503162'
+	'k141_91796_flag1_multi6.0000_len1215_ERR10378036'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('ABD59837.1_PA__Influenza_A_virus__A_TW_3355_1997_H1N1___':0.027427,'ABD59841.1_PA__Influenza_A_virus__A_TW_3565_02_H3N2___':0.035902,(((((((((((((((((((((((('ACY56279.1_polymerase_PA__Quaranjavirus_quaranfilense_':0.06251,'AXL67887.1_polymerase_PA__Quaranjavirus_quaranfilense_':0.008977)[&label="100/100"]:0.177202,'YP_010840356.1_polymerase_PA__Tyulek__Tjuloc__virus_':0.108744)[&label="17.6/52"]:0.031788,('YP_009987460.1_polymerase_acidic_protein__Lake_Chad_virus_':0.174023,'YP_009996580.1_polymerase_acidic_protein__Quaranjavirus_johnstonense_':0.146795)[&label="13.3/53"]:0.031798)[&label="100/100"]:0.307256,'YP_009110687.1_polymerase_acidic_protein__Wellfleet_Bay_virus_':0.374621)[&label="95/97"]:0.138147,'YP_010840459.1_polymerase_PA__Araguari_virus_':0.328206)[&label="100/100"]:0.629377,('BDF92390.1_polymerase_acidic_protein':0.705552,'UQT02519.1_polymerase_PA__Red_mite_quaranjavirus_':0.749469)[&label="100/100"]:0.386561)[&label="92.7/90"]:0.138065,(('UAJ23568.1_PA':0.199642,('XFO98650.1_PA__Yanbian_Ortho_tick_virus_1_':0.190962,'WAA68654.1_polymerase_acidic_protein__Guangdong_tick_quaranjavirus_':0.205803)[&label="54.5/70"]:0.061021)[&label="100/100"]:0.336375,'XFO99092.1_PA__Orthomyxoviridae_sp._':0.517815)[&label="100/100"]:0.506819)[&label="99.3/99"]:0.277016,(('QWC36497.1_PA__Bemisia_tabaci_Quaranja-like_virus_3_':0.170294,'QWC36486.1_PA':0.113609)[&label="100/100"]:0.7576,('QDK54865.1_PA__Longchuan_virus_':0.730544,(('QFQ60711.1_PA__Mason_Creek_virus_':0.416314,'QPZ88435.1_putative_polymerase_PA__Soybean_thrips_quaranja-like_virus_2_':0.505805)[&label="100/100"]:0.329402,'APG77886.1_polymerase_PA__Jiujie_Fly_Virus_':0.849452)[&label="63.7/67"]:0.115301)[&label="98.5/99"]:0.28202)[&label="100/100"]:0.971816)[&label="89/94"]:0.173309,'UVF58804.1_MAG':1.478693)[&label="93.6/59"]:0.258167,(('UMO75736.1_MAG':1.247352,('QMP82381.1_polymerase_PA__Zygentoman_orthomyxo-related_virus_OKIAV204_':1.382511,'DBA56684.1_TPA_asm':1.119029)[&label="100/100"]:0.778417)[&label="78.5/31"]:0.118944,'WPR17587.1_MAG':1.716725)[&label="69.1/26"]:0.047666)[&label="95.2/59"]:0.168971,(((((('APG77899.1_PA__Jingshan_Fly_Virus_1_':5.49825,'APG77902.1_polymerase_PA__Sanxia_Water_Strider_Virus_3_':0.849676)[&label="80.9/71"]:0.402875,'UCR92579.1_MAG':0.73084)[&label="70/38"]:0.170708,((((((('AQU42766.1_PA':0.03783,'QRD99911.1_MAG':0.397069)[&label="99.9/100"]:0.094513,'XGZ30222.1_MAG':0.129486)[&label="35.8/63"]:0.042901,'UGO48658.1_MAG':0.113993)[&label="99.5/100"]:0.090797,'DAZ85675.1_TPA_asm':0.171183)[&label="98.9/99"]:0.111619,'XDO01640.1_MAG':0.251916)[&label="68.2/85"]:0.095392,'XLV26852.1_MAG':0.378065)[&label="100/99"]:0.351995,((((('QYW05799.1_MAG':0.225608,'QYW05797.1_MAG':0.172753)[&label="100/100"]:0.250829,'DBA56679.1_TPA_asm':0.413817)[&label="97.5/99"]:0.123985,'DBA56674.1_TPA_asm':0.491072)[&label="60.6/63"]:0.029167,('APG77878.1_polymerase_PA__Jingshan_Fly_Virus_1_':0.266357,'QMP82166.1_polymerase_PA':0.276813)[&label="100/100"]:0.170264)[&label="99.4/99"]:0.156785,'QMP82406.1_polymerase_PA__Dipteran_orthomyxo-related_virus_OKIAV193_':0.491244)[&label="99.7/100"]:0.183711)[&label="68.6/48"]:0.09211)[&label="95/43"]:0.088028,(((('UMO75731.1_MAG':0.493455,'UMO75708.1_MAG':0.238227)[&label="82.5/85"]:0.109841,'UMO75715.1_MAG':0.417099)[&label="100/100"]:0.537099,('UMO75728.1_MAG':0.303032,'UMO75725.1_MAG':0.19011)[&label="100/99"]:0.702583)[&label="66/72"]:0.151748,'UMO75718.1_MAG':0.85402)[&label="71/55"]:0.094052)[&label="97.8/45"]:0.127801,('WVL03105.1_PA__Wuhan_Mosquito_Virus_4_':0.712416,'XLV26652.1_MAG':0.639804)[&label="100/100"]:0.427544)[&label="100/76"]:0.322039,'DBA56836.1_TPA_asm':0.982401)[&label="94.3/68"]:0.125957)[&label="5.5/33"]:0.039793,((('QMP82395.1_polymerase_PA__Coleopteran_orthomyxo-related_virus_OKIAV200_':0.604449,'QPZ88432.1_putative_polymerase_PA__Soybean_thrips_quaranja-like_virus_1_':0.761546)[&label="99.9/100"]:0.459064,'WPR17586.1_MAG':1.059308)[&label="61.7/72"]:0.187829,('UPT53747.1_MAG':0.692758,'UPT53672.1_MAG':0.510413)[&label="100/100"]:0.586602)[&label="100/100"]:0.428553)[&label="90.7/54"]:0.08854,(((('QED21503.1_PA__Lestrade_virus_':0.150252,'QMP82389.1_polymerase_PA':0.472285)[&label="100/100"]:0.490533,'QMP82380.1_polymerase_PA':0.519615)[&label="100/100"]:0.24724,(((('AVR52571.1_PA__Photinus_pyralis_orthomyxo-like_virus_2_':0.798325,('QMP82382.1_polymerase_PA':0.497556,'QMP82356.1_polymerase_PA':1.093062)[&label="99.6/100"]:0.286247)[&label="79.9/64"]:0.098883,((('QMP82398.1_polymerase_PA':0.23578,'QMP82374.1_polymerase_PA__Lepidopteran_orthomyxo-related_virus_OKIAV1731_':0.384567)[&label="100/100"]:0.766356,'QMP82383.1_polymerase_PA__Coleopteran_orthomyxo-related_virus_OKIAV179_':0.812788)[&label="83.9/60"]:0.095213,'QMP82258.1_polymerase_PA':0.76273)[&label="24.3/47"]:0.074118)[&label="98.4/97"]:0.15812,('QMP82410.1_polymerase_PA__Coleopteran_orthomyxo-related_virus_OKIAV186_':0.934894,('QMP82387.1_polymerase_PA__Blattodean_orthomyxo-related_virus_OKIAV181_':0.496956,'DBA56670.1_TPA_asm':0.776371)[&label="100/100"]:0.386307)[&label="63.2/80"]:0.133307)[&label="100/99"]:0.229624,(('AVR52566.1_PA__Photinus_pyralis_orthomyxo-like_virus_1_':0.628036,'QPL15349.1_polymerase_PA__Raphidiopteran_orthomyxo-related_virus_OKIAV180_':0.486104)[&label="100/100"]:0.360933,(((('QPL15360.1_polymerase_PA__Hymenopteran_orthomyxo-related_virus_OKIAV175_':0.410595,'QPL15297.1_polymerase_PA__Hymenopteran_orthomyxo-related_virus_OKIAV174_':0.305913)[&label="90.8/91"]:0.09035,'QPL15315.1_polymerase_PA':0.446356)[&label="86.4/83"]:0.117076,('QMP82384.1_polymerase_PA__Phasmatodean_orthomyxo-related_virus_OKIAV172_':0.197335,'QMP82372.1_polymerase_PA':0.186571)[&label="100/100"]:0.182356)[&label="100/100"]:0.335306,'QPZ88438.1_putative_polymerase_PA__Soybean_thrips_quaranja-like_virus_4_':1.075332)[&label="83.2/72"]:0.141377)[&label="17.8/32"]:0.041657)[&label="97/94"]:0.12968)[&label="100/98"]:0.286613,((('QPL15375.1_polymerase_PA':0.749302,('QMP82299.1_polymerase_PA__Hemipteran_orthomyxo-related_virus_OKIAV188_':0.163149,'UVF62195.1_MAG':0.232849)[&label="100/100"]:0.385686)[&label="99.1/100"]:0.43965,'QMP82208.1_polymerase_PA__Dermapteran_orthomyxo-related_virus_OKIAV170_':0.848735)[&label="58.4/66"]:0.124521,(('QPL15317.1_polymerase_PA__Neuropteran_orthomyxo-related_virus_OKIAV190_':0.601695,'WPR17588.1_MAG':1.739319)[&label="25.7/65"]:0.098031,('QMP82165.1_polymerase_PA__Hemipteran_orthomyxo-related_virus_OKIAV191_':0.216319,'URQ09141.1_replicase_PA__Halyomorpha_halys_orthomyxo-like_virus_1_':0.277165)[&label="100/100"]:0.535902)[&label="100/87"]:0.337914)[&label="57.3/55"]:0.089319)[&label="24.8/43"]:0.083816)[&label="26.3/29"]:0.042654,'QMP82409.1_polymerase_PA__Phasmatodean_orthomyxo-related_virus_OKIAV167_':1.085972)[&label="98.8/97",!collapse={"collapsed",0.0}]:0.835765,('AIW00351.1_PA__Isavirus_salaris_':1.207319,'YP_010840231.1_putative_polymerase_acidic__Rainbow_trout_orthomyxovirus-1_':0.984667)[&label="100/100",!rotate=true]:2.682443)[&label="99.7/100"]:1.163708,(((Grass_carp_influenza-like_virus_SRR6475468_P3_A_new_protein_sequence_entered_manually:0.616799,'GIPE01017145.1_A_new_protein_sequence_entered_manually':0.53684)[&label="33.6/72"]:0.173974,'WWP49490.1_MAG':0.660636)[&label="100/100"]:1.671665,((((('UBB38851.1_PA__Orthomyxoviridae_sp._':1.039206,'WXB20456.1_MAG':0.896112)[&label="68.1/74"]:0.164167,((('XJQ68687.1_PA__Thogotovirus_dhoriense_':0.263803,'WQQ44638.1_PA__Bourbon_virus_':0.224775)[&label="30.4/66"]:0.059099,('YP_009553281.1_polymerase_subunit__Oz_virus_':0.243934,'YP_010840304.1_polymerase_sub-unit_PA__Thailand_tick_thogotovirus_':0.207268)[&label="99.8/100"]:0.156364)[&label="100/100"]:0.544621,((('YP_010840325.1_PA__Jos_virus_':0.310726,('YP_010840364.1_PA_polymerase_subunit__Upolu_virus_':0.240338,'XFO98696.1_PA_polymerase_subunit__Dali_Ortho_tick_virus_1_':0.160563)[&label="97.9/98"]:0.112964)[&label="100/100"]:0.197006,('QOQ34701.1_PA_protein__Thogotovirus_thogotoense_':0.116851,'QOQ34687.1_PA_protein__Thogotovirus_thogotoense_':0.151523)[&label="100/100"]:0.375317)[&label="96/97"]:0.16359,'UYX69297.1_PA__Tiliqua_thogotovirus_':0.476181)[&label="100/100"]:0.394573)[&label="92.9/83"]:0.140006)[&label="96.4/98"]:0.201309,('YP_010840494.1_PA_polymerase_subunit__Sinu_virus_':0.555781,'DBA45507.1_TPA_asm':0.573741)[&label="99.9/100"]:0.39682)[&label="99.7/100"]:0.478236,'QQN90104.1_RNA-dependent_RNA_polymerase_subunit_PA__Soybean_thrips_thogotovirus_1_':1.155222)[&label="97.4/99"]:0.447118,('QPF16737.1_PA__Goettingen_orthomyxo-like_virus_':1.623762,((('AVM87617.1_PA':0.726549,'WNK15623.1_MAG':1.189024)[&label="99.7/100"]:0.751328,'UMO75721.1_MAG':1.209076)[&label="83.5/87"]:0.47394,'ASM94087.1_putative_polymerase_PA_subunit__Barns_Ness_dog_whelk_orthomyxo-like_virus_1_':1.928458)[&label="100/100"]:1.31304)[&label="33.8/66"]:0.26506)[&label="99.7/97"]:0.495099)[&label="56.4/48"]:0.129984)[&label="55.9/66"]:0.161972,'k141_91796_flag1_multi6.0000_len1215_ERR10378036'[&!color=#ff0080]:1.655362)[&label="92.9/84"]:0.254993,(HCDF0102655_Clavelina_lepadiformis_P3[&!color=#ff0080]:0.344791,'k141_39526_flag1_multi12.0000_len2162_SRR7503162'[&!color=#ff0080]:0.496356)[&label="100/100",!color=#ff0080]:1.494071)[&label="90.7/75"]:0.186087,((('BAV18633.1_polymerase_3__Influenza_C_virus__C_Yamagata_14_2004__':0.00294,'BAV18680.1_polymerase_3__Influenza_C_virus__C_Miyagi_2_2014__':0.004998)[&label="75.7/65"]:0.002142,'BAV18663.1_polymerase_3__Influenza_C_virus__C_Tokyo_3_2010__':2.0E-6)[&label="100/100"]:0.534282,(('QKU36066.1_polymerase_3__Influenza_D_virus_':0.004332,'QKU36090.1_polymerase_3__Influenza_D_virus_':0.00413)[&label="100/100"]:0.222338,('QOE76820.1_polymerase_protein_3__Cane_toad_influenza-like_virus_':0.274899,QOE76798_polymerase_protein_3__Ornate_chorus_frog_influenza-like_virus_:0.257169)[&label="84.4/77"]:0.077376)[&label="93.9/89"]:0.157753)[&label="100/100"]:0.792244)[&label="93.9/67"]:0.181608,(Long-snouted_seahorse_influenza-like_virus_PA_A_new_protein_sequence_entered_manually:0.772666,(_Paralichthys_olivaceus_PA_A_new_protein_sequence_entered_manually:0.819525,'XBP46446.1_MAG':0.837071)[&label="91.6/93"]:0.275966)[&label="100/100"]:0.565869)[&label="74.8/61"]:0.170434,'AVM87637.1_PA__Wenling_hagfish_influenza_virus_':2.222221)[&label="95.5/99"]:0.205826,AVM87631_PA__Wuhan_asiatic_toad_influenza_virus_:1.172294)[&label="98.5/99"]:0.255516,(((('AVM87622.1_PA__Wuhan_spiny_eel_influenza_virus_':0.250991,((('QTF10979.1_polymerase_PA__Influenza_B_virus_':0.001569,'QUI78345.1_polymerase_PA__Influenza_B_virus_':2.0E-6)[&label="84.9/70"]:0.001569,'QXN15717.1_polymerase_PA__Influenza_B_virus_':2.0E-6)[&label="81.3/62"]:0.001569,'QZO20475.1_polymerase_PA__Influenza_B_virus_':2.0E-6)[&label="100/100"]:0.178989)[&label="99.1/100"]:0.115559,'QOE76811.1_polymerase_acidic_protein__Salamander_influenza-like_virus_':0.376079)[&label="98.8/99"]:0.131764,QOE76827_polymerase_acidic_protein__Chum_salmon_influenza-like_virus_:0.476966)[&label="80.5/79"]:0.100357,QOE76803_polymerase_acidic_protein__Siamese_algae-eater_influenza-like_virus_:0.413084)[&label="99.8/100"]:0.305063)[&label="100/100"]:0.759332,'AFP99839.1_polymerase_PA__Influenza_A_virus__A_Vladivostok_28_2012_H1N1___':0.019688)[&label="59.7/90"]:0.017515);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
